@@ -1,3 +1,7 @@
+#build folders
+build
+lmic_sdr/build/*
+
 # Prerequisites
 *.d
 
