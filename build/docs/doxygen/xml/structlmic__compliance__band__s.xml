@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structlmic__compliance__band__s" kind="struct" language="C++" prot="public">
+    <compoundname>lmic_compliance_band_s</compoundname>
+    <includes refid="lmic__compliance_8h" local="no">lmic_compliance.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlmic__compliance__band__s_1a2ef08d255bace1a19466dbfe2bf51190" prot="public" static="no" mutable="no">
+        <type><ref refid="oslmic__types_8h_1afa7774dcdd691ff76a6d6338f957f6be" kindref="member">u2_t</ref></type>
+        <definition>u2_t lmic_compliance_band_s::txcap</definition>
+        <argsstring></argsstring>
+        <name>txcap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="98" column="13" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="97" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="97" bodyend="99"/>
+    <listofallmembers>
+      <member refid="structlmic__compliance__band__s_1a2ef08d255bace1a19466dbfe2bf51190" prot="public" virt="non-virtual"><scope>lmic_compliance_band_s</scope><name>txcap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

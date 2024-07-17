@@ -1,0 +1,563 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lmic__config__preconditions_8h" kind="file" language="C++">
+    <compoundname>lmic_config_preconditions.h</compoundname>
+    <includedby refid="arduino__lmic__user__configuration_8h" local="yes">arduino_lmic_user_configuration.h</includedby>
+    <includedby refid="config_8h" local="yes">config.h</includedby>
+    <includedby refid="lorabase__as923_8h" local="yes">lorabase_as923.h</includedby>
+    <includedby refid="lorabase__au915_8h" local="yes">lorabase_au915.h</includedby>
+    <includedby refid="lorabase__eu868_8h" local="yes">lorabase_eu868.h</includedby>
+    <includedby refid="lorabase__in866_8h" local="yes">lorabase_in866.h</includedby>
+    <includedby refid="lorabase__kr920_8h" local="yes">lorabase_kr920.h</includedby>
+    <includedby refid="lorabase__us915_8h" local="yes">lorabase_us915.h</includedby>
+    <invincdepgraph>
+      <node id="19">
+        <label>lorabase_kr920.h</label>
+        <link refid="lorabase__kr920_8h"/>
+      </node>
+      <node id="16">
+        <label>lorabase_au915.h</label>
+        <link refid="lorabase__au915_8h"/>
+      </node>
+      <node id="2">
+        <label>arduino_lmic_user_configuration.h</label>
+        <link refid="arduino__lmic__user__configuration_8h"/>
+      </node>
+      <node id="20">
+        <label>lorabase_us915.h</label>
+        <link refid="lorabase__us915_8h"/>
+      </node>
+      <node id="5">
+        <label>lmic.h</label>
+        <link refid="lmic_2lmic_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>lmic_bandplan.h</label>
+        <link refid="lmic__bandplan_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>lmic_bandplan_kr920.h</label>
+        <link refid="lmic__bandplan__kr920_8h"/>
+      </node>
+      <node id="18">
+        <label>lorabase_in866.h</label>
+        <link refid="lorabase__in866_8h"/>
+      </node>
+      <node id="11">
+        <label>lmic_bandplan_as923.h</label>
+        <link refid="lmic__bandplan__as923_8h"/>
+      </node>
+      <node id="17">
+        <label>lorabase_eu868.h</label>
+        <link refid="lorabase__eu868_8h"/>
+      </node>
+      <node id="9">
+        <label>lmic_compliance.h</label>
+        <link refid="lmic__compliance_8h"/>
+      </node>
+      <node id="1">
+        <label>lmic_config_preconditions.h</label>
+        <link refid="lmic__config__preconditions_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>lmic_bandplan_in866.h</label>
+        <link refid="lmic__bandplan__in866_8h"/>
+      </node>
+      <node id="7">
+        <label>lmic.h</label>
+        <link refid="lmic_8h"/>
+      </node>
+      <node id="15">
+        <label>lorabase_as923.h</label>
+        <link refid="lorabase__as923_8h"/>
+      </node>
+      <node id="6">
+        <label>arduino_lmic.h</label>
+        <link refid="arduino__lmic_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>lmic_bandplan_eu868.h</label>
+        <link refid="lmic__bandplan__eu868_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>oslmic.h</label>
+        <link refid="oslmic_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>lmic_eu_like.h</label>
+        <link refid="lmic__eu__like_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a0e365965a6dd0ee1a4024c80e75b07f1" prot="public" static="no">
+        <name>ARDUINO_LMIC_PROJECT_CONFIG_H</name>
+        <initializer>../../project_config/lmic_project_config.h</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="58" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1afc26626b8b49e3be09785526f4523c65" prot="public" static="no">
+        <name>CFG_TEXT_1</name>
+        <param><defname>x</defname></param>
+        <initializer><ref refid="lmic__config__preconditions_8h_1a378b983dfaf1f0203e631a223c1d6480" kindref="member">CFG_TEXT_2</ref>(x)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="61" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a378b983dfaf1f0203e631a223c1d6480" prot="public" static="no">
+        <name>CFG_TEXT_2</name>
+        <param><defname>x</defname></param>
+        <initializer>#x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="62" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1ab470164f8b07384cdddf60e524f72bb3" prot="public" static="no">
+        <name>LMIC_REGION_eu868</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="65" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a3904ef4ce03eb89fb0e9246c54cfb4a0" prot="public" static="no">
+        <name>LMIC_REGION_us915</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="66" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a992d0fb3684601b04209414ef516d63a" prot="public" static="no">
+        <name>LMIC_REGION_cn783</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="67" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1aee90d3391e99ba9368a0992eec256022" prot="public" static="no">
+        <name>LMIC_REGION_eu433</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="68" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1aa71d9c1e74f03e3ee9bca3aaad4c81a3" prot="public" static="no">
+        <name>LMIC_REGION_au915</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="69" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a7b4b8d0f28f0e89b566f6b6493097067" prot="public" static="no">
+        <name>LMIC_REGION_cn490</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="70" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1acfb09957f31102a64f7a095ae6e7fc65" prot="public" static="no">
+        <name>LMIC_REGION_as923</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="71" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a907be897c4156666ba16fd5d2adda14c" prot="public" static="no">
+        <name>LMIC_REGION_kr920</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="72" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a1329081274cc9e27b76cc61d5b91de88" prot="public" static="no">
+        <name>LMIC_REGION_in866</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="73" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1ae0a58d95e02edaf3eb3e28b7181b3e61" prot="public" static="no">
+        <name>LMIC_COUNTRY_CODE_C</name>
+        <param><defname>c1</defname></param>
+        <param><defname>c2</defname></param>
+        <initializer>((c1) * 256 + (c2))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="81" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a0a0e2144691e28d0c06cc5d2bd36a966" prot="public" static="no">
+        <name>LMIC_COUNTRY_CODE_NONE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="84" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1aad78230866e59d1c7b5ebf78b2f23e8a" prot="public" static="no">
+        <name>LMIC_COUNTRY_CODE_JP</name>
+        <initializer><ref refid="lmic__config__preconditions_8h_1ae0a58d95e02edaf3eb3e28b7181b3e61" kindref="member">LMIC_COUNTRY_CODE_C</ref>(&apos;J&apos;, &apos;P&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="87" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a2d0fc7e4c649492060d177f999f36d16" prot="public" static="no">
+        <name>LMIC_REGIONS_SUPPORTED</name>
+        <initializer>                                (                               \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1ab470164f8b07384cdddf60e524f72bb3" kindref="member">LMIC_REGION_eu868</ref>) |      \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a3904ef4ce03eb89fb0e9246c54cfb4a0" kindref="member">LMIC_REGION_us915</ref>) |      \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a992d0fb3684601b04209414ef516d63a" kindref="member">LMIC_REGION_cn783</ref>) | */   \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1aee90d3391e99ba9368a0992eec256022" kindref="member">LMIC_REGION_eu433</ref>) | */   \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1aa71d9c1e74f03e3ee9bca3aaad4c81a3" kindref="member">LMIC_REGION_au915</ref>) |      \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a7b4b8d0f28f0e89b566f6b6493097067" kindref="member">LMIC_REGION_cn490</ref>) | */   \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1acfb09957f31102a64f7a095ae6e7fc65" kindref="member">LMIC_REGION_as923</ref>) |      \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a907be897c4156666ba16fd5d2adda14c" kindref="member">LMIC_REGION_kr920</ref>) |      \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a1329081274cc9e27b76cc61d5b91de88" kindref="member">LMIC_REGION_in866</ref>) |      \
+                                0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="108" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a1d20cfe6b554abe2afb8ca855e07eb13" prot="public" static="no">
+        <name>CFG_region</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="146" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a0051c7e7d296b41a7a2bdacdfe8d076d" prot="public" static="no">
+        <name>LMIC_CFG_eu868_ENA</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="155" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1aa8abb370f48870ee66a52239dd40e9aa" prot="public" static="no">
+        <name>LMIC_CFG_us915_ENA</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="161" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a150c04781c4cf69f09bf69eafbaa04b7" prot="public" static="no">
+        <name>LMIC_CFG_cn783_ENA</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="167" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a8e7ed7d04a57b42d6632a4d04dbf1d7d" prot="public" static="no">
+        <name>LMIC_CFG_eu433_ENA</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="173" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a11ada1991f8cb207c517772448b8ce5b" prot="public" static="no">
+        <name>LMIC_CFG_au915_ENA</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="179" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a328305218319169260de2d852e077ff0" prot="public" static="no">
+        <name>LMIC_CFG_cn490_ENA</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="185" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a45822cafa5515d19c44b499cd1c1ad0e" prot="public" static="no">
+        <name>LMIC_CFG_as923_ENA</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="191" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a8f98af284676b026d2d67648222999d6" prot="public" static="no">
+        <name>LMIC_CFG_kr920_ENA</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="197" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1ae57b304963c2953539208a0cde93e691" prot="public" static="no">
+        <name>LMIC_CFG_in866_ENA</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="203" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1acc06aefaf7a3d8f97e3a3f6158f2f669" prot="public" static="no">
+        <name>CFG_LMIC_REGION_MASK</name>
+        <initializer>                        ((<ref refid="lmic__config__preconditions_8h_1a0051c7e7d296b41a7a2bdacdfe8d076d" kindref="member">LMIC_CFG_eu868_ENA</ref> &lt;&lt; <ref refid="lmic__config__preconditions_8h_1ab470164f8b07384cdddf60e524f72bb3" kindref="member">LMIC_REGION_eu868</ref>) | \
+                         (<ref refid="lmic__config__preconditions_8h_1aa8abb370f48870ee66a52239dd40e9aa" kindref="member">LMIC_CFG_us915_ENA</ref> &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a3904ef4ce03eb89fb0e9246c54cfb4a0" kindref="member">LMIC_REGION_us915</ref>) | \
+                         (<ref refid="lmic__config__preconditions_8h_1a150c04781c4cf69f09bf69eafbaa04b7" kindref="member">LMIC_CFG_cn783_ENA</ref> &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a992d0fb3684601b04209414ef516d63a" kindref="member">LMIC_REGION_cn783</ref>) | \
+                         (<ref refid="lmic__config__preconditions_8h_1a8e7ed7d04a57b42d6632a4d04dbf1d7d" kindref="member">LMIC_CFG_eu433_ENA</ref> &lt;&lt; <ref refid="lmic__config__preconditions_8h_1aee90d3391e99ba9368a0992eec256022" kindref="member">LMIC_REGION_eu433</ref>) | \
+                         (<ref refid="lmic__config__preconditions_8h_1a11ada1991f8cb207c517772448b8ce5b" kindref="member">LMIC_CFG_au915_ENA</ref> &lt;&lt; <ref refid="lmic__config__preconditions_8h_1aa71d9c1e74f03e3ee9bca3aaad4c81a3" kindref="member">LMIC_REGION_au915</ref>) | \
+                         (<ref refid="lmic__config__preconditions_8h_1a328305218319169260de2d852e077ff0" kindref="member">LMIC_CFG_cn490_ENA</ref> &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a7b4b8d0f28f0e89b566f6b6493097067" kindref="member">LMIC_REGION_cn490</ref>) | \
+                         (<ref refid="lmic__config__preconditions_8h_1a45822cafa5515d19c44b499cd1c1ad0e" kindref="member">LMIC_CFG_as923_ENA</ref> &lt;&lt; <ref refid="lmic__config__preconditions_8h_1acfb09957f31102a64f7a095ae6e7fc65" kindref="member">LMIC_REGION_as923</ref>) | \
+                         (<ref refid="lmic__config__preconditions_8h_1a8f98af284676b026d2d67648222999d6" kindref="member">LMIC_CFG_kr920_ENA</ref> &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a907be897c4156666ba16fd5d2adda14c" kindref="member">LMIC_REGION_kr920</ref>) | \
+                         (<ref refid="lmic__config__preconditions_8h_1ae57b304963c2953539208a0cde93e691" kindref="member">LMIC_CFG_in866_ENA</ref> &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a1329081274cc9e27b76cc61d5b91de88" kindref="member">LMIC_REGION_in866</ref>) | \
+                         0)</initializer>
+        <briefdescription>
+<para>Bitmask of configured regions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Our input is a -D of one of CFG_eu868, CFG_us915, CFG_as923, CFG_au915, CFG_in866 More will be added in the the future. So at this point we create CFG_region with following values. These are in order of the sections in the manual. Not all of the below are supported yet.</para>
+<para>CFG_as923jp is treated as a special case of CFG_as923, so it&apos;s not included in the below.</para>
+<para>TODO(<ulink url="mailto:tmm@mcci.com">tmm@mcci.com</ulink>) consider moving this block to a central file as it&apos;s not user-editable. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="219" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a74eec43a3e58763ed3df7025e46ec3fd" prot="public" static="no">
+        <name>CFG_LMIC_EU_like_MASK</name>
+        <initializer>                                (                               \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1ab470164f8b07384cdddf60e524f72bb3" kindref="member">LMIC_REGION_eu868</ref>) |      \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a3904ef4ce03eb89fb0e9246c54cfb4a0" kindref="member">LMIC_REGION_us915</ref>) | */   \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a992d0fb3684601b04209414ef516d63a" kindref="member">LMIC_REGION_cn783</ref>) |      \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1aee90d3391e99ba9368a0992eec256022" kindref="member">LMIC_REGION_eu433</ref>) |      \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1aa71d9c1e74f03e3ee9bca3aaad4c81a3" kindref="member">LMIC_REGION_au915</ref>) | */   \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a7b4b8d0f28f0e89b566f6b6493097067" kindref="member">LMIC_REGION_cn490</ref>) | */   \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1acfb09957f31102a64f7a095ae6e7fc65" kindref="member">LMIC_REGION_as923</ref>) |      \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a907be897c4156666ba16fd5d2adda14c" kindref="member">LMIC_REGION_kr920</ref>) |      \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a1329081274cc9e27b76cc61d5b91de88" kindref="member">LMIC_REGION_in866</ref>) |      \
+                                0)</initializer>
+        <briefdescription>
+<para>a bitmask of EU-like regions </para>
+        </briefdescription>
+        <detaileddescription>
+<para>EU-like regions have up to 16 channels individually programmable via downlink.</para>
+<para>TODO(<ulink url="mailto:tmm@mcci.com">tmm@mcci.com</ulink>) consider moving this block to a central file as it&apos;s not user-editable. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="237" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a1e15c764d86ed192f6ae58212c8f85c2" prot="public" static="no">
+        <name>CFG_LMIC_US_like_MASK</name>
+        <initializer>                             (                               \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1ab470164f8b07384cdddf60e524f72bb3" kindref="member">LMIC_REGION_eu868</ref>) | */   \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a3904ef4ce03eb89fb0e9246c54cfb4a0" kindref="member">LMIC_REGION_us915</ref>) |      \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a992d0fb3684601b04209414ef516d63a" kindref="member">LMIC_REGION_cn783</ref>) | */   \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1aee90d3391e99ba9368a0992eec256022" kindref="member">LMIC_REGION_eu433</ref>) | */   \
+                                (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1aa71d9c1e74f03e3ee9bca3aaad4c81a3" kindref="member">LMIC_REGION_au915</ref>) |      \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a7b4b8d0f28f0e89b566f6b6493097067" kindref="member">LMIC_REGION_cn490</ref>) | */   \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1acfb09957f31102a64f7a095ae6e7fc65" kindref="member">LMIC_REGION_as923</ref>) | */   \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a907be897c4156666ba16fd5d2adda14c" kindref="member">LMIC_REGION_kr920</ref>) | */   \
+                             /* (1 &lt;&lt; <ref refid="lmic__config__preconditions_8h_1a1329081274cc9e27b76cc61d5b91de88" kindref="member">LMIC_REGION_in866</ref>) | */   \
+                                0)</initializer>
+        <briefdescription>
+<para>bitmask of` US-like regions </para>
+        </briefdescription>
+        <detaileddescription>
+<para>US-like regions have 64 fixed 125-kHz channels overlaid by 8 500-kHz channels. The channel frequencies can&apos;t be changed, but subsets of channels can be selected via masks.</para>
+<para>TODO(<ulink url="mailto:tmm@mcci.com">tmm@mcci.com</ulink>) consider moving this block to a central file as it&apos;s not user-editable. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="257" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a5625c81aeaa3bd720c30467b70e70230" prot="public" static="no">
+        <name>CFG_LMIC_EU_like</name>
+        <initializer>(!!(<ref refid="lmic__config__preconditions_8h_1acc06aefaf7a3d8f97e3a3f6158f2f669" kindref="member">CFG_LMIC_REGION_MASK</ref> &amp; <ref refid="lmic__config__preconditions_8h_1a74eec43a3e58763ed3df7025e46ec3fd" kindref="member">CFG_LMIC_EU_like_MASK</ref>))</initializer>
+        <briefdescription>
+<para>true if configured region is EU-like, false otherwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="276" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a5f916df927c780b905d6170703bf3af3" prot="public" static="no">
+        <name>CFG_LMIC_US_like</name>
+        <initializer>(!!(<ref refid="lmic__config__preconditions_8h_1acc06aefaf7a3d8f97e3a3f6158f2f669" kindref="member">CFG_LMIC_REGION_MASK</ref> &amp; <ref refid="lmic__config__preconditions_8h_1a1e15c764d86ed192f6ae58212c8f85c2" kindref="member">CFG_LMIC_US_like_MASK</ref>))</initializer>
+        <briefdescription>
+<para>true if configured region is US-like, false otherwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="278" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a80fc9cd471229f195486f4f415c4ec6c" prot="public" static="no">
+        <name>LMIC_LORAWAN_SPEC_VERSION_1_0_2</name>
+        <initializer>0x01000200u</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="286" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__config__preconditions_8h_1a3fcbf5292854a8d6b93ae2a1607635c5" prot="public" static="no">
+        <name>LMIC_LORAWAN_SPEC_VERSION_1_0_3</name>
+        <initializer>0x01000300u</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" line="287" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_config_preconditions.h"/>
+  </compounddef>
+</doxygen>

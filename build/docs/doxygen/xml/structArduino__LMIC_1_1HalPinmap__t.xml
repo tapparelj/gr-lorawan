@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structArduino__LMIC_1_1HalPinmap__t" kind="struct" language="C++" prot="public">
+    <compoundname>Arduino_LMIC::HalPinmap_t</compoundname>
+    <includes refid="arduino__lmic__hal__configuration_8h" local="no">arduino_lmic_hal_configuration.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structArduino__LMIC_1_1HalPinmap__t_1aad45517706f9e1a2299190b8ca47609c" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t Arduino_LMIC::HalPinmap_t::UNUSED_PIN</definition>
+        <argsstring></argsstring>
+        <name>UNUSED_PIN</name>
+        <initializer>= 0xff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="48" column="26" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structArduino__LMIC_1_1HalPinmap__t_1aa824491a0dc89c59e0b53fabefd42cfa" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int Arduino_LMIC::HalPinmap_t::NUM_DIO</definition>
+        <argsstring></argsstring>
+        <name>NUM_DIO</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="49" column="22" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structArduino__LMIC_1_1HalPinmap__t_1a21ac14783cb44766717be3151e457394" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t Arduino_LMIC::HalPinmap_t::LMIC_UNUSED_PIN</definition>
+        <argsstring></argsstring>
+        <name>LMIC_UNUSED_PIN</name>
+        <initializer>= <ref refid="structArduino__LMIC_1_1HalPinmap__t_1aad45517706f9e1a2299190b8ca47609c" kindref="member">UNUSED_PIN</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="51" column="26" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structArduino__LMIC_1_1HalPinmap__t_1a63768e2f5540b0131b6e8a200c25526e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Arduino_LMIC::HalPinmap_t::nss</definition>
+        <argsstring></argsstring>
+        <name>nss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="54" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structArduino__LMIC_1_1HalPinmap__t_1af397284ccb5fb8a7e08a630241419400" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Arduino_LMIC::HalPinmap_t::rxtx</definition>
+        <argsstring></argsstring>
+        <name>rxtx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="55" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structArduino__LMIC_1_1HalPinmap__t_1a9aded709c3ed0d667616227a34565d60" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Arduino_LMIC::HalPinmap_t::rst</definition>
+        <argsstring></argsstring>
+        <name>rst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="56" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structArduino__LMIC_1_1HalPinmap__t_1a4f7ccb33412ee31cfda2222794baf710" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Arduino_LMIC::HalPinmap_t::dio[NUM_DIO]</definition>
+        <argsstring>[NUM_DIO]</argsstring>
+        <name>dio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="57" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structArduino__LMIC_1_1HalPinmap__t_1aad99e73d63643ce25278d10c5ca58d0b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Arduino_LMIC::HalPinmap_t::rxtx_rx_active</definition>
+        <argsstring></argsstring>
+        <name>rxtx_rx_active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="59" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structArduino__LMIC_1_1HalPinmap__t_1aacd7a9dedcda82dfd4df74eb56d9a10e" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t Arduino_LMIC::HalPinmap_t::rssi_cal</definition>
+        <argsstring></argsstring>
+        <name>rssi_cal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="60" column="8" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structArduino__LMIC_1_1HalPinmap__t_1abaafa933e5f2a5a8eeafcd753a16b677" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Arduino_LMIC::HalPinmap_t::spi_freq</definition>
+        <argsstring></argsstring>
+        <name>spi_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="63" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structArduino__LMIC_1_1HalPinmap__t_1a264fce9991207f78fe47240e7e6654fc" prot="public" static="no" mutable="no">
+        <type><ref refid="classArduino__LMIC_1_1HalConfiguration__t" kindref="compound">HalConfiguration_t</ref> *</type>
+        <definition>HalConfiguration_t* Arduino_LMIC::HalPinmap_t::pConfig</definition>
+        <argsstring></argsstring>
+        <name>pConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="66" column="20" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Arduino_LMIC::HalConfiguration_t</label>
+        <link refid="classArduino__LMIC_1_1HalConfiguration__t"/>
+      </node>
+      <node id="1">
+        <label>Arduino_LMIC::HalPinmap_t</label>
+        <link refid="structArduino__LMIC_1_1HalPinmap__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pConfig</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="46" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="46" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structArduino__LMIC_1_1HalPinmap__t_1a4f7ccb33412ee31cfda2222794baf710" prot="public" virt="non-virtual"><scope>Arduino_LMIC::HalPinmap_t</scope><name>dio</name></member>
+      <member refid="structArduino__LMIC_1_1HalPinmap__t_1a21ac14783cb44766717be3151e457394" prot="public" virt="non-virtual"><scope>Arduino_LMIC::HalPinmap_t</scope><name>LMIC_UNUSED_PIN</name></member>
+      <member refid="structArduino__LMIC_1_1HalPinmap__t_1a63768e2f5540b0131b6e8a200c25526e" prot="public" virt="non-virtual"><scope>Arduino_LMIC::HalPinmap_t</scope><name>nss</name></member>
+      <member refid="structArduino__LMIC_1_1HalPinmap__t_1aa824491a0dc89c59e0b53fabefd42cfa" prot="public" virt="non-virtual"><scope>Arduino_LMIC::HalPinmap_t</scope><name>NUM_DIO</name></member>
+      <member refid="structArduino__LMIC_1_1HalPinmap__t_1a264fce9991207f78fe47240e7e6654fc" prot="public" virt="non-virtual"><scope>Arduino_LMIC::HalPinmap_t</scope><name>pConfig</name></member>
+      <member refid="structArduino__LMIC_1_1HalPinmap__t_1aacd7a9dedcda82dfd4df74eb56d9a10e" prot="public" virt="non-virtual"><scope>Arduino_LMIC::HalPinmap_t</scope><name>rssi_cal</name></member>
+      <member refid="structArduino__LMIC_1_1HalPinmap__t_1a9aded709c3ed0d667616227a34565d60" prot="public" virt="non-virtual"><scope>Arduino_LMIC::HalPinmap_t</scope><name>rst</name></member>
+      <member refid="structArduino__LMIC_1_1HalPinmap__t_1af397284ccb5fb8a7e08a630241419400" prot="public" virt="non-virtual"><scope>Arduino_LMIC::HalPinmap_t</scope><name>rxtx</name></member>
+      <member refid="structArduino__LMIC_1_1HalPinmap__t_1aad99e73d63643ce25278d10c5ca58d0b" prot="public" virt="non-virtual"><scope>Arduino_LMIC::HalPinmap_t</scope><name>rxtx_rx_active</name></member>
+      <member refid="structArduino__LMIC_1_1HalPinmap__t_1abaafa933e5f2a5a8eeafcd753a16b677" prot="public" virt="non-virtual"><scope>Arduino_LMIC::HalPinmap_t</scope><name>spi_freq</name></member>
+      <member refid="structArduino__LMIC_1_1HalPinmap__t_1aad45517706f9e1a2299190b8ca47609c" prot="public" virt="non-virtual"><scope>Arduino_LMIC::HalPinmap_t</scope><name>UNUSED_PIN</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

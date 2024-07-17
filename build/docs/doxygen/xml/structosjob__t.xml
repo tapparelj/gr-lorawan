@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structosjob__t" kind="struct" language="C++" prot="public">
+    <compoundname>osjob_t</compoundname>
+    <includes refid="oslmic_8h" local="no">oslmic.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structosjob__t_1afcfceed2a2dd8fddcd67394e1a340469" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structosjob__t" kindref="compound">osjob_t</ref> *</type>
+        <definition>struct osjob_t* osjob_t::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/oslmic.h" line="169" column="19" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/oslmic.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structosjob__t_1a6cde88632404398f0df812e4e525fad3" prot="public" static="no" mutable="no">
+        <type><ref refid="oslmic__types_8h_1adbdbe853b670bd85a6fd76f9e366f4fd" kindref="member">ostime_t</ref></type>
+        <definition>ostime_t osjob_t::deadline</definition>
+        <argsstring></argsstring>
+        <name>deadline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/oslmic.h" line="170" column="14" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/oslmic.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structosjob__t_1a4127f74a8280b5f8eaf29ac5e7d6d6ad" prot="public" static="no" mutable="no">
+        <type><ref refid="oslmic_8h_1a19f4c8db29d8e8902c8432839ab73999" kindref="member">osjobcb_t</ref></type>
+        <definition>osjobcb_t osjob_t::func</definition>
+        <argsstring></argsstring>
+        <name>func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/oslmic.h" line="171" column="16" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/oslmic.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>osjob_t</label>
+        <link refid="structosjob__t"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/oslmic.h" line="168" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/oslmic.h" bodystart="168" bodyend="172"/>
+    <listofallmembers>
+      <member refid="structosjob__t_1a6cde88632404398f0df812e4e525fad3" prot="public" virt="non-virtual"><scope>osjob_t</scope><name>deadline</name></member>
+      <member refid="structosjob__t_1a4127f74a8280b5f8eaf29ac5e7d6d6ad" prot="public" virt="non-virtual"><scope>osjob_t</scope><name>func</name></member>
+      <member refid="structosjob__t_1afcfceed2a2dd8fddcd67394e1a340469" prot="public" virt="non-virtual"><scope>osjob_t</scope><name>next</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

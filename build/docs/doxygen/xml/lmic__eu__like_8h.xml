@@ -1,0 +1,682 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lmic__eu__like_8h" kind="file" language="C++">
+    <compoundname>lmic_eu_like.h</compoundname>
+    <includes refid="lmic_2lmic_8h" local="yes">lmic.h</includes>
+    <includedby refid="lmic__bandplan__as923_8h" local="yes">lmic_bandplan_as923.h</includedby>
+    <includedby refid="lmic__bandplan__eu868_8h" local="yes">lmic_bandplan_eu868.h</includedby>
+    <includedby refid="lmic__bandplan__in866_8h" local="yes">lmic_bandplan_in866.h</includedby>
+    <includedby refid="lmic__bandplan__kr920_8h" local="yes">lmic_bandplan_kr920.h</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>lmic_env.h</label>
+        <link refid="lmic__env_8h"/>
+      </node>
+      <node id="9">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>lmic.h</label>
+        <link refid="lmic_2lmic_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>lmic_compat.h</label>
+        <link refid="lmic__compat_8h"/>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>hal.h</label>
+        <link refid="lmic_2hal_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>string.h</label>
+      </node>
+      <node id="13">
+        <label>lorabase.h</label>
+        <link refid="lorabase_8h"/>
+      </node>
+      <node id="8">
+        <label>oslmic_types.h</label>
+        <link refid="oslmic__types_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>lmic_config_preconditions.h</label>
+        <link refid="lmic__config__preconditions_8h"/>
+      </node>
+      <node id="6">
+        <label>stdio.h</label>
+      </node>
+      <node id="12">
+        <label>inttypes.h</label>
+      </node>
+      <node id="3">
+        <label>oslmic.h</label>
+        <link refid="oslmic_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>lmic_eu_like.h</label>
+        <link refid="lmic__eu__like_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>lmic_bandplan.h</label>
+        <link refid="lmic__bandplan_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>lmic_bandplan_kr920.h</label>
+        <link refid="lmic__bandplan__kr920_8h"/>
+      </node>
+      <node id="2">
+        <label>lmic_bandplan_as923.h</label>
+        <link refid="lmic__bandplan__as923_8h"/>
+      </node>
+      <node id="7">
+        <label>lmic_bandplan_in866.h</label>
+        <link refid="lmic__bandplan__in866_8h"/>
+      </node>
+      <node id="6">
+        <label>lmic.h</label>
+        <link refid="lmic_8h"/>
+      </node>
+      <node id="5">
+        <label>arduino_lmic.h</label>
+        <link refid="arduino__lmic_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>lmic_bandplan_eu868.h</label>
+        <link refid="lmic__bandplan__eu868_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>lmic_eu_like.h</label>
+        <link refid="lmic__eu__like_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="lmic__eu__like_8h_1a6f799509b73173a087b24fa940307f59" prot="public" static="no">
+        <name>DNW2_SAFETY_ZONE</name>
+        <initializer><ref refid="oslmic_8h_1a2b1e717c4efbb5849cd4fafc29a71f50" kindref="member">ms2osticks</ref>(3000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="44" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1aeced56331df2a9b209f7e47ae337683e" prot="public" static="no">
+        <name>LMICbandplan_isValidBeacon1</name>
+        <param><defname>pFrame</defname></param>
+        <initializer><ref refid="lmic__eu__like_8h_1a09ad0c9375878324dc15176285291d1e" kindref="member">LMICeulike_isValidBeacon1</ref>(pFrame)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="52" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1a15fd727f648d0cea6d7a9ff15a1a257f" prot="public" static="no">
+        <name>LMICbandplan_isFSK</name>
+        <param></param>
+        <initializer>(0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="56" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1aef333ff962f2afbf0c6493d5ce5b634c" prot="public" static="no">
+        <name>LMICbandplan_txDoneFSK</name>
+        <param><defname>delay</defname></param>
+        <param><defname>func</defname></param>
+        <initializer><ref refid="lmic__eu__like_8h_1a5c202c235cbc26c5f7ac32c56c45d04e" kindref="member">LMICeulike_txDoneFSK</ref>(delay, func)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="60" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1a28e0d3095cbbfcddb92f866d7f08b59c" prot="public" static="no">
+        <name>LMICbandplan_joinAcceptChannelClear</name>
+        <param></param>
+        <initializer><ref refid="lmic__us__like_8h_1aa91f49d768438dda294b7d8a62fb6146" kindref="member">LMICbandplan_initDefaultChannels</ref>(/* normal, not join */ 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="62" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1abcc48f214e0b4efeafbe90249dfebb9a" prot="public" static="no">
+        <name>LMICbandplan_hasJoinCFlist</name>
+        <param></param>
+        <initializer>(1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="67" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1aaaf5d78dc6f78c4474a3dffa7a98e979" prot="public" static="no">
+        <name>LMICbandplan_processJoinAcceptCFList</name>
+        <initializer><ref refid="lmic__eu__like_8h_1a5678642f0b4a5e61f375831b87b782aa" kindref="member">LMICeulike_processJoinAcceptCFList</ref></initializer>
+        <briefdescription>
+<para>by default, EU-like plans use LMICeulike_processJoinAcceptCFList </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="72" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1a4d2bbaca7abc4666d54188cad870882c" prot="public" static="no">
+        <name>LMICbandplan_advanceBeaconChannel</name>
+        <param></param>
+        <initializer>        do { /* nothing */ } while (0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="74" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1a3f93738377582f22ad3dafa1403e61ed" prot="public" static="no">
+        <name>LMICbandplan_resetDefaultChannels</name>
+        <param></param>
+        <initializer>        do { /* nothing */ } while (0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="77" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1afffe1e36c9b4743fc1d50e21f88aa4ad" prot="public" static="no">
+        <name>LMICbandplan_setSessionInitDefaultChannels</name>
+        <param></param>
+        <initializer>        do { <ref refid="lmic__us__like_8h_1aa91f49d768438dda294b7d8a62fb6146" kindref="member">LMICbandplan_initDefaultChannels</ref>(/* normal, not join */ 0); } while (0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="80" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1a66f70432654e1bcb8bffcfc79e71be55" prot="public" static="no">
+        <name>LMICbandplan_canMapChannels</name>
+        <param><defname>c</defname></param>
+        <param><defname>m</defname></param>
+        <initializer><ref refid="lmic__eu__like_8h_1a19eea9d6cad64a6be955be83bf41b992" kindref="member">LMICeulike_canMapChannels</ref>(c, m)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="84" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1aaeb8c462ecaf57a2595879cc10ccb726" prot="public" static="no">
+        <name>LMICbandplan_mapChannels</name>
+        <param><defname>c</defname></param>
+        <param><defname>m</defname></param>
+        <initializer><ref refid="lmic__eu__like_8h_1a2707a7f6b6fa64a181bfff02f6aaf852" kindref="member">LMICeulike_mapChannels</ref>(c, m)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="87" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1a9110c93299c4738b7186e80eddcb6ef3" prot="public" static="no">
+        <name>LMICbandplan_updateTx</name>
+        <param><defname>t</defname></param>
+        <initializer><ref refid="lmic__eu__like_8h_1afa9966eb90a21a9614fc3763c7031ec7" kindref="member">LMICeulike_updateTx</ref>(t)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="92" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1af404747eb15777185514d1c3617a8456" prot="public" static="no">
+        <name>LMICbandplan_nextJoinTime</name>
+        <param><defname>now</defname></param>
+        <initializer><ref refid="lmic__eu__like_8h_1ab3af589a723f365004503f7c2e114d84" kindref="member">LMICeulike_nextJoinTime</ref>(now)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="99" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1aea5e36069daa932b2e2682ada72c1fc6" prot="public" static="no">
+        <name>LMICbandplan_init</name>
+        <param></param>
+        <initializer>        do { /* nothing */ } while (0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="101" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1ac282d6acee0368afb1781e9c7655753a" prot="public" static="no">
+        <name>LMICbandplan_saveAdrState</name>
+        <param><defname>pState</defname></param>
+        <initializer><ref refid="lmic__eu__like_8h_1a596e1dc7de31c510450cc9397d0d2cd1" kindref="member">LMICeulike_saveAdrState</ref>(pState)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="105" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1adfe32b2a007feb3cc73e3dbb95037dc3" prot="public" static="no">
+        <name>LMICbandplan_compareAdrState</name>
+        <param><defname>pState</defname></param>
+        <initializer><ref refid="lmic__eu__like_8h_1acef0fd4771018d84487edc8d1162fe27" kindref="member">LMICeulike_compareAdrState</ref>(pState)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="108" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1afbeb5defe46905f97a812b28b875447d" prot="public" static="no">
+        <name>LMICbandplan_restoreAdrState</name>
+        <param><defname>pState</defname></param>
+        <initializer><ref refid="lmic__eu__like_8h_1ae61dbc6872557b56650a325f03edf591" kindref="member">LMICeulike_restoreAdrState</ref>(pState)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="111" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__eu__like_8h_1ad5119034a2516c990ca7de1fdfb58fba" prot="public" static="no">
+        <name>LMICbandplan_isDataRateFeasible</name>
+        <param><defname>dr</defname></param>
+        <initializer><ref refid="lmic__eu__like_8h_1a9fc933076af9a1d1ee116cb3c3bef7ab" kindref="member">LMICeulike_isDataRateFeasible</ref>(dr)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="117" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="lmic__eu__like_8h_1aae05225933a42f81e7c4a9fb286596f9" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@21</name>
+        <enumvalue id="lmic__eu__like_8h_1aae05225933a42f81e7c4a9fb286596f9afbefdcfc8cb36fcd7cde2992fb8437b3" prot="public">
+          <name>BAND_MILLI</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__eu__like_8h_1aae05225933a42f81e7c4a9fb286596f9a462ca444decd84cd1e4eb9e2f9d3c71a" prot="public">
+          <name>BAND_CENTI</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__eu__like_8h_1aae05225933a42f81e7c4a9fb286596f9a05964306226219e7ce64d12a222a4efc" prot="public">
+          <name>BAND_DECI</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__eu__like_8h_1aae05225933a42f81e7c4a9fb286596f9ac783eeca75846bf4433bf540beb03e5f" prot="public">
+          <name>BAND_AUX</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="64" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="lmic__eu__like_8h_1a09ad0c9375878324dc15176285291d1e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int LMICeulike_isValidBeacon1</definition>
+        <argsstring>(const uint8_t *d)</argsstring>
+        <name>LMICeulike_isValidBeacon1</name>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="48" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="48" bodyend="50"/>
+        <references refid="oslmic_8h_1ae58b9bb18f97edfeab07b5ab9d486655">os_crc16</references>
+        <references refid="oslmic_8h_1afada05c4ddcb12249f325f4d8c681062">os_rlsbf2</references>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1a5c202c235cbc26c5f7ac32c56c45d04e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMICeulike_txDoneFSK</definition>
+        <argsstring>(ostime_t delay, osjobcb_t func)</argsstring>
+        <name>LMICeulike_txDoneFSK</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1adbdbe853b670bd85a6fd76f9e366f4fd" kindref="member">ostime_t</ref></type>
+          <declname>delay</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic_8h_1a19f4c8db29d8e8902c8432839ab73999" kindref="member">osjobcb_t</ref></type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="59" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="59" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1a5678642f0b4a5e61f375831b87b782aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMICeulike_processJoinAcceptCFList</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMICeulike_processJoinAcceptCFList</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>process CFLists from JoinAccept for EU-like regions </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="70" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="70" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1a19eea9d6cad64a6be955be83bf41b992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMICeulike_canMapChannels</definition>
+        <argsstring>(u1_t chpage, u2_t chmap)</argsstring>
+        <name>LMICeulike_canMapChannels</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>chpage</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1afa7774dcdd691ff76a6d6338f957f6be" kindref="member">u2_t</ref></type>
+          <declname>chmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="83" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="83" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1a2707a7f6b6fa64a181bfff02f6aaf852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMICeulike_mapChannels</definition>
+        <argsstring>(u1_t chpage, u2_t chmap)</argsstring>
+        <name>LMICeulike_mapChannels</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>chpage</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1afa7774dcdd691ff76a6d6338f957f6be" kindref="member">u2_t</ref></type>
+          <declname>chmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="86" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="86" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1aedc44433f88be3d63826ebcdfbee72f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMICeulike_initJoinLoop</definition>
+        <argsstring>(u1_t nDefaultChannels, s1_t adrTxPow)</argsstring>
+        <name>LMICeulike_initJoinLoop</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>nDefaultChannels</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a2632168607a8616a00f85be00516f336" kindref="member">s1_t</ref></type>
+          <declname>adrTxPow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="89" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="89" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1afa9966eb90a21a9614fc3763c7031ec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMICeulike_updateTx</definition>
+        <argsstring>(ostime_t txbeg)</argsstring>
+        <name>LMICeulike_updateTx</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1adbdbe853b670bd85a6fd76f9e366f4fd" kindref="member">ostime_t</ref></type>
+          <declname>txbeg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="91" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="91" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1ad8dc191330cac352a59a6c5f0c289837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1adbdbe853b670bd85a6fd76f9e366f4fd" kindref="member">ostime_t</ref></type>
+        <definition>ostime_t LMICeulike_nextJoinState</definition>
+        <argsstring>(uint8_t nDefaultChannels)</argsstring>
+        <name>LMICeulike_nextJoinState</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>nDefaultChannels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="94" column="10" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="94" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1ab3af589a723f365004503f7c2e114d84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1adbdbe853b670bd85a6fd76f9e366f4fd" kindref="member">ostime_t</ref></type>
+        <definition>static ostime_t LMICeulike_nextJoinTime</definition>
+        <argsstring>(ostime_t now)</argsstring>
+        <name>LMICeulike_nextJoinTime</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1adbdbe853b670bd85a6fd76f9e366f4fd" kindref="member">ostime_t</ref></type>
+          <declname>now</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="96" column="24" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1a596e1dc7de31c510450cc9397d0d2cd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMICeulike_saveAdrState</definition>
+        <argsstring>(lmic_saved_adr_state_t *pStateBuffer)</argsstring>
+        <name>LMICeulike_saveAdrState</name>
+        <param>
+          <type><ref refid="lmic_2lmic_8h_1a4a2afe49f224566b30b9973324f9e0dd" kindref="member">lmic_saved_adr_state_t</ref> *</type>
+          <declname>pStateBuffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="104" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="104" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1acef0fd4771018d84487edc8d1162fe27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMICeulike_compareAdrState</definition>
+        <argsstring>(const lmic_saved_adr_state_t *pStateBuffer)</argsstring>
+        <name>LMICeulike_compareAdrState</name>
+        <param>
+          <type>const <ref refid="lmic_2lmic_8h_1a4a2afe49f224566b30b9973324f9e0dd" kindref="member">lmic_saved_adr_state_t</ref> *</type>
+          <declname>pStateBuffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="107" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="107" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1ae61dbc6872557b56650a325f03edf591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMICeulike_restoreAdrState</definition>
+        <argsstring>(const lmic_saved_adr_state_t *pStateBuffer)</argsstring>
+        <name>LMICeulike_restoreAdrState</name>
+        <param>
+          <type>const <ref refid="lmic_2lmic_8h_1a4a2afe49f224566b30b9973324f9e0dd" kindref="member">lmic_saved_adr_state_t</ref> *</type>
+          <declname>pStateBuffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="110" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="110" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1a2aae6124e5d5c67996be3a9a4fdd0a02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMICeulike_setRx1Freq</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMICeulike_setRx1Freq</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="114" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="114" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__eu__like_8h_1a9fc933076af9a1d1ee116cb3c3bef7ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMICeulike_isDataRateFeasible</definition>
+        <argsstring>(dr_t dr)</argsstring>
+        <name>LMICeulike_isDataRateFeasible</name>
+        <param>
+          <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+          <declname>dr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" line="116" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h" declline="116" declcolumn="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_eu_like.h"/>
+  </compounddef>
+</doxygen>

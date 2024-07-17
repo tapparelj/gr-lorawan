@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="arduino__lmic__hal__boards_8h" kind="file" language="C++">
+    <compoundname>arduino_lmic_hal_boards.h</compoundname>
+    <includes refid="arduino__lmic__hal__configuration_8h" local="yes">arduino_lmic_hal_configuration.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>lmic/lmic_env.h</label>
+        <link refid="lmic__env_8h"/>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>arduino_lmic_hal_configuration.h</label>
+        <link refid="arduino__lmic__hal__configuration_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>arduino_lmic_hal_boards.h</label>
+        <link refid="arduino__lmic__hal__boards_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceArduino__LMIC">Arduino_LMIC</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="arduino__lmic__hal__boards_8h_1afb1800ae7529f2a69be91efd9700ad2a" prot="public" static="no">
+        <name>_arduino_lmic_hal_boards_h_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="19" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h"/>
+  </compounddef>
+</doxygen>

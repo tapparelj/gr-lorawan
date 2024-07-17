@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_89397d6c36e7ca8a84424f5e51201619" kind="dir">
+    <compoundname>lorawan</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="lorawan__source_8h">lorawan_source.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/include/gnuradio/lorawan/"/>
+  </compounddef>
+</doxygen>

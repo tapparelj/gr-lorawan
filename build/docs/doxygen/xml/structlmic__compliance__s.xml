@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structlmic__compliance__s" kind="struct" language="C++" prot="public">
+    <compoundname>lmic_compliance_s</compoundname>
+    <includes refid="lmic__compliance_8h" local="no">lmic_compliance.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlmic__compliance__s_1a6a2b676b7b84d1a7fe334449f13cf47c" prot="public" static="no" mutable="no">
+        <type><ref refid="structosjob__t" kindref="compound">osjob_t</ref></type>
+        <definition>osjob_t lmic_compliance_s::timerJob</definition>
+        <argsstring></argsstring>
+        <name>timerJob</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="105" column="37" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlmic__compliance__s_1a8436956cd39c2a410db8bc827392398d" prot="public" static="no" mutable="no">
+        <type><ref refid="structosjob__t" kindref="compound">osjob_t</ref></type>
+        <definition>osjob_t lmic_compliance_s::fsmJob</definition>
+        <argsstring></argsstring>
+        <name>fsmJob</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="106" column="37" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlmic__compliance__s_1ad1ef401bf2457ed5f2d4ab49649363e5" prot="public" static="no" mutable="no">
+        <type><ref refid="lmic__compliance_8h_1a57a5a9f661dab31786792058f3c5a36e" kindref="member">lmic_compliance_eventcb_t</ref></type>
+        <definition>lmic_compliance_eventcb_t lmic_compliance_s::saveEvent</definition>
+        <argsstring></argsstring>
+        <name>saveEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="107" column="37" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlmic__compliance__s_1a6c32239d627eb1017db210bd202808bc" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t lmic_compliance_s::downlinkCount</definition>
+        <argsstring></argsstring>
+        <name>downlinkCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="119" column="37" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlmic__compliance__s_1a47b5a76a42820465e6a2fddaa0a96778" prot="public" static="no" mutable="no">
+        <type><ref refid="lmic__compliance_8h_1a8a5bf6d25be5b48b2bf4c0a23b7204bf" kindref="member">lmic_compliance_state_t</ref></type>
+        <definition>lmic_compliance_state_t lmic_compliance_s::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="123" column="41" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlmic__compliance__s_1af1b64c83953b5c91321b58586a70f9a2" prot="public" static="no" mutable="no">
+        <type><ref refid="lmic__compliance_8h_1a690be4f1662986e063cb4251b4aff8b7" kindref="member">lmic_compliance_eventflags_t</ref></type>
+        <definition>lmic_compliance_eventflags_t lmic_compliance_s::eventflags</definition>
+        <argsstring></argsstring>
+        <name>eventflags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="124" column="41" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlmic__compliance__s_1a23a49c69ee506a359db8cc16a1d9370e" prot="public" static="no" mutable="no">
+        <type><ref refid="lmic__compliance_8h_1a34a9d3a437fb555ed945c0cda92e459d" kindref="member">lmic_compliance_fsmflags_t</ref></type>
+        <definition>lmic_compliance_fsmflags_t lmic_compliance_s::fsmFlags</definition>
+        <argsstring></argsstring>
+        <name>fsmFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="125" column="41" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlmic__compliance__s_1a76f1bc02874d579523ba7417c8b2f26c" prot="public" static="no" mutable="no">
+        <type><ref refid="lmic__compliance_8h_1ad26bb02f5b76b98ca6e228708da2ba98" kindref="member">lmic_compliance_fsmstate_t</ref></type>
+        <definition>lmic_compliance_fsmstate_t lmic_compliance_s::fsmState</definition>
+        <argsstring></argsstring>
+        <name>fsmState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="126" column="41" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlmic__compliance__s_1acf1680f6a42e79dee734b77c9712310f" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t lmic_compliance_s::uplinkSize</definition>
+        <argsstring></argsstring>
+        <name>uplinkSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="128" column="33" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlmic__compliance__s_1ade18dc29f29f7fac71720fd69b8a1e1a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t lmic_compliance_s::uplinkMessage[MAX_LEN_PAYLOAD]</definition>
+        <argsstring>[MAX_LEN_PAYLOAD]</argsstring>
+        <name>uplinkMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="129" column="33" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>lmic_compliance_eventcb_s</label>
+        <link refid="structlmic__compliance__eventcb__s"/>
+      </node>
+      <node id="1">
+        <label>lmic_compliance_s</label>
+        <link refid="structlmic__compliance__s"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>fsmJob</edgelabel>
+          <edgelabel>timerJob</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>saveEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>osjob_t</label>
+        <link refid="structosjob__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="102" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="102" bodyend="130"/>
+    <listofallmembers>
+      <member refid="structlmic__compliance__s_1a6c32239d627eb1017db210bd202808bc" prot="public" virt="non-virtual"><scope>lmic_compliance_s</scope><name>downlinkCount</name></member>
+      <member refid="structlmic__compliance__s_1af1b64c83953b5c91321b58586a70f9a2" prot="public" virt="non-virtual"><scope>lmic_compliance_s</scope><name>eventflags</name></member>
+      <member refid="structlmic__compliance__s_1a23a49c69ee506a359db8cc16a1d9370e" prot="public" virt="non-virtual"><scope>lmic_compliance_s</scope><name>fsmFlags</name></member>
+      <member refid="structlmic__compliance__s_1a8436956cd39c2a410db8bc827392398d" prot="public" virt="non-virtual"><scope>lmic_compliance_s</scope><name>fsmJob</name></member>
+      <member refid="structlmic__compliance__s_1a76f1bc02874d579523ba7417c8b2f26c" prot="public" virt="non-virtual"><scope>lmic_compliance_s</scope><name>fsmState</name></member>
+      <member refid="structlmic__compliance__s_1ad1ef401bf2457ed5f2d4ab49649363e5" prot="public" virt="non-virtual"><scope>lmic_compliance_s</scope><name>saveEvent</name></member>
+      <member refid="structlmic__compliance__s_1a47b5a76a42820465e6a2fddaa0a96778" prot="public" virt="non-virtual"><scope>lmic_compliance_s</scope><name>state</name></member>
+      <member refid="structlmic__compliance__s_1a6a2b676b7b84d1a7fe334449f13cf47c" prot="public" virt="non-virtual"><scope>lmic_compliance_s</scope><name>timerJob</name></member>
+      <member refid="structlmic__compliance__s_1ade18dc29f29f7fac71720fd69b8a1e1a" prot="public" virt="non-virtual"><scope>lmic_compliance_s</scope><name>uplinkMessage</name></member>
+      <member refid="structlmic__compliance__s_1acf1680f6a42e79dee734b77c9712310f" prot="public" virt="non-virtual"><scope>lmic_compliance_s</scope><name>uplinkSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

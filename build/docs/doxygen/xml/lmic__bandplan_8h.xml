@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lmic__bandplan_8h" kind="file" language="C++">
+    <compoundname>lmic_bandplan.h</compoundname>
+    <includes refid="lmic_2lmic_8h" local="yes">lmic.h</includes>
+    <includes refid="lmic__bandplan__eu868_8h" local="yes">lmic_bandplan_eu868.h</includes>
+    <includedby refid="arduino__lmic_8h" local="yes">arduino_lmic.h</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>lmic_env.h</label>
+        <link refid="lmic__env_8h"/>
+      </node>
+      <node id="9">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>lmic.h</label>
+        <link refid="lmic_2lmic_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>lmic_compat.h</label>
+        <link refid="lmic__compat_8h"/>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>lmic_bandplan.h</label>
+        <link refid="lmic__bandplan_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>hal.h</label>
+        <link refid="lmic_2hal_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>string.h</label>
+      </node>
+      <node id="13">
+        <label>lorabase.h</label>
+        <link refid="lorabase_8h"/>
+      </node>
+      <node id="8">
+        <label>oslmic_types.h</label>
+        <link refid="oslmic__types_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>lmic_config_preconditions.h</label>
+        <link refid="lmic__config__preconditions_8h"/>
+      </node>
+      <node id="6">
+        <label>stdio.h</label>
+      </node>
+      <node id="15">
+        <label>lmic_bandplan_eu868.h</label>
+        <link refid="lmic__bandplan__eu868_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>inttypes.h</label>
+      </node>
+      <node id="3">
+        <label>oslmic.h</label>
+        <link refid="oslmic_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>lmic_eu_like.h</label>
+        <link refid="lmic__eu__like_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>lmic_bandplan.h</label>
+        <link refid="lmic__bandplan_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>lmic.h</label>
+        <link refid="lmic_8h"/>
+      </node>
+      <node id="2">
+        <label>arduino_lmic.h</label>
+        <link refid="arduino__lmic_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="lmic__bandplan_8h_1a4c5249438b226e44bb54d3d2885b7754" prot="public" static="no">
+        <name>LMICbandplan_MINRX_SYMS_LoRa_ClassA</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="180" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a22827ef35ffffc4478a40444362847ca" prot="public" static="no">
+        <name>LMICbandplan_RX_ERROR_ABS_osticks</name>
+        <initializer><ref refid="oslmic_8h_1a2b1e717c4efbb5849cd4fafc29a71f50" kindref="member">ms2osticks</ref>(10)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="181" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1abc011b88b1520b801647942761bd92a4" prot="public" static="no">
+        <name>LMICbandplan_RX_EXTRA_MARGIN_osticks</name>
+        <initializer><ref refid="oslmic_8h_1abbcaa90548e7ef2573e56b5aa476de2c" kindref="member">us2osticks</ref>(2000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="188" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a3f13cab44ee6c744daba2e12684dc3d4" prot="public" static="no">
+        <name>LMICbandplan_MINRX_SYMS_LoRa_ClassB</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="194" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a06216e421bc5905e0e15526ff79d1a07" prot="public" static="no">
+        <name>LMICbandplan_PAMBL_SYMS</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="196" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a33f150bdc881e6235c5e9572f0e0ce87" prot="public" static="no">
+        <name>LMICbandplan_PAMBL_FSK</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="197" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a5ea3025f204ae97961d06de36df30854" prot="public" static="no">
+        <name>LMICbandplan_PRERX_FSK</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="198" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a62c43ba9b874e87a7d4058c14f243f1e" prot="public" static="no">
+        <name>LMICbandplan_RXLEN_FSK</name>
+        <initializer>(1+5+2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="199" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a016c6bfef834101b39609e5e9b29f3c0" prot="public" static="no">
+        <name>MINRX_SYMS</name>
+        <initializer><ref refid="lmic__bandplan_8h_1a3f13cab44ee6c744daba2e12684dc3d4" kindref="member">LMICbandplan_MINRX_SYMS_LoRa_ClassB</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="203" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a654e0e02d1e34d2153ed19f2bd0e70e3" prot="public" static="no">
+        <name>PAMBL_SYMS</name>
+        <initializer><ref refid="lmic__bandplan_8h_1a06216e421bc5905e0e15526ff79d1a07" kindref="member">LMICbandplan_PAMBL_SYMS</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="205" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a12191e12e04ddb5f1b936830ccd0b9b1" prot="public" static="no">
+        <name>PAMBL_FSK</name>
+        <initializer><ref refid="lmic__bandplan_8h_1a33f150bdc881e6235c5e9572f0e0ce87" kindref="member">LMICbandplan_PAMBL_FSK</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="206" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a8ab89a8edad9eeb07bf2b0df07d90e91" prot="public" static="no">
+        <name>PRERX_FSK</name>
+        <initializer><ref refid="lmic__bandplan_8h_1a5ea3025f204ae97961d06de36df30854" kindref="member">LMICbandplan_PRERX_FSK</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="207" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1adad8bca445042c7dbff2bbcd831462b2" prot="public" static="no">
+        <name>RXLEN_FSK</name>
+        <initializer><ref refid="lmic__bandplan_8h_1a62c43ba9b874e87a7d4058c14f243f1e" kindref="member">LMICbandplan_RXLEN_FSK</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="208" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a2e0c3718c2c4c98055c4cf0833795417" prot="public" static="no">
+        <name>LMICbandplan_MAX_FCNT_GAP</name>
+        <initializer>16384</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="212" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1aaf263e68b01ab3de65bc904cfeb05b9c" prot="public" static="no">
+        <name>LMICbandplan_TX_RECOVERY_ms</name>
+        <initializer>500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="217" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a5f078da7fe9d5eb0ed2f784842e6000f" prot="public" static="no">
+        <name>BCN_INTV_osticks</name>
+        <initializer><ref refid="oslmic_8h_1af330734a3eff7df1d8925ee9663e1844" kindref="member">sec2osticks</ref>(<ref refid="lorabase_8h_1a96a58e29e8dbf2b5bdeb775cba46556ea2b90df36ca84225798388c835cacfd77" kindref="member">BCN_INTV_sec</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="220" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a7c99b0759cf3407367bbf5a3be0877af" prot="public" static="no">
+        <name>TXRX_GUARD_osticks</name>
+        <initializer><ref refid="oslmic_8h_1a2b1e717c4efbb5849cd4fafc29a71f50" kindref="member">ms2osticks</ref>(<ref refid="lmic_2lmic_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da80db0670a1e6c693c004f72a716c0f4f" kindref="member">TXRX_GUARD_ms</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="221" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a5d86f30c0fd6e93b2e40a3c3451820df" prot="public" static="no">
+        <name>JOIN_GUARD_osticks</name>
+        <initializer><ref refid="oslmic_8h_1a2b1e717c4efbb5849cd4fafc29a71f50" kindref="member">ms2osticks</ref>(<ref refid="lmic_2lmic_8h_1abed82baf7f470b522273a3e37c24c600a7281fe9db9581a483ec24157ca5637ff" kindref="member">JOIN_GUARD_ms</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="222" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a4ab167bc5142479643334803403c4bae" prot="public" static="no">
+        <name>DELAY_JACC1_osticks</name>
+        <initializer><ref refid="oslmic_8h_1af330734a3eff7df1d8925ee9663e1844" kindref="member">sec2osticks</ref>(<ref refid="lorabase_8h_1a5d76b81b0ad4c19007a781d4edb8181faa0fc5e2bd3fa30d1c931b71e3e75164f" kindref="member">DELAY_JACC1</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="223" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a735f521ef0680bfdb8000b697f1b35ce" prot="public" static="no">
+        <name>DELAY_JACC2_osticks</name>
+        <initializer><ref refid="oslmic_8h_1af330734a3eff7df1d8925ee9663e1844" kindref="member">sec2osticks</ref>(<ref refid="lorabase_8h_1a0944a4353780132eeab7b06e3e42291da7522892bbc0bc76870756fbc04755d85" kindref="member">DELAY_JACC2</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="224" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a791ecd7b23930c9018b125b77b27fa12" prot="public" static="no">
+        <name>DELAY_EXTDNW2_osticks</name>
+        <initializer><ref refid="oslmic_8h_1af330734a3eff7df1d8925ee9663e1844" kindref="member">sec2osticks</ref>(<ref refid="lorabase_8h_1a0ed680fdb405e7195d9f14032851eebba8da09e8f16bca7f2091db514dfea00e6" kindref="member">DELAY_EXTDNW2</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="225" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1af7da5db02d4d79d520f041ef9a476e1b" prot="public" static="no">
+        <name>BCN_RESERVE_osticks</name>
+        <initializer><ref refid="oslmic_8h_1a2b1e717c4efbb5849cd4fafc29a71f50" kindref="member">ms2osticks</ref>(<ref refid="lorabase_8h_1a1f9aebf1de3ebbf4283a4dcf73308562a28373fc5c35a184610cfec477bee3f58" kindref="member">BCN_RESERVE_ms</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="226" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1afe722f5d37e1ab54c94841aa9311fd0e" prot="public" static="no">
+        <name>BCN_GUARD_osticks</name>
+        <initializer><ref refid="oslmic_8h_1a2b1e717c4efbb5849cd4fafc29a71f50" kindref="member">ms2osticks</ref>(<ref refid="lorabase_8h_1a77867ab4129f63159b37bca3b652a798a5ccd65055c6ba6d0cfbd700c655d1b2e" kindref="member">BCN_GUARD_ms</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="227" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a7bb62ae728b8d00e06af5769808efbb1" prot="public" static="no">
+        <name>BCN_WINDOW_osticks</name>
+        <initializer><ref refid="oslmic_8h_1a2b1e717c4efbb5849cd4fafc29a71f50" kindref="member">ms2osticks</ref>(<ref refid="lorabase_8h_1a2970898e8a43ce21e1cc510d49f1b89da574732a1f7360a04e5be354d82db12dd" kindref="member">BCN_WINDOW_ms</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="228" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a5fd1fdf23216bba80429c4792d4e5a58" prot="public" static="no">
+        <name>AIRTIME_BCN_osticks</name>
+        <initializer><ref refid="oslmic_8h_1abbcaa90548e7ef2573e56b5aa476de2c" kindref="member">us2osticks</ref>(AIRTIME_BCN)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="229" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic__bandplan_8h_1a9809f2d926692ac145096d35518d9de8" prot="public" static="no">
+        <name>isTESTMODE</name>
+        <param></param>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="232" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="lmic__bandplan_8h_1af11080906b768469161923433e726046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1adbdbe853b670bd85a6fd76f9e366f4fd" kindref="member">ostime_t</ref></type>
+        <definition>ostime_t LMICcore_rndDelay</definition>
+        <argsstring>(u1_t secSpan)</argsstring>
+        <name>LMICcore_rndDelay</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>secSpan</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="235" column="10" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" declline="235" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__bandplan_8h_1a0cbbf4d160a57e504d8aeea5fba75769" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMICcore_setDrJoin</definition>
+        <argsstring>(u1_t reason, u1_t dr)</argsstring>
+        <name>LMICcore_setDrJoin</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>reason</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>dr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="236" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" declline="236" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__bandplan_8h_1a49a0f2e2b94ec29a30d09f9536ead2c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1adbdbe853b670bd85a6fd76f9e366f4fd" kindref="member">ostime_t</ref></type>
+        <definition>ostime_t LMICcore_adjustForDrift</definition>
+        <argsstring>(ostime_t delay, ostime_t hsym, rxsyms_t rxsyms_in)</argsstring>
+        <name>LMICcore_adjustForDrift</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1adbdbe853b670bd85a6fd76f9e366f4fd" kindref="member">ostime_t</ref></type>
+          <declname>delay</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1adbdbe853b670bd85a6fd76f9e366f4fd" kindref="member">ostime_t</ref></type>
+          <declname>hsym</declname>
+        </param>
+        <param>
+          <type><ref refid="lorabase_8h_1ab82bc2864cb28239478c661652440277" kindref="member">rxsyms_t</ref></type>
+          <declname>rxsyms_in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="237" column="10" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" declline="237" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__bandplan_8h_1a09fa7acf608aec0119f5c3a6a0d11a30" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>static bit_t validDR</definition>
+        <argsstring>(dr_t dr)</argsstring>
+        <name>validDR</name>
+        <param>
+          <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+          <declname>dr</declname>
+        </param>
+        <briefdescription>
+<para>&lt; </para>
+        </briefdescription>
+        <detaileddescription>
+<para>return non-zero if given DR is valid for this region. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="244" column="21" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="244" bodyend="244"/>
+        <references refid="lmic__bandplan__as923_8h_1afdee4418ba174dce5349b72c8f64257e" compoundref="lmic__bandplan__as923_8h" startline="113">LMICbandplan_validDR</references>
+      </memberdef>
+      <memberdef kind="function" id="lmic__bandplan_8h_1a0599895bc7db3ec901ebfecc44c8824c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CONST_TABLE</definition>
+        <argsstring>(u1_t, _DR2RPS_CRC)[]</argsstring>
+        <name>CONST_TABLE</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+        </param>
+        <param>
+          <type>_DR2RPS_CRC</type>
+        </param>
+        <briefdescription>
+<para>&lt; </para>
+        </briefdescription>
+        <detaileddescription>
+<para>region-specific table mapping DR to RPS/CRC bits; index by dr+1 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="247" column="8" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" declline="247" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic__bandplan_8h_1a1dc51f92f43f804b9c1a435a59e5b5f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="lorabase_8h_1a63040bddf59d74620b15a2e32185ea3a" kindref="member">rps_t</ref></type>
+        <definition>static rps_t updr2rps</definition>
+        <argsstring>(dr_t dr)</argsstring>
+        <name>updr2rps</name>
+        <param>
+          <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+          <declname>dr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="249" column="21" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="249" bodyend="249"/>
+        <references refid="oslmic_8h_1a30c7a9fa22aff8a84373280d68eb33f6" compoundref="oslmic_8h" startline="274">TABLE_GET_U1</references>
+        <referencedby refid="lmic__bandplan_8h_1a254e981633ac3dbfd803735ea2651d88" compoundref="lmic__bandplan_8h" startline="250" endline="250">dndr2rps</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="lmic__bandplan_8h_1a254e981633ac3dbfd803735ea2651d88" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="lorabase_8h_1a63040bddf59d74620b15a2e32185ea3a" kindref="member">rps_t</ref></type>
+        <definition>static rps_t dndr2rps</definition>
+        <argsstring>(dr_t dr)</argsstring>
+        <name>dndr2rps</name>
+        <param>
+          <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+          <declname>dr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="250" column="21" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="250" bodyend="250"/>
+        <references refid="lorabase_8h_1a9303a974c2e68b87d4a4149ca68b7aeb" compoundref="lorabase_8h" startline="639" endline="639">setNocrc</references>
+        <references refid="lmic__bandplan_8h_1a1dc51f92f43f804b9c1a435a59e5b5f1" compoundref="lmic__bandplan_8h" startline="249" endline="249">updr2rps</references>
+      </memberdef>
+      <memberdef kind="function" id="lmic__bandplan_8h_1acf511c8f93ba45b9d463f6e748e50329" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+        <definition>static dr_t incDR</definition>
+        <argsstring>(dr_t dr)</argsstring>
+        <name>incDR</name>
+        <param>
+          <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+          <declname>dr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="251" column="21" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="251" bodyend="251"/>
+        <references refid="lorabase_8h_1a39fca1837c5ce7715cbf571669660c13a1ffe979badeac77174a6e580d02b4234" compoundref="lorabase_8h" startline="59">ILLEGAL_RPS</references>
+        <references refid="oslmic_8h_1a30c7a9fa22aff8a84373280d68eb33f6" compoundref="oslmic_8h" startline="274">TABLE_GET_U1</references>
+      </memberdef>
+      <memberdef kind="function" id="lmic__bandplan_8h_1a1a197d761ce5dc4f3b0f6a6596b076ea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+        <definition>static dr_t decDR</definition>
+        <argsstring>(dr_t dr)</argsstring>
+        <name>decDR</name>
+        <param>
+          <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+          <declname>dr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="252" column="21" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="252" bodyend="252"/>
+        <references refid="lorabase_8h_1a39fca1837c5ce7715cbf571669660c13a1ffe979badeac77174a6e580d02b4234" compoundref="lorabase_8h" startline="59">ILLEGAL_RPS</references>
+        <references refid="oslmic_8h_1a30c7a9fa22aff8a84373280d68eb33f6" compoundref="oslmic_8h" startline="274">TABLE_GET_U1</references>
+        <referencedby refid="lmic__bandplan_8h_1a10b86c1f7c11770b0dc33bb8e13c2cc7" compoundref="lmic__bandplan_8h" startline="254" endline="254">lowerDR</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="lmic__bandplan_8h_1a935714d8c8d2ed929f665c892e44a467" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+        <definition>static dr_t assertDR</definition>
+        <argsstring>(dr_t dr)</argsstring>
+        <name>assertDR</name>
+        <param>
+          <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+          <declname>dr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="253" column="21" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="253" bodyend="253"/>
+        <references refid="lorabase_8h_1a39fca1837c5ce7715cbf571669660c13a1ffe979badeac77174a6e580d02b4234" compoundref="lorabase_8h" startline="59">ILLEGAL_RPS</references>
+        <references refid="oslmic_8h_1a30c7a9fa22aff8a84373280d68eb33f6" compoundref="oslmic_8h" startline="274">TABLE_GET_U1</references>
+      </memberdef>
+      <memberdef kind="function" id="lmic__bandplan_8h_1a10b86c1f7c11770b0dc33bb8e13c2cc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+        <definition>static dr_t lowerDR</definition>
+        <argsstring>(dr_t dr, u1_t n)</argsstring>
+        <name>lowerDR</name>
+        <param>
+          <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+          <declname>dr</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" line="254" column="21" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h" bodystart="254" bodyend="254"/>
+        <references refid="lmic__bandplan_8h_1a1a197d761ce5dc4f3b0f6a6596b076ea" compoundref="lmic__bandplan_8h" startline="252" endline="252">decDR</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_bandplan.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lorabase__us915_8h" kind="file" language="C++">
+    <compoundname>lorabase_us915.h</compoundname>
+    <includes refid="lmic__config__preconditions_8h" local="yes">lmic_config_preconditions.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>lorabase_us915.h</label>
+        <link refid="lorabase__us915_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>lmic_config_preconditions.h</label>
+        <link refid="lmic__config__preconditions_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197eb" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_dr_us915_t</name>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197ebaeb72e749d91c26d14cd6835ab165e72d" prot="public">
+          <name>US915_DR_SF10</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197ebaabee7bf20f52831f895f632b7d4f0b72" prot="public">
+          <name>US915_DR_SF9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197ebac9a6199888d99bf37bd35006a7ba5084" prot="public">
+          <name>US915_DR_SF8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197eba41cde43edaaa75febe668bd9c26bfe52" prot="public">
+          <name>US915_DR_SF7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197ebab044eb39f5ce5d67fcd90d2cfec3ba48" prot="public">
+          <name>US915_DR_SF8C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197ebacc5a3f2922b4434a502e0de6170d7b39" prot="public">
+          <name>US915_DR_NONE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197ebae42856b382aba8eec511140806ca45eb" prot="public">
+          <name>US915_DR_SF12CR</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197ebaf88bc4a221278e3c52c8c229f7efc833" prot="public">
+          <name>US915_DR_SF11CR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197ebab5864508f930d532b2de8ab1d84b4956" prot="public">
+          <name>US915_DR_SF10CR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197eba1154e019239eb794fc879446c77be95f" prot="public">
+          <name>US915_DR_SF9CR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197eba150f0d4d9aefb55b96bb006d7c4d1444" prot="public">
+          <name>US915_DR_SF8CR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a5dbc9592b82121bdfe11ffbdf36197eba7f907d802c4bf6d5d21ed900fc90ef07" prot="public">
+          <name>US915_DR_SF7CR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" line="46" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" bodystart="46" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__us915_8h_1ac34c4c978f4130a92a5068f9e21ea9fc" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@103</name>
+        <enumvalue id="lorabase__us915_8h_1ac34c4c978f4130a92a5068f9e21ea9fcab91315ce8da98266b60ea539992b057c" prot="public">
+          <name>US915_125kHz_UPFBASE</name>
+          <initializer>= 902300000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1ac34c4c978f4130a92a5068f9e21ea9fcabdc8304902362e15eee59e9ab4bfcda2" prot="public">
+          <name>US915_125kHz_UPFSTEP</name>
+          <initializer>= 200000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1ac34c4c978f4130a92a5068f9e21ea9fcae1cf1b7bca930b986cb0b0c8aab67421" prot="public">
+          <name>US915_500kHz_UPFBASE</name>
+          <initializer>= 903000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1ac34c4c978f4130a92a5068f9e21ea9fca18309bf018e7baab1103813b1b504296" prot="public">
+          <name>US915_500kHz_UPFSTEP</name>
+          <initializer>= 1600000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1ac34c4c978f4130a92a5068f9e21ea9fca2c4d9a38566a21416dae8955c2059319" prot="public">
+          <name>US915_500kHz_DNFBASE</name>
+          <initializer>= 923300000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1ac34c4c978f4130a92a5068f9e21ea9fca4c1a4a860ea4e29720bbc61bc6402d7a" prot="public">
+          <name>US915_500kHz_DNFSTEP</name>
+          <initializer>= 600000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" line="63" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" bodystart="63" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__us915_8h_1a10e74d65d7876276a8f6061c71dcf469" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@104</name>
+        <enumvalue id="lorabase__us915_8h_1a10e74d65d7876276a8f6061c71dcf469a4e9c307573f1b1ee2a4a4ebc36b47e05" prot="public">
+          <name>US915_FREQ_MIN</name>
+          <initializer>= 902000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a10e74d65d7876276a8f6061c71dcf469aac170a6a9a816116b5360d769855a416" prot="public">
+          <name>US915_FREQ_MAX</name>
+          <initializer>= 928000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" line="71" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__us915_8h_1a1f3b6c692395e5007ff47ce5d9304c1c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@105</name>
+        <enumvalue id="lorabase__us915_8h_1a1f3b6c692395e5007ff47ce5d9304c1cae184e0380c7e3bba952e40c5e4bd21d7" prot="public">
+          <name>US915_TX_MAX_DBM</name>
+          <initializer>= 30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" line="75" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" bodystart="75" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__us915_8h_1a0ae1e3bf78c960c83e2d437efd802058" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@106</name>
+        <enumvalue id="lorabase__us915_8h_1a0ae1e3bf78c960c83e2d437efd802058a4bdc3f48db9c11d9e1efd940991206df" prot="public">
+          <name>US915_LinkAdrReq_POW_MAX_1_0_2</name>
+          <initializer>= 0xA</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__us915_8h_1a0ae1e3bf78c960c83e2d437efd802058a381cce989d0b3fca2d81f07a1bc5c169" prot="public">
+          <name>US915_LinkAdrReq_POW_MAX_1_0_3</name>
+          <initializer>= 0xE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" line="81" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__us915_8h_1a01aea4eb01aa6415eee118b5a5ee3dad" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@107</name>
+        <enumvalue id="lorabase__us915_8h_1a01aea4eb01aa6415eee118b5a5ee3dadaf6d5b5ea93354db80c2a773fd00b7706" prot="public">
+          <name>DR_PAGE_US915</name>
+          <initializer>= 0x10 * (LMIC_REGION_us915 - 1)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" line="86" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__us915_8h_1a7646ae03981912f97626c39dfe9318da" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@108</name>
+        <enumvalue id="lorabase__us915_8h_1a7646ae03981912f97626c39dfe9318daa3e2cbf5bc3444930d7a5d86da44a7ae2" prot="public">
+          <name>US915_LMIC_REGION_EIRP</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" line="88" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_us915.h"/>
+  </compounddef>
+</doxygen>

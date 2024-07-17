@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_a610926a4718f05f8f941f310d9d2939" kind="dir">
+    <compoundname>loramac_tcp</compoundname>
+    <innerfile refid="loramac__tcp_8h">loramac_tcp.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/loramac_tcp/"/>
+  </compounddef>
+</doxygen>

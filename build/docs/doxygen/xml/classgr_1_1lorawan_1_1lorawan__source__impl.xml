@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1lorawan_1_1lorawan__source__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::lorawan::lorawan_source_impl</compoundname>
+    <basecompoundref refid="classgr_1_1lorawan_1_1lorawan__source" prot="public" virt="non-virtual">gr::lorawan::lorawan_source</basecompoundref>
+    <includes refid="lorawan__source__impl_8h" local="no">lorawan_source_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1lorawan_1_1lorawan__source__impl_1a8255e45a9e9f471eda67cf49c6d5803d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lorawan::lorawan_source_impl::m_tcp_port</definition>
+        <argsstring></argsstring>
+        <name>m_tcp_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="28" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lorawan_1_1lorawan__source__impl_1a0da41a2a89e84cb7f8dc3356a5d59b63" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lorawan::lorawan_source_impl::m_running</definition>
+        <argsstring></argsstring>
+        <name>m_running</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="29" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lorawan_1_1lorawan__source__impl_1a4177a75a57ffe83faa7e8c78b0bec504" prot="private" static="no" mutable="no">
+        <type>std::thread</type>
+        <definition>std::thread gr::lorawan::lorawan_source_impl::m_thread</definition>
+        <argsstring></argsstring>
+        <name>m_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="30" column="17" bodyfile="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lorawan_1_1lorawan__source__impl_1ae7a503f0e6009649aa6ccf94f851835f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lorawan::lorawan_source_impl::m_cr</definition>
+        <argsstring></argsstring>
+        <name>m_cr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="32" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lorawan_1_1lorawan__source__impl_1a253b259c996f71b4b96d9dec59ae6872" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lorawan::lorawan_source_impl::m_sf</definition>
+        <argsstring></argsstring>
+        <name>m_sf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="33" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lorawan_1_1lorawan__source__impl_1a6dfe4718299eec666d833e911fda0d79" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lorawan::lorawan_source_impl::m_bw</definition>
+        <argsstring></argsstring>
+        <name>m_bw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="34" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lorawan_1_1lorawan__source__impl_1acc113990b8e4d7e03cc843265670c871" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lorawan::lorawan_source_impl::m_center_freq</definition>
+        <argsstring></argsstring>
+        <name>m_center_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="35" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lorawan_1_1lorawan__source__impl_1af9f8ac68cfb592826efa7f1a6d46ab80" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lorawan::lorawan_source_impl::m_tx_power</definition>
+        <argsstring></argsstring>
+        <name>m_tx_power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="36" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1lorawan_1_1lorawan__source__impl_1a4d53bd0de30cfa27202351bf37e13fc7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lorawan::lorawan_source_impl::tcp_server_thread</definition>
+        <argsstring>()</argsstring>
+        <name>tcp_server_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="39" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lorawan_1_1lorawan__source__impl_1a138e14fae6bbee240ba7b78e64a07abf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lorawan::lorawan_source_impl::handle_payload</definition>
+        <argsstring>(uint8_t *payload, ssize_t payload_len, pmt::pmt_t dict, pmt::pmt_t command)</argsstring>
+        <name>handle_payload</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>ssize_t</type>
+          <declname>payload_len</declname>
+        </param>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="42" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lorawan_1_1lorawan__source__impl_1a3a3dc3dfaf00ff82ae21a9413dab3cf0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lorawan::lorawan_source_impl::update_parameters</definition>
+        <argsstring>(uint8_t *buffer, ssize_t bytes_received)</argsstring>
+        <name>update_parameters</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>ssize_t</type>
+          <declname>bytes_received</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="45" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lorawan_1_1lorawan__source__impl_1af76c44d1bcce85d6283e9ea6facddb9c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::lorawan::lorawan_source_impl::create_dictionary</definition>
+        <argsstring>()</argsstring>
+        <name>create_dictionary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="48" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lorawan_1_1lorawan__source__impl_1ad278a777832dd2e851361a068312ac3f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::lorawan::lorawan_source_impl::update_dictionary</definition>
+        <argsstring>(uint8_t byte_variable, uint8_t byte_value)</argsstring>
+        <name>update_dictionary</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>byte_variable</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>byte_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="51" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lorawan_1_1lorawan__source__impl_1a6ee53272bdf56923731f50c26a6ea65d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::lorawan::lorawan_source_impl::create_dictionary_command</definition>
+        <argsstring>()</argsstring>
+        <name>create_dictionary_command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="54" column="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lorawan_1_1lorawan__source__impl_1a6c1e1506fdde0d43b068d94a7fffddae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lorawan::lorawan_source_impl::lorawan_source_impl</definition>
+        <argsstring>(int tcp_port=12345)</argsstring>
+        <name>lorawan_source_impl</name>
+        <param>
+          <type>int</type>
+          <declname>tcp_port</declname>
+          <defval>12345</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="57" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lorawan_1_1lorawan__source__impl_1af419e50c9f6195ed45aaaf60a164b657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lorawan::lorawan_source_impl::~lorawan_source_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~lorawan_source_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="58" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lorawan_1_1lorawan__source__impl_1a13e60f2277dab652b74f1659caa444d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lorawan::lorawan_source_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="61" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::lorawan::lorawan_source_impl</label>
+        <link refid="classgr_1_1lorawan_1_1lorawan__source__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="2">
+        <label>gr::lorawan::lorawan_source</label>
+        <link refid="classgr_1_1lorawan_1_1lorawan__source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::lorawan::lorawan_source_impl</label>
+        <link refid="classgr_1_1lorawan_1_1lorawan__source__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="2">
+        <label>gr::lorawan::lorawan_source</label>
+        <link refid="classgr_1_1lorawan_1_1lorawan__source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="25" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" bodystart="26" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1af76c44d1bcce85d6283e9ea6facddb9c" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>create_dictionary</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1a6ee53272bdf56923731f50c26a6ea65d" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>create_dictionary_command</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1a138e14fae6bbee240ba7b78e64a07abf" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>handle_payload</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1a6c1e1506fdde0d43b068d94a7fffddae" prot="public" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>lorawan_source_impl</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1a6dfe4718299eec666d833e911fda0d79" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>m_bw</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1acc113990b8e4d7e03cc843265670c871" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>m_center_freq</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1ae7a503f0e6009649aa6ccf94f851835f" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>m_cr</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1a0da41a2a89e84cb7f8dc3356a5d59b63" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>m_running</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1a253b259c996f71b4b96d9dec59ae6872" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>m_sf</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1a8255e45a9e9f471eda67cf49c6d5803d" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>m_tcp_port</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1a4177a75a57ffe83faa7e8c78b0bec504" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>m_thread</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1af9f8ac68cfb592826efa7f1a6d46ab80" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>m_tx_power</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source_1ada996e7d3f6af5c9633f3a0007f8540f" prot="public" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source_1afa174ac8794599ed2a5fce049332b7ae" prot="public" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1a4d53bd0de30cfa27202351bf37e13fc7" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>tcp_server_thread</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1ad278a777832dd2e851361a068312ac3f" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>update_dictionary</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1a3a3dc3dfaf00ff82ae21a9413dab3cf0" prot="private" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>update_parameters</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1a13e60f2277dab652b74f1659caa444d0" prot="public" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1lorawan_1_1lorawan__source__impl_1af419e50c9f6195ed45aaaf60a164b657" prot="public" virt="non-virtual"><scope>gr::lorawan::lorawan_source_impl</scope><name>~lorawan_source_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

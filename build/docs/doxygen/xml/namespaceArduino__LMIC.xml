@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespaceArduino__LMIC" kind="namespace" language="C++">
+    <compoundname>Arduino_LMIC</compoundname>
+    <innerclass refid="structArduino__LMIC_1_1HalPinmap__t" prot="public">Arduino_LMIC::HalPinmap_t</innerclass>
+    <innerclass refid="classArduino__LMIC_1_1HalConfiguration__t" prot="public">Arduino_LMIC::HalConfiguration_t</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceArduino__LMIC_1ae9453cd49c92c9fa52e033882c42e9b2" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>ThreeState_t</name>
+        <enumvalue id="namespaceArduino__LMIC_1ae9453cd49c92c9fa52e033882c42e9b2ad15305d7a4e34e02489c74a5ef542f36" prot="public">
+          <name>Off</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceArduino__LMIC_1ae9453cd49c92c9fa52e033882c42e9b2a521c36a31c2762741cf0f8890cbe05e3" prot="public">
+          <name>On</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceArduino__LMIC_1ae9453cd49c92c9fa52e033882c42e9b2ab4f85051516c5085ef86dd9ea36ae937" prot="public">
+          <name>HiZ</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="30" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="30" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceArduino__LMIC_1a1a3b634a2259a798aaa24c46f08c16cc" prot="public" static="no">
+        <type>int32_t</type>
+        <definition>typedef int32_t Arduino_LMIC::ostime_t</definition>
+        <argsstring></argsstring>
+        <name>ostime_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="27" column="15" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceArduino__LMIC_1a1a949b61d65a32ad85c9d1d411ab1fe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_FeatherM0LoRa</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_FeatherM0LoRa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="25" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="25" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1a081fea7d4c293f06170c7bd95613597a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_Feather32U4LoRa</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Feather32U4LoRa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="26" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="26" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1a4ed0000cbc09db4093cd71b4236163d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_Catena4420</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Catena4420</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="28" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="28" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1af8c1544c7258ea1d1277f2c8ba367c54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_Catena4551</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Catena4551</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="29" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="29" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1af6a384ebc1fe0aed10a5f90cd7423195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t * Arduino_LMIC::GetPinmap_Catena4610</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Catena4610</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="30" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="30" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1a5c9a55155e9e32722c603e991ef98a19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_Catena4611</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Catena4611</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="32" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="32" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1a4682522e44aea924793ff76cd5e097de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_Catena4612</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Catena4612</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="33" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="33" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1abae1d4058114412ed51284908921bbf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_Catena4617</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Catena4617</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="34" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="34" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1a29ae6d76825b8212d853615927be8022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_Catena4618</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Catena4618</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="35" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="35" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1ac90f9ca828e575e7efa9dda533b40d32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_Catena4630</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Catena4630</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="36" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="36" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1a90f5cd5dfd8bd1dd28c3f974c1b8447f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_Catena4801</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Catena4801</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="37" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="37" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1af44a0c070c59be9860220b101146dcc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_Catena4802</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Catena4802</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="38" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="38" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1a80404eb5989bf98bd06ce4083fd03ff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_ttgo_lora32_v1</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_ttgo_lora32_v1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="39" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="39" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1ae14f5f0363e788ce1023ee7b1aece359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_ttgo_lora32_v21</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_ttgo_lora32_v21</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="40" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="40" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1aeec54d63752e4e8b6010dc370329ea55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_heltec_lora32</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_heltec_lora32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="41" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="41" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1a5706637bb97c65f4464fde1fc4a3c551" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_Disco_L072cz_Lrwan1</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_Disco_L072cz_Lrwan1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="42" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="42" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1a39cc26ce52a89e9350168a2b64529457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+        <definition>const HalPinmap_t* Arduino_LMIC::GetPinmap_ThisBoard</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinmap_ThisBoard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="44" column="19" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" declline="44" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceArduino__LMIC_1aaafc327f604fc23f915792924af85d68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Arduino_LMIC::hal_init_with_pinmap</definition>
+        <argsstring>(const HalPinmap_t *pPinmap)</argsstring>
+        <name>hal_init_with_pinmap</name>
+        <param>
+          <type>const <ref refid="structArduino__LMIC_1_1HalPinmap__t" kindref="compound">HalPinmap_t</ref> *</type>
+          <declname>pPinmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" line="113" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_configuration.h" declline="113" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_hal_boards.h" line="23" column="1"/>
+  </compounddef>
+</doxygen>

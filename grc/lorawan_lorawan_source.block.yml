@@ -1,0 +1,24 @@
+id: lorawan_lorawan_source
+label: lorawan_source
+category: '[LoRaWAN]'
+
+templates:
+  imports: from gnuradio import lorawan
+  make: lorawan.lorawan_source(${tcp_port})
+
+parameters:
+- id: tcp_port
+  label: TCP Port
+  dtype: int
+
+inputs: []
+
+outputs:
+- label: command 
+  domain: message
+- label: out0
+  domain: message
+  dtype: string
+- label: dict 
+  domain: message
+file_format: 1

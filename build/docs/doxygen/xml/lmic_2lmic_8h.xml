@@ -1,0 +1,2656 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lmic_2lmic_8h" kind="file" language="C++">
+    <compoundname>lmic/lmic.h</compoundname>
+    <includes refid="oslmic_8h" local="yes">oslmic.h</includes>
+    <includes refid="lorabase_8h" local="yes">lorabase.h</includes>
+    <includes refid="lmic__compat_8h" local="yes">lmic_compat.h</includes>
+    <includedby refid="arduino__lmic_8h" local="yes">arduino_lmic.h</includedby>
+    <includedby refid="lmic__bandplan_8h" local="yes">lmic_bandplan.h</includedby>
+    <includedby refid="lmic__compliance_8h" local="yes">lmic_compliance.h</includedby>
+    <includedby refid="lmic__eu__like_8h" local="yes">lmic_eu_like.h</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>lmic_env.h</label>
+        <link refid="lmic__env_8h"/>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+      <node id="1">
+        <label>lmic.h</label>
+        <link refid="lmic_2lmic_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>lmic_compat.h</label>
+        <link refid="lmic__compat_8h"/>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>hal.h</label>
+        <link refid="lmic_2hal_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>string.h</label>
+      </node>
+      <node id="12">
+        <label>lorabase.h</label>
+        <link refid="lorabase_8h"/>
+      </node>
+      <node id="7">
+        <label>oslmic_types.h</label>
+        <link refid="oslmic__types_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>lmic_config_preconditions.h</label>
+        <link refid="lmic__config__preconditions_8h"/>
+      </node>
+      <node id="5">
+        <label>stdio.h</label>
+      </node>
+      <node id="11">
+        <label>inttypes.h</label>
+      </node>
+      <node id="2">
+        <label>oslmic.h</label>
+        <link refid="oslmic_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>lmic.h</label>
+        <link refid="lmic_2lmic_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>lmic_bandplan.h</label>
+        <link refid="lmic__bandplan_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>lmic_bandplan_kr920.h</label>
+        <link refid="lmic__bandplan__kr920_8h"/>
+      </node>
+      <node id="7">
+        <label>lmic_bandplan_as923.h</label>
+        <link refid="lmic__bandplan__as923_8h"/>
+      </node>
+      <node id="5">
+        <label>lmic_compliance.h</label>
+        <link refid="lmic__compliance_8h"/>
+      </node>
+      <node id="9">
+        <label>lmic_bandplan_in866.h</label>
+        <link refid="lmic__bandplan__in866_8h"/>
+      </node>
+      <node id="3">
+        <label>lmic.h</label>
+        <link refid="lmic_8h"/>
+      </node>
+      <node id="2">
+        <label>arduino_lmic.h</label>
+        <link refid="arduino__lmic_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>lmic_bandplan_eu868.h</label>
+        <link refid="lmic__bandplan__eu868_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>lmic_eu_like.h</label>
+        <link refid="lmic__eu__like_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structrxsched__t" prot="public">rxsched_t</innerclass>
+    <innerclass refid="structbcninfo__t" prot="public">bcninfo_t</innerclass>
+    <innerclass refid="structlmic__time__reference__s" prot="public">lmic_time_reference_s</innerclass>
+    <innerclass refid="structlmic__client__data__s" prot="public">lmic_client_data_s</innerclass>
+    <innerclass refid="structlmic__radio__data__s" prot="public">lmic_radio_data_s</innerclass>
+    <innerclass refid="structlmic__t" prot="public">lmic_t</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="lmic_2lmic_8h_1a5f5f95a5379d35e9cf034c8fab07c0da" prot="public" static="no">
+        <name>LMIC_DEBUG_PRINTF</name>
+        <param><defname>f</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>do { ; } while (0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="78" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1a7e666e61b15fef40d285dacbb2c0384c" prot="public" static="no">
+        <name>LMIC_DEBUG_FLUSH</name>
+        <param></param>
+        <initializer>do { ; } while (0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="79" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1ab2d235a799f4a5fa4ab5db9bfc63fe0a" prot="public" static="no">
+        <name>LMIC_X_DEBUG_PRINTF</name>
+        <param><defname>f</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>do {;} while(0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="92" column="12" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1aa1cc7a43c50d905fa4a484b28cd83b38" prot="public" static="no">
+        <name>LMIC_VERSION_MAJOR</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="100" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1aabf51e09812ed9bed1e490982ff4df91" prot="public" static="no">
+        <name>LMIC_VERSION_MINOR</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="101" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1aeb2c0aac9056779920e2dbe47f6a4e8c" prot="public" static="no">
+        <name>LMIC_VERSION_BUILD</name>
+        <initializer>1468577746</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="102" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1afc7de146d0b21dd1150719e964952837" prot="public" static="no">
+        <name>ARDUINO_LMIC_VERSION_CALC</name>
+        <param><defname>major</defname></param>
+        <param><defname>minor</defname></param>
+        <param><defname>patch</defname></param>
+        <param><defname>local</defname></param>
+        <initializer>	((((major)*UINT32_C(1)) &lt;&lt; 24) | (((minor)*UINT32_C(1)) &lt;&lt; 16) | (((patch)*UINT32_C(1)) &lt;&lt; 8) | (((local)*UINT32_C(1)) &lt;&lt; 0))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="105" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1a44ee6d757af9fa389fdf4768cfe4e506" prot="public" static="no">
+        <name>ARDUINO_LMIC_VERSION</name>
+        <initializer>    <ref refid="lmic_2lmic_8h_1afc7de146d0b21dd1150719e964952837" kindref="member">ARDUINO_LMIC_VERSION_CALC</ref>(4, 2, 0, 1)  /* 4.2.0-1 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="108" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1a1ec79dd8e5a4cd27c42fb1c4ecc30954" prot="public" static="no">
+        <name>ARDUINO_LMIC_VERSION_GET_MAJOR</name>
+        <param><defname>v</defname></param>
+        <initializer>	((((v)*UINT32_C(1)) &gt;&gt; 24u) &amp; 0xFFu)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="111" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1adce567941c3ad187268b3390e0d71800" prot="public" static="no">
+        <name>ARDUINO_LMIC_VERSION_GET_MINOR</name>
+        <param><defname>v</defname></param>
+        <initializer>	((((v)*UINT32_C(1)) &gt;&gt; 16u) &amp; 0xFFu)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="114" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1a1d3262a39092844c1b094ef38c723e46" prot="public" static="no">
+        <name>ARDUINO_LMIC_VERSION_GET_PATCH</name>
+        <param><defname>v</defname></param>
+        <initializer>	((((v)*UINT32_C(1)) &gt;&gt; 8u) &amp; 0xFFu)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="117" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1ac48021f5da5512d5eff6ea193d12579f" prot="public" static="no">
+        <name>ARDUINO_LMIC_VERSION_GET_LOCAL</name>
+        <param><defname>v</defname></param>
+        <initializer>	((v) &amp; 0xFFu)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="120" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1ad8265336a752828eb58da92e44cebd5a" prot="public" static="no">
+        <name>ARDUINO_LMIC_VERSION_TO_ORDINAL</name>
+        <param><defname>v</defname></param>
+        <initializer>        (((v) &amp; 0xFFFFFF00u) | (((v) - 1) &amp; 0xFFu))</initializer>
+        <briefdescription>
+<para>convert a semantic version to an ordinal integer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="124" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1aaa11d201f1823215c499855b1832b61a" prot="public" static="no">
+        <name>ARDUINO_LMIC_VERSION_COMPARE_LT</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>        (<ref refid="lmic_2lmic_8h_1ad8265336a752828eb58da92e44cebd5a" kindref="member">ARDUINO_LMIC_VERSION_TO_ORDINAL</ref>(a) &lt; <ref refid="lmic_2lmic_8h_1ad8265336a752828eb58da92e44cebd5a" kindref="member">ARDUINO_LMIC_VERSION_TO_ORDINAL</ref>(b))</initializer>
+        <briefdescription>
+<para>compare two semantic versions </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput> if <computeroutput>a</computeroutput> is less than <computeroutput>b</computeroutput> (as a semantic version). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="129" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1a04108bf61dc041076141aca368072733" prot="public" static="no">
+        <name>ARDUINO_LMIC_VERSION_COMPARE_LE</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>        (<ref refid="lmic_2lmic_8h_1ad8265336a752828eb58da92e44cebd5a" kindref="member">ARDUINO_LMIC_VERSION_TO_ORDINAL</ref>(a) &lt;= <ref refid="lmic_2lmic_8h_1ad8265336a752828eb58da92e44cebd5a" kindref="member">ARDUINO_LMIC_VERSION_TO_ORDINAL</ref>(b))</initializer>
+        <briefdescription>
+<para>compare two semantic versions </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput> if <computeroutput>a</computeroutput> is less than or equal to <computeroutput>b</computeroutput> (as a semantic version). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="134" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1ae6c9bf48ad3d8e272b933d3b22d0e9c9" prot="public" static="no">
+        <name>ARDUINO_LMIC_VERSION_COMPARE_GT</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>        (<ref refid="lmic_2lmic_8h_1ad8265336a752828eb58da92e44cebd5a" kindref="member">ARDUINO_LMIC_VERSION_TO_ORDINAL</ref>(a) &gt; <ref refid="lmic_2lmic_8h_1ad8265336a752828eb58da92e44cebd5a" kindref="member">ARDUINO_LMIC_VERSION_TO_ORDINAL</ref>(b))</initializer>
+        <briefdescription>
+<para>compare two semantic versions </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput> if <computeroutput>a</computeroutput> is greater than <computeroutput>b</computeroutput> (as a semantic version). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="139" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1a83a4624c4f7a2a0cf4136018a2c3681e" prot="public" static="no">
+        <name>ARDUINO_LMIC_VERSION_COMPARE_GE</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>        (<ref refid="lmic_2lmic_8h_1ad8265336a752828eb58da92e44cebd5a" kindref="member">ARDUINO_LMIC_VERSION_TO_ORDINAL</ref>(a) &gt;= <ref refid="lmic_2lmic_8h_1ad8265336a752828eb58da92e44cebd5a" kindref="member">ARDUINO_LMIC_VERSION_TO_ORDINAL</ref>(b))</initializer>
+        <briefdescription>
+<para>compare two semantic versions </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput> if <computeroutput>a</computeroutput> is greater than or equal to <computeroutput>b</computeroutput> (as a semantic version). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="144" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1ab498c3f95d0fa3b606988496b879ef99" prot="public" static="no">
+        <name>LMIC_EVENT_NAME_TABLE__INIT</name>
+        <initializer>    &quot;&lt;&lt;zero&gt;&gt;&quot;,                                                             \
+    &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a97372ca153047b7df3e99d0f4b8d9cb5" kindref="member">EV_SCAN_TIMEOUT</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a0bff1d5e59f221ced7aa3eaa04deeae6" kindref="member">EV_BEACON_FOUND</ref>&quot;,                                   \
+    &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a78cb525dcf4178d81df72d3ff13c5dc4" kindref="member">EV_BEACON_MISSED</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8acff35dca314ded6652199137d78529cd" kindref="member">EV_BEACON_TRACKED</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a45fadd9777b7c450636d263566789f2d" kindref="member">EV_JOINING</ref>&quot;,                  \
+    &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8af5e7a35b524b79d31b6c2bbc0a7b210e" kindref="member">EV_JOINED</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a5a978472900396d2e29ef2aa69ed2413" kindref="member">EV_RFU1</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8adcadb31cf9322c782866ec2c22c9b77e" kindref="member">EV_JOIN_FAILED</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a65d3fdf1384ebbabc664e750e90feef3" kindref="member">EV_REJOIN_FAILED</ref>&quot;,           \
+    &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8ac66583a521bd1d0531f113e407975c51" kindref="member">EV_TXCOMPLETE</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8ab778ed1bf620f26c661bd0045a86c11a" kindref="member">EV_LOST_TSYNC</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8acf479d2a1cf9561a239d744bc164e71c" kindref="member">EV_RESET</ref>&quot;,                           \
+    &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a468795c67d97e6d78312eda7f8b20c5b" kindref="member">EV_RXCOMPLETE</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a7b0cb18a8978cee347cb598b022be550" kindref="member">EV_LINK_DEAD</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a9282d4a661cbe5c246e31068278bf25f" kindref="member">EV_LINK_ALIVE</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8af5aa6733e4e836be5dbaf16b1e65fc05" kindref="member">EV_SCAN_FOUND</ref>&quot;,      \
+    &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a2e9370bc7906f2a5014dc689b3a1bb60" kindref="member">EV_TXSTART</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8ad0c95ce2939f6e7b3814c0946b1b2424" kindref="member">EV_TXCANCELED</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8ad5f1e8d555e500e906607b64276f1e4f" kindref="member">EV_RXSTART</ref>&quot;, &quot;<ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8aa695152a0d32684004edf2c2f7f143ea" kindref="member">EV_JOIN_TXCOMPLETE</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="295" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1aa28e372dc9f5d054d47a3560fc63cd27" prot="public" static="no">
+        <name>LMIC_EVENT_NAME_MULTISZ__INIT</name>
+        <initializer>    &quot;&lt;&lt;zero&gt;&gt;\0&quot;                                                            \
+    &quot;EV_SCAN_TIMEOUT\0&quot; &quot;EV_BEACON_FOUND\0&quot;                                 \
+    &quot;EV_BEACON_MISSED\0&quot; &quot;EV_BEACON_TRACKED\0&quot; &quot;EV_JOINING\0&quot;               \
+    &quot;EV_JOINED\0&quot; &quot;EV_RFU1\0&quot; &quot;EV_JOIN_FAILED\0&quot; &quot;EV_REJOIN_FAILED\0&quot;       \
+    &quot;EV_TXCOMPLETE\0&quot; &quot;EV_LOST_TSYNC\0&quot; &quot;EV_RESET\0&quot;                        \
+    &quot;EV_RXCOMPLETE\0&quot; &quot;EV_LINK_DEAD\0&quot; &quot;EV_LINK_ALIVE\0&quot; &quot;EV_SCAN_FOUND\0&quot;  \
+    &quot;EV_TXSTART\0&quot; &quot;EV_TXCANCELED\0&quot; &quot;EV_RXSTART\0&quot; &quot;EV_JOIN_TXCOMPLETE\0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="308" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1a9432c612be519058a1ae4b54d315db8c" prot="public" static="no">
+        <name>LMIC_ERROR_NAME__INIT</name>
+        <initializer>    &quot;LMIC_ERROR_SUCCESS&quot;,                                                   \
+    &quot;<ref refid="lmic_2lmic_8h_1a6b7b47dd702d9e331586d485013fd1eaa52ab3f8c8b327ea03a167f4c6b6d8997" kindref="member">LMIC_ERROR_TX_BUSY</ref>&quot;,                                                   \
+    &quot;<ref refid="lmic_2lmic_8h_1a6b7b47dd702d9e331586d485013fd1eaa3f2ff21ce09b372bd9fd44e545a34548" kindref="member">LMIC_ERROR_TX_TOO_LARGE</ref>&quot;,                                              \
+    &quot;<ref refid="lmic_2lmic_8h_1a6b7b47dd702d9e331586d485013fd1eaabbc4bccb1c5cb3e292f382e205e3903a" kindref="member">LMIC_ERROR_TX_NOT_FEASIBLE</ref>&quot;,                                           \
+    &quot;<ref refid="lmic_2lmic_8h_1a6b7b47dd702d9e331586d485013fd1eaa054db57b73cac8c6f0d5a3bef4da47c5" kindref="member">LMIC_ERROR_TX_FAILED</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="327" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1a5acfe0dcbb4942d78bb7dacf89201e4d" prot="public" static="no">
+        <name>LMIC_ERROR_NAME_MULTISZ__INIT</name>
+        <initializer>    &quot;LMIC_ERROR_SUCCESS\0&quot;                                                  \
+    &quot;LMIC_ERROR_TX_BUSY\0&quot;                                                  \
+    &quot;LMIC_ERROR_TX_TOO_LARGE\0&quot;                                             \
+    &quot;LMIC_ERROR_TX_NOT_FEASIBLE\0&quot;                                          \
+    &quot;<ref refid="lmic_2lmic_8h_1a6b7b47dd702d9e331586d485013fd1eaa054db57b73cac8c6f0d5a3bef4da47c5" kindref="member">LMIC_ERROR_TX_FAILED</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="334" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1a8c589e451313b9d8bb3d67691d74cc3e" prot="public" static="no">
+        <name>LMIC_CFG_max_clock_error_ppm</name>
+        <initializer>2000	/* max clock error: 0.2% (2000 ppm) */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="356" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lmic_2lmic_8h_1a848da302f8a67a3f5425325c555fae96" prot="public" static="no">
+        <name>DR_RANGE_MAP</name>
+        <param><defname>drlo</defname></param>
+        <param><defname>drhi</defname></param>
+        <initializer>(((<ref refid="oslmic__types_8h_1afa7774dcdd691ff76a6d6338f957f6be" kindref="member">u2_t</ref>)0xFFFF&lt;&lt;(drlo)) &amp; ((<ref refid="oslmic__types_8h_1afa7774dcdd691ff76a6d6338f957f6be" kindref="member">u2_t</ref>)0xFFFF&gt;&gt;(15-(drhi))))</initializer>
+        <briefdescription>
+<para>Construct a bit map of allowed datarates from drlo to drhi (both included). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="680" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="680" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="lmic_2lmic_8h_1adf764cbdea00d65edcd07bb9953ad2b7" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@1</name>
+        <enumvalue id="lmic_2lmic_8h_1adf764cbdea00d65edcd07bb9953ad2b7aa0b2ab981bedb13201f8c0a8d7856761" prot="public">
+          <name>MAX_FRAME_LEN</name>
+          <initializer>=  MAX_LEN_FRAME</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Only For Antenna Tuning Tests ! </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="153" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a99fb83031ce9923c84392b4e92f956b5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@2</name>
+        <enumvalue id="lmic_2lmic_8h_1a99fb83031ce9923c84392b4e92f956b5a82b9d61cdbcf9f2bfbaefd4b0b396b1c" prot="public">
+          <name>TXCONF_ATTEMPTS</name>
+          <initializer>=   8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="155" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1abc6126af1d45847bc59afa0aa3216b04" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@3</name>
+        <enumvalue id="lmic_2lmic_8h_1abc6126af1d45847bc59afa0aa3216b04a3c4992afbb3c086e0c89136a3b3f1b41" prot="public">
+          <name>MAX_MISSED_BCNS</name>
+          <initializer>=  (2 * 60 * 60 + 127) / 128</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="156" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1adc29c2ff13d900c2f185ee95427fb06c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@4</name>
+        <enumvalue id="lmic_2lmic_8h_1adc29c2ff13d900c2f185ee95427fb06ca78aec32b13a283ea1992a6bf3cac0ea3" prot="public">
+          <name>MAX_RXSYMS</name>
+          <initializer>= 350</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="159" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a61dadd085c1777f559549e05962b2c9e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@5</name>
+        <enumvalue id="lmic_2lmic_8h_1a61dadd085c1777f559549e05962b2c9ea46d6be20c6761813df4543db9a963957" prot="public">
+          <name>LINK_CHECK_CONT</name>
+          <initializer>=  0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a61dadd085c1777f559549e05962b2c9eac00090cf592e461b413d907f4a53f53b" prot="public">
+          <name>LINK_CHECK_DEAD</name>
+          <initializer>=  32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a61dadd085c1777f559549e05962b2c9eacb7aa786f4bedfec7cddc3ce844e71f1" prot="public">
+          <name>LINK_CHECK_UNJOIN_MIN</name>
+          <initializer>= LINK_CHECK_DEAD + 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a61dadd085c1777f559549e05962b2c9ea0dde70a4a719bb287bf42118b8069294" prot="public">
+          <name>LINK_CHECK_UNJOIN</name>
+          <initializer>=  LINK_CHECK_DEAD + (3 * 240)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a61dadd085c1777f559549e05962b2c9eafc0c92b88bb7198228766e47d240d157" prot="public">
+          <name>LINK_CHECK_INIT</name>
+          <initializer>= -64</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a61dadd085c1777f559549e05962b2c9ea5a242987becb8b5c1767c20649f97170" prot="public">
+          <name>LINK_CHECK_OFF</name>
+          <initializer>=-128</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="166" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="166" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a726ca809ffd3d67ab4b8476646f26635" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@6</name>
+        <enumvalue id="lmic_2lmic_8h_1a726ca809ffd3d67ab4b8476646f26635a25f52a3996e5224894f5a9131c1c0218" prot="public">
+          <name>TIME_RESYNC</name>
+          <initializer>= 6*128</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="173" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="173" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a0411cd49bb5b71852cecd93bcbf0ca2d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@7</name>
+        <enumvalue id="lmic_2lmic_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da80db0670a1e6c693c004f72a716c0f4f" prot="public">
+          <name>TXRX_GUARD_ms</name>
+          <initializer>=  6000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="174" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="174" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1abed82baf7f470b522273a3e37c24c600" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@8</name>
+        <enumvalue id="lmic_2lmic_8h_1abed82baf7f470b522273a3e37c24c600a7281fe9db9581a483ec24157ca5637ff" prot="public">
+          <name>JOIN_GUARD_ms</name>
+          <initializer>=  9000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="175" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@9</name>
+        <enumvalue id="lmic_2lmic_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a463bfb1bcdfddf3b2abf21575facfd3a" prot="public">
+          <name>TXRX_BCNEXT_secs</name>
+          <initializer>=     2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="176" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="176" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a385c44f6fb256e5716a2302a5b940388" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@10</name>
+        <enumvalue id="lmic_2lmic_8h_1a385c44f6fb256e5716a2302a5b940388a8655432c423c22f77b135a1d7a1488a5" prot="public">
+          <name>RETRY_PERIOD_secs</name>
+          <initializer>=     3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="177" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="177" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1abc5c98fcc1211af2b80116dd6e0a035d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@11</name>
+        <enumvalue id="lmic_2lmic_8h_1abc5c98fcc1211af2b80116dd6e0a035da20c627df4a246a2804d870e65bb956c9" prot="public">
+          <name>DRCHG_SET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1abc5c98fcc1211af2b80116dd6e0a035da01af52ecc96ab4083be092f83950eb11" prot="public">
+          <name>DRCHG_NOJACC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1abc5c98fcc1211af2b80116dd6e0a035da6f2e08fde58316cb3e1a7e53d6181765" prot="public">
+          <name>DRCHG_NOACK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1abc5c98fcc1211af2b80116dd6e0a035da3df835bd185d52297cbdfb64049a5e0f" prot="public">
+          <name>DRCHG_NOADRACK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1abc5c98fcc1211af2b80116dd6e0a035daf8d42f3f9fff90a740686ac7ade870e2" prot="public">
+          <name>DRCHG_NWKCMD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1abc5c98fcc1211af2b80116dd6e0a035dac4190a788370e3c0d913a06b8240a3c7" prot="public">
+          <name>DRCHG_FRAMESIZE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="212" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="212" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1ac36f475ca5b446f4fde4c9b90bec77c8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@12</name>
+        <enumvalue id="lmic_2lmic_8h_1ac36f475ca5b446f4fde4c9b90bec77c8af163c85d8374c8bdab0623267a3eda0e" prot="public">
+          <name>KEEP_TXPOW</name>
+          <initializer>= -128</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="213" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="213" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a05589fbab0657f08285ebdfe93f5ec9e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@13</name>
+        <enumvalue id="lmic_2lmic_8h_1a05589fbab0657f08285ebdfe93f5ec9ea7910245542fe52e576f91818e1c40b1b" prot="public">
+          <name>BCN_NONE</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+<para>No beacon received. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a05589fbab0657f08285ebdfe93f5ec9eaf82aa6a64b2ad7913d40168bc47abd4c" prot="public">
+          <name>BCN_PARTIAL</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+<para>Only first (common) part could be decoded (info,lat,lon invalid/previous) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a05589fbab0657f08285ebdfe93f5ec9ea1427b36b78596cf507aefb7eda558d38" prot="public">
+          <name>BCN_FULL</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+<para>Full beacon decoded. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a05589fbab0657f08285ebdfe93f5ec9ea7341ad3da16661c87fc3801e61f115de" prot="public">
+          <name>BCN_NODRIFT</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+<para>No drift value measured yet. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a05589fbab0657f08285ebdfe93f5ec9ea4645eab6df0f1291796ceb5eece81f8b" prot="public">
+          <name>BCN_NODDIFF</name>
+          <initializer>= 0x08</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Parsing and tracking states of beacons. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="233" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="233" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a16af7b253440dadd46a80a4b9fddba4d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@14</name>
+        <enumvalue id="lmic_2lmic_8h_1a16af7b253440dadd46a80a4b9fddba4da533721778dd67f48cb82f928902c99d4" prot="public">
+          <name>RADIO_RST</name>
+          <initializer>=0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a16af7b253440dadd46a80a4b9fddba4dafa83f201be90a660dabd38a902f7683d" prot="public">
+          <name>RADIO_TX</name>
+          <initializer>=1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a16af7b253440dadd46a80a4b9fddba4daeedb01a2fe9b589db98c87d7ec891ee7" prot="public">
+          <name>RADIO_RX</name>
+          <initializer>=2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a16af7b253440dadd46a80a4b9fddba4da05518e0099d509458e1f26b31285902e" prot="public">
+          <name>RADIO_RXON</name>
+          <initializer>=3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a16af7b253440dadd46a80a4b9fddba4da3f10778ef4d041d6c54ea3ca8ff0d3f6" prot="public">
+          <name>RADIO_TX_AT</name>
+          <initializer>=4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="253" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="253" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1aba01db17f4a2bfbc3db60dc172972a25" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@15</name>
+        <enumvalue id="lmic_2lmic_8h_1aba01db17f4a2bfbc3db60dc172972a25a14e7733de5df207b0dd6681d68a4687e" prot="public">
+          <name>NETID_NONE</name>
+          <initializer>=(int)~0U</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aba01db17f4a2bfbc3db60dc172972a25a1f43c87f564f58c14a432be2f1bd15ea" prot="public">
+          <name>NETID_MASK</name>
+          <initializer>=(int)0xFFFFFF</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="255" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="255" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fce" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@16</name>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea7ad9e2b1c976b9a618111f246c891bfd" prot="public">
+          <name>OP_NONE</name>
+          <initializer>= 0x0000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea0a9e2208b5fe76a63083b3b3e55c2f91" prot="public">
+          <name>OP_SCAN</name>
+          <initializer>= 0x0001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea38bf6235aa5147cb21371b3ee855e159" prot="public">
+          <name>OP_TRACK</name>
+          <initializer>= 0x0002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea230cc554822ba06711816392c8cf07ea" prot="public">
+          <name>OP_JOINING</name>
+          <initializer>= 0x0004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea4e1f4400d013df6eef66393efdbc602e" prot="public">
+          <name>OP_TXDATA</name>
+          <initializer>= 0x0008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea9760808cf4e3156a63d3d842b4c2caf8" prot="public">
+          <name>OP_POLL</name>
+          <initializer>= 0x0010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea27f27a3b2b7ea568701e3b94257de841" prot="public">
+          <name>OP_REJOIN</name>
+          <initializer>= 0x0020</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea92d7b9cbc4febef5e6278ec59016e61f" prot="public">
+          <name>OP_SHUTDOWN</name>
+          <initializer>= 0x0040</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fceaf9c8f7810ef07b8f9063a6d2eacaddd4" prot="public">
+          <name>OP_TXRXPEND</name>
+          <initializer>= 0x0080</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fceacc2adf8e1a623ac807bc463c73fe0d0c" prot="public">
+          <name>OP_RNDTX</name>
+          <initializer>= 0x0100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea76489b16e24f074e8e7eed6e58915b78" prot="public">
+          <name>OP_PINGINI</name>
+          <initializer>= 0x0200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea90b91e9b6cd28dc8291f941d7f6b1eb6" prot="public">
+          <name>OP_PINGABLE</name>
+          <initializer>= 0x0400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea4337cc55e47c24934f857b8fea684390" prot="public">
+          <name>OP_NEXTCHNL</name>
+          <initializer>= 0x0800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea867fd82f07f1ba30378646b9a5eeb6c8" prot="public">
+          <name>OP_LINKDEAD</name>
+          <initializer>= 0x1000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fceae87f7c8b2396567dbe6a0c637130d50a" prot="public">
+          <name>OP_TESTMODE</name>
+          <initializer>= 0x2000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1aaf105ae5beaca1dee30ae54530691fcea5f4e5c8c0d07a556e60e590b4066363b" prot="public">
+          <name>OP_UNJOIN</name>
+          <initializer>= 0x4000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="257" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="257" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a80155586fa275b28773c9b203f52caba" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@17</name>
+        <enumvalue id="lmic_2lmic_8h_1a80155586fa275b28773c9b203f52cabaa752be8785716d927ea794ef799d627da" prot="public">
+          <name>TXRX_ACK</name>
+          <initializer>= 0x80</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a80155586fa275b28773c9b203f52cabaa69148dbdeaa987ff6e0192a8e476cb48" prot="public">
+          <name>TXRX_NACK</name>
+          <initializer>= 0x40</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a80155586fa275b28773c9b203f52cabaabbebc2e01a0368ba37e9fdf8ecadc223" prot="public">
+          <name>TXRX_NOPORT</name>
+          <initializer>= 0x20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a80155586fa275b28773c9b203f52cabaa6432610851e0ad2feb2cdcce39c317ed" prot="public">
+          <name>TXRX_PORT</name>
+          <initializer>= 0x10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a80155586fa275b28773c9b203f52cabaa9807103b42751810dfa2e7cd50238824" prot="public">
+          <name>TXRX_LENERR</name>
+          <initializer>= 0x08</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a80155586fa275b28773c9b203f52cabaa2b2ef4a22582ff47642fd4b184d05cfa" prot="public">
+          <name>TXRX_PING</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a80155586fa275b28773c9b203f52cabaae1ad65779e7911901ef521b58e25dd2a" prot="public">
+          <name>TXRX_DNW2</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a80155586fa275b28773c9b203f52cabaa29bd28245a83c0896350b6bfb4f50f24" prot="public">
+          <name>TXRX_DNW1</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="275" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="275" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_ev_t</name>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a97372ca153047b7df3e99d0f4b8d9cb5" prot="public">
+          <name>EV_SCAN_TIMEOUT</name>
+          <initializer>=1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a0bff1d5e59f221ced7aa3eaa04deeae6" prot="public">
+          <name>EV_BEACON_FOUND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a78cb525dcf4178d81df72d3ff13c5dc4" prot="public">
+          <name>EV_BEACON_MISSED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8acff35dca314ded6652199137d78529cd" prot="public">
+          <name>EV_BEACON_TRACKED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a45fadd9777b7c450636d263566789f2d" prot="public">
+          <name>EV_JOINING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8af5e7a35b524b79d31b6c2bbc0a7b210e" prot="public">
+          <name>EV_JOINED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a5a978472900396d2e29ef2aa69ed2413" prot="public">
+          <name>EV_RFU1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8adcadb31cf9322c782866ec2c22c9b77e" prot="public">
+          <name>EV_JOIN_FAILED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a65d3fdf1384ebbabc664e750e90feef3" prot="public">
+          <name>EV_REJOIN_FAILED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8ac66583a521bd1d0531f113e407975c51" prot="public">
+          <name>EV_TXCOMPLETE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8ab778ed1bf620f26c661bd0045a86c11a" prot="public">
+          <name>EV_LOST_TSYNC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8acf479d2a1cf9561a239d744bc164e71c" prot="public">
+          <name>EV_RESET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a468795c67d97e6d78312eda7f8b20c5b" prot="public">
+          <name>EV_RXCOMPLETE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a7b0cb18a8978cee347cb598b022be550" prot="public">
+          <name>EV_LINK_DEAD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a9282d4a661cbe5c246e31068278bf25f" prot="public">
+          <name>EV_LINK_ALIVE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8af5aa6733e4e836be5dbaf16b1e65fc05" prot="public">
+          <name>EV_SCAN_FOUND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8a2e9370bc7906f2a5014dc689b3a1bb60" prot="public">
+          <name>EV_TXSTART</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8ad0c95ce2939f6e7b3814c0946b1b2424" prot="public">
+          <name>EV_TXCANCELED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8ad5f1e8d555e500e906607b64276f1e4f" prot="public">
+          <name>EV_RXSTART</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8aa695152a0d32684004edf2c2f7f143ea" prot="public">
+          <name>EV_JOIN_TXCOMPLETE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="286" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="286" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a6b7b47dd702d9e331586d485013fd1ea" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@18</name>
+        <enumvalue id="lmic_2lmic_8h_1a6b7b47dd702d9e331586d485013fd1eaa1e6b5820c42ca2d6569fb3510609921d" prot="public">
+          <name>LMIC_ERROR_SUCCESS</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a6b7b47dd702d9e331586d485013fd1eaa52ab3f8c8b327ea03a167f4c6b6d8997" prot="public">
+          <name>LMIC_ERROR_TX_BUSY</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a6b7b47dd702d9e331586d485013fd1eaa3f2ff21ce09b372bd9fd44e545a34548" prot="public">
+          <name>LMIC_ERROR_TX_TOO_LARGE</name>
+          <initializer>= -2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a6b7b47dd702d9e331586d485013fd1eaabbc4bccb1c5cb3e292f382e205e3903a" prot="public">
+          <name>LMIC_ERROR_TX_NOT_FEASIBLE</name>
+          <initializer>= -3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a6b7b47dd702d9e331586d485013fd1eaa054db57b73cac8c6f0d5a3bef4da47c5" prot="public">
+          <name>LMIC_ERROR_TX_FAILED</name>
+          <initializer>= -4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="317" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="317" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1af9bdc3014f3d54c426b6d2df10de4960" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@19</name>
+        <enumvalue id="lmic_2lmic_8h_1af9bdc3014f3d54c426b6d2df10de4960a47b600d05a6c3ab9b68bfdd8aa9c947a" prot="public">
+          <name>LMIC_BEACON_ERROR_INVALID</name>
+          <initializer>= -2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1af9bdc3014f3d54c426b6d2df10de4960afee2ec92ef52bf15fc59c684ec231085" prot="public">
+          <name>LMIC_BEACON_ERROR_WRONG_NETWORK</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1af9bdc3014f3d54c426b6d2df10de4960a573e7e19265f6bf2791a399318f5b696" prot="public">
+          <name>LMIC_BEACON_ERROR_SUCCESS_PARTIAL</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1af9bdc3014f3d54c426b6d2df10de4960a10a849b5aa4af05149889ac4b2603796" prot="public">
+          <name>LMIC_BEACON_ERROR_SUCCESS_FULL</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="341" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="341" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1adb49720dc49f7d4e4cf9adbf2948e409" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@20</name>
+        <enumvalue id="lmic_2lmic_8h_1adb49720dc49f7d4e4cf9adbf2948e409a6837c9a3704b727db83786df6ac1d9e0" prot="public">
+          <name>MAX_CLOCK_ERROR</name>
+          <initializer>= 65536</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1adb49720dc49f7d4e4cf9adbf2948e409aaa4e3e3dc5b393d3bc0541a49f987d9c" prot="public">
+          <name>LMIC_kMaxClockError_ppm</name>
+          <initializer>= 4000</initializer>
+          <briefdescription>
+<para>maximum clock error that users can specify: 2000 ppm (0.2%). </para>
+          </briefdescription>
+          <detaileddescription>
+<para>This is the limit for clock error, unless LMIC_ENABLE_arbitrary_clock_error is set. The default is 4,000 ppm, which is .004, or 0.4%; this is what you get on an STM32L0 running with the HSI oscillator after cal. If your clock error is bigger, usually you want to calibrate it so that millis() and micros() are reasonably accurate. Important: do not use clock error to compensate for late serving of the LMIC. If you see that LMIC.radio.rxlate_count is increasing, you need to adjust your application logic so the LMIC gets serviced promptly when a Class A downlink (or beacon) is pending. </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="360" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="360" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1afe43f5f800ca149819b58003f63368f4" prot="public" static="no" strong="no">
+        <type></type>
+        <name>lmic_request_time_state_e</name>
+        <enumvalue id="lmic_2lmic_8h_1afe43f5f800ca149819b58003f63368f4abbf1e19ef31aa44569af4fcca1e6f569" prot="public">
+          <name>lmic_RequestTimeState_idle</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1afe43f5f800ca149819b58003f63368f4ad2cbc8877d5b29a933df218eb8fa6894" prot="public">
+          <name>lmic_RequestTimeState_tx</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1afe43f5f800ca149819b58003f63368f4ac34f2406c5aebf3c49e61f72af59d254" prot="public">
+          <name>lmic_RequestTimeState_rx</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1afe43f5f800ca149819b58003f63368f4a23de2efc58b66d0d14b5fd9d6b89dc85" prot="public">
+          <name>lmic_RequestTimeState_success</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="401" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="401" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a257f45fbd32277403917cfe9673bc7c8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>lmic_engine_update_state_e</name>
+        <enumvalue id="lmic_2lmic_8h_1a257f45fbd32277403917cfe9673bc7c8aaf122201ccfdab25b998fedf5618e7ca" prot="public">
+          <name>lmic_EngineUpdateState_idle</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a257f45fbd32277403917cfe9673bc7c8a69bf278880d11d5958452ab78471511c" prot="public">
+          <name>lmic_EngineUpdateState_busy</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a257f45fbd32277403917cfe9673bc7c8aa66468a027784f907d2c7db146a5a5c4" prot="public">
+          <name>lmic_EngineUpdateState_again</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="410" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="410" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic_2lmic_8h_1a373ae533a91dc9cd54d52b2d8c220676" prot="public" static="no" strong="no">
+        <type></type>
+        <name>lmic_compliance_rx_action_e</name>
+        <enumvalue id="lmic_2lmic_8h_1a373ae533a91dc9cd54d52b2d8c220676ad954b7f904dda44165fee90b8c2447b0" prot="public">
+          <name>LMIC_COMPLIANCE_RX_ACTION_PROCESS</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a373ae533a91dc9cd54d52b2d8c220676a27d47181a81e2174699c9735787b7190" prot="public">
+          <name>LMIC_COMPLIANCE_RX_ACTION_START</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a373ae533a91dc9cd54d52b2d8c220676acdb4df550a060b52e3347c6103c455f2" prot="public">
+          <name>LMIC_COMPLIANCE_RX_ACTION_IGNORE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic_2lmic_8h_1a373ae533a91dc9cd54d52b2d8c220676a9450dfafaa9c2969131a846c61202b52" prot="public">
+          <name>LMIC_COMPLIANCE_RX_ACTION_END</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="749" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="749" bodyend="754"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1a4a2afe49f224566b30b9973324f9e0dd" prot="public" static="no">
+        <type>struct lmic_saved_adr_state_s</type>
+        <definition>typedef struct lmic_saved_adr_state_s lmic_saved_adr_state_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_saved_adr_state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="1" column="0" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1afc29a49549924847aaf843f099911cbd" prot="public" static="no">
+        <type>enum <ref refid="lmic_2lmic_8h_1a3eb2ab8442117b649211aa274162c4a8" kindref="member">_ev_t</ref></type>
+        <definition>typedef enum _ev_t ev_t</definition>
+        <argsstring></argsstring>
+        <name>ev_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="227" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1a8bfb55377db1d97b761cfbb2e6e1be6a" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int lmic_tx_error_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_tx_error_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="325" column="13" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1a1fd22fc4482a013f8a81675b623fd46e" prot="public" static="no">
+        <type><ref refid="oslmic__types_8h_1a2632168607a8616a00f85be00516f336" kindref="member">s1_t</ref></type>
+        <definition>typedef s1_t lmic_beacon_error_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_beacon_error_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="348" column="14" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1affd6804766f68e9a1b74f5f294670292" prot="public" static="no">
+        <type>void <ref refid="lmic__env_8h_1a5d2c2d92f504e28a4f3573d2cfd6944e" kindref="member">LMIC_ABI_STD</ref></type>
+        <definition>typedef void LMIC_ABI_STD lmic_rxmessage_cb_t(void *pUserData, uint8_t port, const uint8_t *pMessage, size_t nMessage)</definition>
+        <argsstring>(void *pUserData, uint8_t port, const uint8_t *pMessage, size_t nMessage)</argsstring>
+        <name>lmic_rxmessage_cb_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="377" column="27" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1ade10e0af6bda757c51ec45943af658da" prot="public" static="no">
+        <type>void <ref refid="lmic__env_8h_1a5d2c2d92f504e28a4f3573d2cfd6944e" kindref="member">LMIC_ABI_STD</ref></type>
+        <definition>typedef void LMIC_ABI_STD lmic_txmessage_cb_t(void *pUserData, int fSuccess)</definition>
+        <argsstring>(void *pUserData, int fSuccess)</argsstring>
+        <name>lmic_txmessage_cb_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="378" column="27" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1ab097e188f8fe157d0cfa55d4a1841254" prot="public" static="no">
+        <type>void <ref refid="lmic__env_8h_1a5d2c2d92f504e28a4f3573d2cfd6944e" kindref="member">LMIC_ABI_STD</ref></type>
+        <definition>typedef void LMIC_ABI_STD lmic_event_cb_t(void *pUserData, ev_t e)</definition>
+        <argsstring>(void *pUserData, ev_t e)</argsstring>
+        <name>lmic_event_cb_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="379" column="27" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1a0a0228d59e38a745f319ef34431d1467" prot="public" static="no">
+        <type>void <ref refid="lmic__env_8h_1a5d2c2d92f504e28a4f3573d2cfd6944e" kindref="member">LMIC_ABI_STD</ref></type>
+        <definition>typedef void LMIC_ABI_STD lmic_request_network_time_cb_t(void *pUserData, int flagSuccess)</definition>
+        <argsstring>(void *pUserData, int flagSuccess)</argsstring>
+        <name>lmic_request_network_time_cb_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="385" column="27" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1a8408d7e7f7dabcfb1a6f532a28f5aa27" prot="public" static="no">
+        <type><ref refid="oslmic__types_8h_1a7a23144c3efa098ee169498ef48a087e" kindref="member">u4_t</ref></type>
+        <definition>typedef u4_t lmic_gpstime_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_gpstime_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="388" column="14" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1a3a576ff46dc3952efe4a109138b82ea9" prot="public" static="no">
+        <type>struct <ref refid="structlmic__time__reference__s" kindref="compound">lmic_time_reference_s</ref></type>
+        <definition>typedef struct lmic_time_reference_s lmic_time_reference_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_time_reference_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="388" column="14" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1aff74ef136aee6454a1bacffeae298b0c" prot="public" static="no">
+        <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+        <definition>typedef u1_t lmic_request_time_state_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_request_time_state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="408" column="14" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1a00da9b07ee9371e49a9df4b49c7d5a29" prot="public" static="no">
+        <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+        <definition>typedef u1_t lmic_engine_update_state_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_engine_update_state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="416" column="14" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="416" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1a2e86336df4fde766c940e52bd99667ed" prot="public" static="no">
+        <type>struct <ref refid="structlmic__client__data__s" kindref="compound">lmic_client_data_s</ref></type>
+        <definition>typedef struct lmic_client_data_s lmic_client_data_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_client_data_t</name>
+        <briefdescription>
+<para>abstract type for collection of client data that survives <ref refid="lmic_2lmic_8h_1a489e4d93e0a4a0e061818676c3f053b3" kindref="member">LMIC_reset()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="416" column="14" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="434" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1a9b9541e177a44d74f5c0cb7a0ce80d4a" prot="public" static="no">
+        <type>struct <ref refid="structlmic__radio__data__s" kindref="compound">lmic_radio_data_s</ref></type>
+        <definition>typedef struct lmic_radio_data_s lmic_radio_data_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_radio_data_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="416" column="14" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic_2lmic_8h_1abcfee2ef96ba05ac49efd893703e310b" prot="public" static="no">
+        <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+        <definition>typedef u1_t lmic_compliance_rx_action_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_compliance_rx_action_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="747" column="14" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="747" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="lmic_2lmic_8h_1aea8adf04c72fbc5e87be2cf6df341543" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TYPEDEF_xref2rxsched_t</definition>
+        <argsstring></argsstring>
+        <name>TYPEDEF_xref2rxsched_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="227" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lmic_2lmic_8h_1aea6c09d9ff0c2aea47e79e51ca8553c6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>DECLARE_LMIC</definition>
+        <argsstring></argsstring>
+        <name>DECLARE_LMIC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="677" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="677" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lmic_2lmic_8h_1aa911fc455cc4d2f9683c3adf69d15a58" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>DECL_ON_LMIC_EVENT</definition>
+        <argsstring></argsstring>
+        <name>DECL_ON_LMIC_EVENT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="761" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="761" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="lmic_2lmic_8h_1a4b1360e59942be537c1a049117557535" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>static bit_t LMIC_BEACON_SUCCESSFUL</definition>
+        <argsstring>(lmic_beacon_error_t e)</argsstring>
+        <name>LMIC_BEACON_SUCCESSFUL</name>
+        <param>
+          <type><ref refid="lmic_2lmic_8h_1a1fd22fc4482a013f8a81675b623fd46e" kindref="member">lmic_beacon_error_t</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="350" column="21" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" bodystart="350" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a6c1db2fc9c04d5af33ad1f4f5b3b23ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMIC_setupBand</definition>
+        <argsstring>(u1_t bandidx, s1_t txpow, u2_t txcap)</argsstring>
+        <name>LMIC_setupBand</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>bandidx</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a2632168607a8616a00f85be00516f336" kindref="member">s1_t</ref></type>
+          <declname>txpow</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1afa7774dcdd691ff76a6d6338f957f6be" kindref="member">u2_t</ref></type>
+          <declname>txcap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="681" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="681" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1aad4c5914223bea280a4854853d90e11a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMIC_setupChannel</definition>
+        <argsstring>(u1_t channel, u4_t freq, u2_t drmap, s1_t band)</argsstring>
+        <name>LMIC_setupChannel</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a7a23144c3efa098ee169498ef48a087e" kindref="member">u4_t</ref></type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1afa7774dcdd691ff76a6d6338f957f6be" kindref="member">u2_t</ref></type>
+          <declname>drmap</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a2632168607a8616a00f85be00516f336" kindref="member">s1_t</ref></type>
+          <declname>band</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="682" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="682" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a5fdfee48357f9895f0cb5e6cca2109d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMIC_disableChannel</definition>
+        <argsstring>(u1_t channel)</argsstring>
+        <name>LMIC_disableChannel</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="683" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="683" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1ada05726cef44892e5b49f56a9584fd2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMIC_enableSubBand</definition>
+        <argsstring>(u1_t band)</argsstring>
+        <name>LMIC_enableSubBand</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>band</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="684" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="684" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a363f419d434578ea29f980014e26e615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMIC_enableChannel</definition>
+        <argsstring>(u1_t channel)</argsstring>
+        <name>LMIC_enableChannel</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="685" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="685" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a19affce6698da5c145e9dd357f6946a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMIC_disableSubBand</definition>
+        <argsstring>(u1_t band)</argsstring>
+        <name>LMIC_disableSubBand</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>band</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="686" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="686" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a4e0ae92ce2a4ebd4df2d7a01ecbdd7e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMIC_selectSubBand</definition>
+        <argsstring>(u1_t band)</argsstring>
+        <name>LMIC_selectSubBand</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>band</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="687" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="687" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1aa76d2163a8513242b962202686c65537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+        <definition>u1_t LMIC_queryNumDefaultChannels</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_queryNumDefaultChannels</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>get the number of (fixed) default channels before the programmable channels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="690" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="690" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a8ca8c3dfdf30835522c44bb34ebefac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMIC_queryTxReady</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_queryTxReady</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>check whether the LMIC is ready for a transmit packet </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="693" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="693" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a19288a35b214f9e78c5716960d7b52d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_setDrTxpow</definition>
+        <argsstring>(dr_t dr, s1_t txpow)</argsstring>
+        <name>LMIC_setDrTxpow</name>
+        <param>
+          <type><ref refid="lorabase_8h_1afe45082dfc2413ff49271b42ed8033cd" kindref="member">dr_t</ref></type>
+          <declname>dr</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a2632168607a8616a00f85be00516f336" kindref="member">s1_t</ref></type>
+          <declname>txpow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="695" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="695" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a0d3b446fb318a588f9d643dc6af666e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_setAdrMode</definition>
+        <argsstring>(bit_t enabled)</argsstring>
+        <name>LMIC_setAdrMode</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="696" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="696" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1aee4a0cbbbf584a2bb203a3e89f40d68e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMIC_startJoining</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_startJoining</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="699" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="699" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a3de6d45e54067acdfb073a1f53637abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_tryRejoin</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_tryRejoin</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="700" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="700" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a23be2ee44f8949cb1f26b36a9b6c6c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_unjoin</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_unjoin</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="701" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="701" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a2717950ef79f2ac02c6c4aee9c1dfd0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_unjoinAndRejoin</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_unjoinAndRejoin</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="702" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="702" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a6df33d5eee67f0a91eba27d641ba3781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_shutdown</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_shutdown</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="705" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="705" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a205816c5156d2155f0ee5b18595b645f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_init</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="706" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="706" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a489e4d93e0a4a0e061818676c3f053b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_reset</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_reset</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="707" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="707" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a5acf84e9496c6b44924e390a3c90c9ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_clrTxData</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_clrTxData</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="708" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="708" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a5ebabb6e3a63da9d89c2e9257fa9f6dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_setTxData</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_setTxData</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="709" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="709" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1afa40e01c34426013e8f841fd3fe04fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_setTxData_strict</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_setTxData_strict</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="710" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="710" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a61acae14584b22cb8803d9b7c490a783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="lmic_2lmic_8h_1a8bfb55377db1d97b761cfbb2e6e1be6a" kindref="member">lmic_tx_error_t</ref></type>
+        <definition>lmic_tx_error_t LMIC_setTxData2</definition>
+        <argsstring>(u1_t port, xref2u1_t data, u1_t dlen, u1_t confirmed)</argsstring>
+        <name>LMIC_setTxData2</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic_8h_1adb5ac25c500286b7319fa1d5183aeaf4" kindref="member">xref2u1_t</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>dlen</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>confirmed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="711" column="17" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="711" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a89d20683c1bf49bb6cd2166ed9e9c5c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="lmic_2lmic_8h_1a8bfb55377db1d97b761cfbb2e6e1be6a" kindref="member">lmic_tx_error_t</ref></type>
+        <definition>lmic_tx_error_t LMIC_setTxData2_strict</definition>
+        <argsstring>(u1_t port, xref2u1_t data, u1_t dlen, u1_t confirmed)</argsstring>
+        <name>LMIC_setTxData2_strict</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic_8h_1adb5ac25c500286b7319fa1d5183aeaf4" kindref="member">xref2u1_t</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>dlen</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>confirmed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="712" column="17" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="712" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1af2962474d318d3f9628e829ae35d123a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="lmic_2lmic_8h_1a8bfb55377db1d97b761cfbb2e6e1be6a" kindref="member">lmic_tx_error_t</ref></type>
+        <definition>lmic_tx_error_t LMIC_sendWithCallback</definition>
+        <argsstring>(u1_t port, xref2u1_t data, u1_t dlen, u1_t confirmed, lmic_txmessage_cb_t *pCb, void *pUserData)</argsstring>
+        <name>LMIC_sendWithCallback</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic_8h_1adb5ac25c500286b7319fa1d5183aeaf4" kindref="member">xref2u1_t</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>dlen</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>confirmed</declname>
+        </param>
+        <param>
+          <type><ref refid="lmic_2lmic_8h_1ade10e0af6bda757c51ec45943af658da" kindref="member">lmic_txmessage_cb_t</ref> *</type>
+          <declname>pCb</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pUserData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="713" column="17" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="713" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1ad3d31c1ceb6ad7cc7175bab3f5e63116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="lmic_2lmic_8h_1a8bfb55377db1d97b761cfbb2e6e1be6a" kindref="member">lmic_tx_error_t</ref></type>
+        <definition>lmic_tx_error_t LMIC_sendWithCallback_strict</definition>
+        <argsstring>(u1_t port, xref2u1_t data, u1_t dlen, u1_t confirmed, lmic_txmessage_cb_t *pCb, void *pUserData)</argsstring>
+        <name>LMIC_sendWithCallback_strict</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic_8h_1adb5ac25c500286b7319fa1d5183aeaf4" kindref="member">xref2u1_t</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>dlen</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>confirmed</declname>
+        </param>
+        <param>
+          <type><ref refid="lmic_2lmic_8h_1ade10e0af6bda757c51ec45943af658da" kindref="member">lmic_txmessage_cb_t</ref> *</type>
+          <declname>pCb</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pUserData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="714" column="17" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="714" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1ab9c51dc6f8237fce78c8fcbaa1afff87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_sendAlive</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_sendAlive</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="715" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="715" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a1f6352b0b449710c5a7e7b08d08d50a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+        <definition>bit_t LMIC_enableTracking</definition>
+        <argsstring>(u1_t tryBcnInfo)</argsstring>
+        <name>LMIC_enableTracking</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>tryBcnInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="718" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="718" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a4aadc73db287399737d6a2bd64129542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_disableTracking</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_disableTracking</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="719" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="719" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a41e5ad287410591599f47f18f2c0caa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_stopPingable</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_stopPingable</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="723" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="723" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a68c445f5413d395ffb7d0d09d4c5d735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_setPingable</definition>
+        <argsstring>(u1_t intvExp)</argsstring>
+        <name>LMIC_setPingable</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>intvExp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="724" column="7" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="724" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a214349f6a4abf81d68bb91eca8f81472" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_setSession</definition>
+        <argsstring>(u4_t netid, devaddr_t devaddr, xref2u1_t nwkKey, xref2u1_t artKey)</argsstring>
+        <name>LMIC_setSession</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a7a23144c3efa098ee169498ef48a087e" kindref="member">u4_t</ref></type>
+          <declname>netid</declname>
+        </param>
+        <param>
+          <type><ref refid="lorabase_8h_1a2b20c6573b3557d1ff5861609110c75c" kindref="member">devaddr_t</ref></type>
+          <declname>devaddr</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic_8h_1adb5ac25c500286b7319fa1d5183aeaf4" kindref="member">xref2u1_t</ref></type>
+          <declname>nwkKey</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic_8h_1adb5ac25c500286b7319fa1d5183aeaf4" kindref="member">xref2u1_t</ref></type>
+          <declname>artKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="727" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="727" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1ae56d07f3dd7152fb3fc96a0a192f9ab2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_setLinkCheckMode</definition>
+        <argsstring>(bit_t enabled)</argsstring>
+        <name>LMIC_setLinkCheckMode</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1ab6e831ce3850688e9d0c2bb9ec57fb45" kindref="member">bit_t</ref></type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="728" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="728" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a42f78fe9cd122168948734689523e350" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_setClockError</definition>
+        <argsstring>(u2_t error)</argsstring>
+        <name>LMIC_setClockError</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1afa7774dcdd691ff76a6d6338f957f6be" kindref="member">u2_t</ref></type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="729" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="729" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a8a04ce758cfe906784f1ad1debe1cb4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1a7a23144c3efa098ee169498ef48a087e" kindref="member">u4_t</ref></type>
+        <definition>u4_t LMIC_getSeqnoUp</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_getSeqnoUp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="731" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="731" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1afc0984f4bcb248efa4e226dbe260d979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1a7a23144c3efa098ee169498ef48a087e" kindref="member">u4_t</ref></type>
+        <definition>u4_t LMIC_setSeqnoUp</definition>
+        <argsstring>(u4_t)</argsstring>
+        <name>LMIC_setSeqnoUp</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a7a23144c3efa098ee169498ef48a087e" kindref="member">u4_t</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="732" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="732" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1aae5e35405583fbba95af9ace49aefd3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_getSessionKeys</definition>
+        <argsstring>(u4_t *netid, devaddr_t *devaddr, xref2u1_t nwkKey, xref2u1_t artKey)</argsstring>
+        <name>LMIC_getSessionKeys</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a7a23144c3efa098ee169498ef48a087e" kindref="member">u4_t</ref> *</type>
+          <declname>netid</declname>
+        </param>
+        <param>
+          <type><ref refid="lorabase_8h_1a2b20c6573b3557d1ff5861609110c75c" kindref="member">devaddr_t</ref> *</type>
+          <declname>devaddr</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic_8h_1adb5ac25c500286b7319fa1d5183aeaf4" kindref="member">xref2u1_t</ref></type>
+          <declname>nwkKey</declname>
+        </param>
+        <param>
+          <type><ref refid="oslmic_8h_1adb5ac25c500286b7319fa1d5183aeaf4" kindref="member">xref2u1_t</ref></type>
+          <declname>artKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="733" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="733" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a77608f784b2c43bf17f1d57eb0f24cb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LMIC_requestNetworkTime</definition>
+        <argsstring>(lmic_request_network_time_cb_t *pCallbackfn, void *pUserData)</argsstring>
+        <name>LMIC_requestNetworkTime</name>
+        <param>
+          <type><ref refid="lmic_2lmic_8h_1a0a0228d59e38a745f319ef34431d1467" kindref="member">lmic_request_network_time_cb_t</ref> *</type>
+          <declname>pCallbackfn</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pUserData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="735" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="735" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a47b05756009dbf9ea848c2430ff88fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LMIC_getNetworkTimeReference</definition>
+        <argsstring>(lmic_time_reference_t *pReference)</argsstring>
+        <name>LMIC_getNetworkTimeReference</name>
+        <param>
+          <type><ref refid="lmic_2lmic_8h_1a3a576ff46dc3952efe4a109138b82ea9" kindref="member">lmic_time_reference_t</ref> *</type>
+          <declname>pReference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="736" column="5" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="736" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1aa51a8f4393902869e397d457ceca55b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LMIC_registerRxMessageCb</definition>
+        <argsstring>(lmic_rxmessage_cb_t *pRxMessageCb, void *pUserData)</argsstring>
+        <name>LMIC_registerRxMessageCb</name>
+        <param>
+          <type><ref refid="lmic_2lmic_8h_1affd6804766f68e9a1b74f5f294670292" kindref="member">lmic_rxmessage_cb_t</ref> *</type>
+          <declname>pRxMessageCb</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pUserData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="738" column="5" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="738" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1ad7cd34dad4c7d1e946ad73961e0dd169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LMIC_registerEventCb</definition>
+        <argsstring>(lmic_event_cb_t *pEventCb, void *pUserData)</argsstring>
+        <name>LMIC_registerEventCb</name>
+        <param>
+          <type><ref refid="lmic_2lmic_8h_1ab097e188f8fe157d0cfa55d4a1841254" kindref="member">lmic_event_cb_t</ref> *</type>
+          <declname>pEventCb</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pUserData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="739" column="5" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="739" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1ac0d1a9a05ffcac09cc5152d6906b6299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LMIC_findNextChannel</definition>
+        <argsstring>(uint16_t *, const uint16_t *, uint16_t, int)</argsstring>
+        <name>LMIC_findNextChannel</name>
+        <param>
+          <type>uint16_t *</type>
+        </param>
+        <param>
+          <type>const uint16_t *</type>
+        </param>
+        <param>
+          <type>uint16_t</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="741" column="5" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="741" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a073c56270c834ac706f5659a5fc54a08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+        <definition>u1_t LMIC_getBatteryLevel</definition>
+        <argsstring>(void)</argsstring>
+        <name>LMIC_getBatteryLevel</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="743" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="743" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a01d9cbde6e495f2dc9a530b705a5da37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+        <definition>u1_t LMIC_setBatteryLevel</definition>
+        <argsstring>(u1_t)</argsstring>
+        <name>LMIC_setBatteryLevel</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="744" column="6" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="744" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="lmic_2lmic_8h_1a9b58749aed5115f952b2b1339a5048cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="lmic_2lmic_8h_1abcfee2ef96ba05ac49efd893703e310b" kindref="member">lmic_compliance_rx_action_t</ref></type>
+        <definition>lmic_compliance_rx_action_t LMIC_complianceRxMessage</definition>
+        <argsstring>(u1_t port, const u1_t *pMessage, size_t nMessage)</argsstring>
+        <name>LMIC_complianceRxMessage</name>
+        <param>
+          <type><ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref></type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>const <ref refid="oslmic__types_8h_1a525841d9a7dd2ca9d1a006b065637d24" kindref="member">u1_t</ref> *</type>
+          <declname>pMessage</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" line="756" column="29" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h" declline="756" declcolumn="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>LMIC API. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic.h"/>
+  </compounddef>
+</doxygen>

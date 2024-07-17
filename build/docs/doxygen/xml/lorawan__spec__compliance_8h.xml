@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lorawan__spec__compliance_8h" kind="file" language="C++">
+    <compoundname>lorawan_spec_compliance.h</compoundname>
+    <includedby refid="arduino__lmic__lorawan__compliance_8h" local="yes">arduino_lmic_lorawan_compliance.h</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>lorawan_spec_compliance.h</label>
+        <link refid="lorawan__spec__compliance_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>arduino_lmic_lorawan_compliance.h</label>
+        <link refid="arduino__lmic__lorawan__compliance_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="lorawan__spec__compliance_8h_1a29d44341ce767c5dfc737d622fc97ba1" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@109</name>
+        <enumvalue id="lorawan__spec__compliance_8h_1a29d44341ce767c5dfc737d622fc97ba1ad80d1739e2178bf3a8a2dc41d817aef0" prot="public">
+          <name>LORAWAN_PORT_MAC</name>
+          <initializer>= 0u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1a29d44341ce767c5dfc737d622fc97ba1a30873cc3677f65673e76d7ce07cf4c09" prot="public">
+          <name>LORAWAN_PORT_USER_MIN</name>
+          <initializer>= 1u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1a29d44341ce767c5dfc737d622fc97ba1a8b90cf575ef09a1b5026999000b64aaf" prot="public">
+          <name>LORAWAN_PORT_USER_MAX</name>
+          <initializer>= 223u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1a29d44341ce767c5dfc737d622fc97ba1a0972aca31c267a21cd4d1f9f53ae81e4" prot="public">
+          <name>LORAWAN_PORT_RESERVED</name>
+          <initializer>= 224u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1a29d44341ce767c5dfc737d622fc97ba1adbc760968e8c3c8be79c11ba606da490" prot="public">
+          <name>LORAWAN_PORT_COMPLIANCE</name>
+          <initializer>= LORAWAN_PORT_RESERVED + 0u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorawan_spec_compliance.h" line="23" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorawan_spec_compliance.h" bodystart="23" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorawan__spec__compliance_8h_1af6a4fb6056849e0a56fb5a3b79fb4c22" prot="public" static="no" strong="no">
+        <type></type>
+        <name>lowawan_compliance_cmd_e</name>
+        <enumvalue id="lorawan__spec__compliance_8h_1af6a4fb6056849e0a56fb5a3b79fb4c22a3798237444026c525f35497f705645cd" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_DEACTIVATE</name>
+          <initializer>= 0u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1af6a4fb6056849e0a56fb5a3b79fb4c22a2c64d169458323c6151c9f6f1d9b5120" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_ACTIVATE</name>
+          <initializer>= 1u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1af6a4fb6056849e0a56fb5a3b79fb4c22a6d1d47e71bc9731f298518c09887a4ad" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_SET_CONFIRM</name>
+          <initializer>= 2u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1af6a4fb6056849e0a56fb5a3b79fb4c22ad3a546830ae90faaa454ad5418cd9d67" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_SET_UNCONFIRM</name>
+          <initializer>= 3u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1af6a4fb6056849e0a56fb5a3b79fb4c22a7385bf1cbbbfd8fdbd197e82a8758912" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_ECHO</name>
+          <initializer>= 4u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1af6a4fb6056849e0a56fb5a3b79fb4c22a54ef4dfddd088c05a8d685aac3528bcb" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_LINK</name>
+          <initializer>= 5u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1af6a4fb6056849e0a56fb5a3b79fb4c22a1b2354c5cff441fcdb512eed5243dcc4" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_JOIN</name>
+          <initializer>= 6u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1af6a4fb6056849e0a56fb5a3b79fb4c22ab5ed97ad6619cbac166b0d8187782d02" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_CW</name>
+          <initializer>= 7u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1af6a4fb6056849e0a56fb5a3b79fb4c22a8a325c27718901e4293233827bd67a21" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_MFG_BASE</name>
+          <initializer>= 0x80u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorawan_spec_compliance.h" line="36" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorawan_spec_compliance.h" bodystart="36" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorawan__spec__compliance_8h_1a1b7b7893d940926615b39239ac05829d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@110</name>
+        <enumvalue id="lorawan__spec__compliance_8h_1a1b7b7893d940926615b39239ac05829da192cc572db8b52243cafd047b8bda3e2" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_ACTIVATE_LEN</name>
+          <initializer>= 4u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1a1b7b7893d940926615b39239ac05829da299d8ef3ce0e9caefdf6767fc2adc8c6" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_ACTIVATE_MAGIC</name>
+          <initializer>= 1u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorawan__spec__compliance_8h_1a1b7b7893d940926615b39239ac05829daa6da6947e6d072fa857997cc57c0b0fa" prot="public">
+          <name>LORAWAN_COMPLIANCE_CMD_ECHO_LEN_MAX</name>
+          <initializer>= 242u</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorawan_spec_compliance.h" line="51" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorawan_spec_compliance.h" bodystart="51" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="lorawan__spec__compliance_8h_1ad76fd1051e757627420d6b290a39f6b7" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char lorawan_compliance_cmd_t</definition>
+        <argsstring></argsstring>
+        <name>lorawan_compliance_cmd_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorawan_spec_compliance.h" line="48" column="23" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorawan_spec_compliance.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorawan_spec_compliance.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lorabase__eu868_8h" kind="file" language="C++">
+    <compoundname>lorabase_eu868.h</compoundname>
+    <includes refid="lmic__config__preconditions_8h" local="yes">lmic_config_preconditions.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>lorabase_eu868.h</label>
+        <link refid="lorabase__eu868_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>lmic_config_preconditions.h</label>
+        <link refid="lmic__config__preconditions_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="lorabase__eu868_8h_1a5cda42c43e082be71d442ea87d1f52d5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_dr_eu868_t</name>
+        <enumvalue id="lorabase__eu868_8h_1a5cda42c43e082be71d442ea87d1f52d5a001b72ec2d56dbd5699b8d66ede33254" prot="public">
+          <name>EU868_DR_SF12</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1a5cda42c43e082be71d442ea87d1f52d5a6e3f785b4ba301e6a6d4b0045bcd73eb" prot="public">
+          <name>EU868_DR_SF11</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1a5cda42c43e082be71d442ea87d1f52d5adf3b8a9afa4f845b99400e515cd3c6c9" prot="public">
+          <name>EU868_DR_SF10</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1a5cda42c43e082be71d442ea87d1f52d5a60c2aee4e8f34aa9475c4b6a51be48ae" prot="public">
+          <name>EU868_DR_SF9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1a5cda42c43e082be71d442ea87d1f52d5af76dc4be5af98d27d0881f14dee7f5f9" prot="public">
+          <name>EU868_DR_SF8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1a5cda42c43e082be71d442ea87d1f52d5ab68160ee383cf69b140c8a758073b311" prot="public">
+          <name>EU868_DR_SF7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1a5cda42c43e082be71d442ea87d1f52d5ab538df7c073a7b53115ab6b4ecf82a6a" prot="public">
+          <name>EU868_DR_SF7B</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1a5cda42c43e082be71d442ea87d1f52d5ac12682fa8db9edb51a8b6967c3e34ed9" prot="public">
+          <name>EU868_DR_FSK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1a5cda42c43e082be71d442ea87d1f52d5af1bc91284af4768e8be656c1e9f85ad4" prot="public">
+          <name>EU868_DR_NONE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" line="52" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" bodystart="52" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__eu868_8h_1ae33c78feb670de33d2abf21ec0624531" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@86</name>
+        <enumvalue id="lorabase__eu868_8h_1ae33c78feb670de33d2abf21ec0624531a70a3eb5592eead319d5b32a490e6ab0a" prot="public">
+          <name>EU868_F1</name>
+          <initializer>= 868100000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1ae33c78feb670de33d2abf21ec0624531a44e29f4bbbb27ac9b9e6f3d968ee150c" prot="public">
+          <name>EU868_F2</name>
+          <initializer>= 868300000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1ae33c78feb670de33d2abf21ec0624531a001dc0749833495cace702154fff53ff" prot="public">
+          <name>EU868_F3</name>
+          <initializer>= 868500000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1ae33c78feb670de33d2abf21ec0624531a143a6c8b373fa9db6ff8528c68f49a64" prot="public">
+          <name>EU868_F4</name>
+          <initializer>= 868850000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1ae33c78feb670de33d2abf21ec0624531ab56585ba0ae066f9dff4a01920f248d3" prot="public">
+          <name>EU868_F5</name>
+          <initializer>= 869050000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1ae33c78feb670de33d2abf21ec0624531af1737f518b1773b9e2e636e7b625e80b" prot="public">
+          <name>EU868_F6</name>
+          <initializer>= 869525000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1ae33c78feb670de33d2abf21ec0624531a5b3f2fd001deef8084219348ac63e560" prot="public">
+          <name>EU868_J4</name>
+          <initializer>= 864100000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1ae33c78feb670de33d2abf21ec0624531aaf05a0cfe699789a566bef0d8222881a" prot="public">
+          <name>EU868_J5</name>
+          <initializer>= 864300000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1ae33c78feb670de33d2abf21ec0624531ab92bcbbcacd7db628cff8221002d0915" prot="public">
+          <name>EU868_J6</name>
+          <initializer>= 864500000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" line="69" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" bodystart="69" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__eu868_8h_1a950bf8e3371138ceb9649d45e9a96340" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@87</name>
+        <enumvalue id="lorabase__eu868_8h_1a950bf8e3371138ceb9649d45e9a96340aa1ff6afc9b3f2a4a17717ea68496f150" prot="public">
+          <name>EU868_FREQ_MIN</name>
+          <initializer>= 863000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__eu868_8h_1a950bf8e3371138ceb9649d45e9a96340ac876c49ff9f149bb81eec6b730248293" prot="public">
+          <name>EU868_FREQ_MAX</name>
+          <initializer>= 870000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" line="80" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__eu868_8h_1a5a77d65f4abba81d4456fa6ba8136e24" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@88</name>
+        <enumvalue id="lorabase__eu868_8h_1a5a77d65f4abba81d4456fa6ba8136e24a55375e8024369b12ab0e26ebc9b1e559" prot="public">
+          <name>EU868_TX_EIRP_MAX_DBM</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" line="84" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__eu868_8h_1aad393aa3e173d7f081ab4bbc6ba5027d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@89</name>
+        <enumvalue id="lorabase__eu868_8h_1aad393aa3e173d7f081ab4bbc6ba5027da4d075bf2fab92334d47869e32549862d" prot="public">
+          <name>EU868_LMIC_REGION_EIRP</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" line="88" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__eu868_8h_1a4f126a0a9b1d8c6a8f46a051ef8830bb" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@90</name>
+        <enumvalue id="lorabase__eu868_8h_1a4f126a0a9b1d8c6a8f46a051ef8830bbac6e2752e740b53a2423cf15881abca4b" prot="public">
+          <name>DR_PAGE_EU868</name>
+          <initializer>= 0x10 * (LMIC_REGION_eu868 - 1)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" line="90" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_eu868.h"/>
+  </compounddef>
+</doxygen>

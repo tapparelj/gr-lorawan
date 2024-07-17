@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="arduino__lmic__lorawan__compliance_8h" kind="file" language="C++">
+    <compoundname>arduino_lmic_lorawan_compliance.h</compoundname>
+    <includes refid="lorawan__spec__compliance_8h" local="yes">lmic/lorawan_spec_compliance.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>lmic/lorawan_spec_compliance.h</label>
+        <link refid="lorawan__spec__compliance_8h"/>
+      </node>
+      <node id="1">
+        <label>arduino_lmic_lorawan_compliance.h</label>
+        <link refid="arduino__lmic__lorawan__compliance_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="arduino__lmic__lorawan__compliance_8h_1ad77377f4d5f6eaa69a74cf56f170cc8b" prot="public" static="no">
+        <name>_ARDUINO_LMIC_LORAWAN_COMPLIANCE_H_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_lorawan_compliance.h" line="19" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_lorawan_compliance.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_lorawan_compliance.h"/>
+  </compounddef>
+</doxygen>

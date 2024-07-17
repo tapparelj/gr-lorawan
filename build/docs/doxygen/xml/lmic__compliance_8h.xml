@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lmic__compliance_8h" kind="file" language="C++">
+    <compoundname>lmic_compliance.h</compoundname>
+    <includes refid="lmic_2lmic_8h" local="yes">lmic.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
+        <label>lmic_env.h</label>
+        <link refid="lmic__env_8h"/>
+      </node>
+      <node id="9">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>lmic.h</label>
+        <link refid="lmic_2lmic_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>lmic_compat.h</label>
+        <link refid="lmic__compat_8h"/>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>hal.h</label>
+        <link refid="lmic_2hal_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>string.h</label>
+      </node>
+      <node id="13">
+        <label>lorabase.h</label>
+        <link refid="lorabase_8h"/>
+      </node>
+      <node id="1">
+        <label>lmic_compliance.h</label>
+        <link refid="lmic__compliance_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>oslmic_types.h</label>
+        <link refid="oslmic__types_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>lmic_config_preconditions.h</label>
+        <link refid="lmic__config__preconditions_8h"/>
+      </node>
+      <node id="6">
+        <label>stdio.h</label>
+      </node>
+      <node id="12">
+        <label>inttypes.h</label>
+      </node>
+      <node id="3">
+        <label>oslmic.h</label>
+        <link refid="oslmic_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structlmic__compliance__eventcb__s" prot="public">lmic_compliance_eventcb_s</innerclass>
+    <innerclass refid="structlmic__compliance__band__s" prot="public">lmic_compliance_band_s</innerclass>
+    <innerclass refid="structlmic__compliance__s" prot="public">lmic_compliance_s</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="lmic__compliance_8h_1afb3755094d558add893a87cfefaaf764" prot="public" static="no">
+        <name>LMIC_COMPLIANCE_FSMSTATE__NAMES</name>
+        <initializer>    &quot;INITIAL&quot;, &quot;NOCHANGE&quot;, &quot;ACTIVE&quot;, &quot;INACTIVE&quot;, &quot;TESTMODE&quot;,   \
+    &quot;ECHOING&quot;, &quot;REPORTING&quot;, &quot;RECOVERY&quot;, &quot;TXBUSY&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="83" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="lmic__compliance_8h_1aa05f432f783ad0b0025a3e770fa0f4aa" prot="public" static="no" strong="no">
+        <type></type>
+        <name>lmic_compliance_state_e</name>
+        <enumvalue id="lmic__compliance_8h_1aa05f432f783ad0b0025a3e770fa0f4aaa8d19fc5c00cf18ba1a73847cb7f72624" prot="public">
+          <name>LMIC_COMPLIANCE_STATE_IDLE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1aa05f432f783ad0b0025a3e770fa0f4aaab098ed21cce950f9dfabf9831759092e" prot="public">
+          <name>LMIC_COMPLIANCE_STATE_STOPPING</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1aa05f432f783ad0b0025a3e770fa0f4aaaee8763069112f11bdecccf4f90720c0d" prot="public">
+          <name>LMIC_COMPLIANCE_STATE_ACTIVATING</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1aa05f432f783ad0b0025a3e770fa0f4aaa66a0d5e9a5a6fd3bcdef43ea44670555" prot="public">
+          <name>LMIC_COMPLIANCE_STATE_ACTIVE</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="39" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic__compliance_8h_1ab7c9a05397f111350fbc7de1750af14f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>lmic_compliance_eventflags_e</name>
+        <enumvalue id="lmic__compliance_8h_1ab7c9a05397f111350fbc7de1750af14fae28fddaf3435beaa5591c1bc3893e435" prot="public">
+          <name>LMIC_COMPLIANCE_EVENT_ACTIVATE</name>
+          <initializer>= 1u &lt;&lt; 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ab7c9a05397f111350fbc7de1750af14fa6f03b021e7374291e5bfe50f636f03d5" prot="public">
+          <name>LMIC_COMPLIANCE_EVENT_DEACTIVATE</name>
+          <initializer>= 1u &lt;&lt; 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ab7c9a05397f111350fbc7de1750af14fa708de7244f6f7a9b023fd37f29d6b8d5" prot="public">
+          <name>LMIC_COMPLIANCE_EVENT_TIMER_EXPIRED</name>
+          <initializer>= 1u &lt;&lt; 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ab7c9a05397f111350fbc7de1750af14fa66d1b5c04edbcb3b1f13366e7eaad2ff" prot="public">
+          <name>LMIC_COMPLIANCE_EVENT_UPLINK_COMPLETE</name>
+          <initializer>= 1u &lt;&lt; 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ab7c9a05397f111350fbc7de1750af14fa4e44368291664ffdefa881e6f33803c1" prot="public">
+          <name>LMIC_COMPLIANCE_EVENT_ECHO_REQUEST</name>
+          <initializer>= 1u &lt;&lt; 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="55" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="55" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic__compliance_8h_1add6754e39f670c70bb2fd38120cea9f8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>lmic_compliance_fsmflags_e</name>
+        <enumvalue id="lmic__compliance_8h_1add6754e39f670c70bb2fd38120cea9f8abe95b61cfb118ab3a0e75fa7a9675df5" prot="public">
+          <name>LMIC_COMPLIANCE_FSM_ACTIVE</name>
+          <initializer>= 1u &lt;&lt; 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1add6754e39f670c70bb2fd38120cea9f8a661d438544fcec52cc83afc2ab87194a" prot="public">
+          <name>LMIC_COMPLIANCE_FSM_REENTERED</name>
+          <initializer>= 1u &lt;&lt; 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1add6754e39f670c70bb2fd38120cea9f8a011e4ff292edbc11a9161d3a99e0615e" prot="public">
+          <name>LMIC_COMPLIANCE_FSM_CONFIRM</name>
+          <initializer>= 1u &lt;&lt; 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="64" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="64" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="enum" id="lmic__compliance_8h_1ae95d310ec03cee000e1e15cf5500908c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>lmic_compliance_fsmstate_e</name>
+        <enumvalue id="lmic__compliance_8h_1ae95d310ec03cee000e1e15cf5500908ca86bd5747d9b22ed183e6653fe98f2006" prot="public">
+          <name>LMIC_COMPLIANCE_FSMSTATE_INITIAL</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ae95d310ec03cee000e1e15cf5500908ca294bb96e6ebe7eb8320fe33dd6bd3e9e" prot="public">
+          <name>LMIC_COMPLIANCE_FSMSTATE_NOCHANGE</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ae95d310ec03cee000e1e15cf5500908ca5907e0ec0e07b868d4e329ae6d0000b3" prot="public">
+          <name>LMIC_COMPLIANCE_FSMSTATE_ACTIVE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ae95d310ec03cee000e1e15cf5500908ca75592769772822e85d7a932061d0a498" prot="public">
+          <name>LMIC_COMPLIANCE_FSMSTATE_INACTIVE</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ae95d310ec03cee000e1e15cf5500908ca36a0bf7658f006b36d51bdd2cbf7cfe2" prot="public">
+          <name>LMIC_COMPLIANCE_FSMSTATE_TESTMODE</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ae95d310ec03cee000e1e15cf5500908ca8b83b3cc4f3ce1f632d0856cc9ae776e" prot="public">
+          <name>LMIC_COMPLIANCE_FSMSTATE_ECHOING</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ae95d310ec03cee000e1e15cf5500908ca9576fd42082480fe0911454471c7b191" prot="public">
+          <name>LMIC_COMPLIANCE_FSMSTATE_REPORTING</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ae95d310ec03cee000e1e15cf5500908ca05dbc9f6f5dfceb789b4022f0762c61b" prot="public">
+          <name>LMIC_COMPLIANCE_FSMSTATE_RECOVERY</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lmic__compliance_8h_1ae95d310ec03cee000e1e15cf5500908cab3c6402cd8f0d1f375ae26c07025a409" prot="public">
+          <name>LMIC_COMPLIANCE_FSMSTATE_TXBUSY</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="71" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="71" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="lmic__compliance_8h_1a7b023de0187120a4a8258b05d3729663" prot="public" static="no">
+        <type>struct <ref refid="structlmic__compliance__s" kindref="compound">lmic_compliance_s</ref></type>
+        <definition>typedef struct lmic_compliance_s lmic_compliance_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_compliance_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="1" column="0" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic__compliance_8h_1a8a5bf6d25be5b48b2bf4c0a23b7204bf" prot="public" static="no">
+        <type>uint8_t</type>
+        <definition>typedef uint8_t lmic_compliance_state_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_compliance_state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="37" column="17" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic__compliance_8h_1a690be4f1662986e063cb4251b4aff8b7" prot="public" static="no">
+        <type>uint8_t</type>
+        <definition>typedef uint8_t lmic_compliance_eventflags_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_compliance_eventflags_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="53" column="17" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic__compliance_8h_1a34a9d3a437fb555ed945c0cda92e459d" prot="public" static="no">
+        <type>uint8_t</type>
+        <definition>typedef uint8_t lmic_compliance_fsmflags_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_compliance_fsmflags_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="63" column="17" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic__compliance_8h_1ad26bb02f5b76b98ca6e228708da2ba98" prot="public" static="no">
+        <type>uint8_t</type>
+        <definition>typedef uint8_t lmic_compliance_fsmstate_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_compliance_fsmstate_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="70" column="17" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic__compliance_8h_1a57a5a9f661dab31786792058f3c5a36e" prot="public" static="no">
+        <type>struct <ref refid="structlmic__compliance__eventcb__s" kindref="compound">lmic_compliance_eventcb_s</ref></type>
+        <definition>typedef struct lmic_compliance_eventcb_s lmic_compliance_eventcb_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_compliance_eventcb_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="70" column="17" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="lmic__compliance_8h_1a81bf89be4af3fe9fe9698643275ea8cd" prot="public" static="no">
+        <type>struct <ref refid="structlmic__compliance__band__s" kindref="compound">lmic_compliance_band_s</ref></type>
+        <definition>typedef struct lmic_compliance_band_s lmic_compliance_band_t</definition>
+        <argsstring></argsstring>
+        <name>lmic_compliance_band_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="70" column="17" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="lmic__compliance_8h_1ad090d7cf1cd35c444195d363229d62dc" prot="public" static="no" mutable="no">
+        <type><ref refid="lmic__compliance_8h_1a7b023de0187120a4a8258b05d3729663" kindref="member">lmic_compliance_t</ref></type>
+        <definition>lmic_compliance_t LMIC_Compliance</definition>
+        <argsstring></argsstring>
+        <name>LMIC_Compliance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="132" column="26" declfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" declline="132" declcolumn="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="lmic__compliance_8h_1a37b867ce03035e72e38d7b93c058d3a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool lmic_compliance_state_IsActive</definition>
+        <argsstring>(lmic_compliance_state_t s)</argsstring>
+        <name>lmic_compliance_state_IsActive</name>
+        <param>
+          <type><ref refid="lmic__compliance_8h_1a8a5bf6d25be5b48b2bf4c0a23b7204bf" kindref="member">lmic_compliance_state_t</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" line="48" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h" bodystart="48" bodyend="50"/>
+        <references refid="lmic__compliance_8h_1aa05f432f783ad0b0025a3e770fa0f4aaaee8763069112f11bdecccf4f90720c0d" compoundref="lmic__compliance_8h" startline="42">LMIC_COMPLIANCE_STATE_ACTIVATING</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compliance.h"/>
+  </compounddef>
+</doxygen>

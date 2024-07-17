@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lorabase__in866_8h" kind="file" language="C++">
+    <compoundname>lorabase_in866.h</compoundname>
+    <includes refid="lmic__config__preconditions_8h" local="yes">lmic_config_preconditions.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>lorabase_in866.h</label>
+        <link refid="lorabase__in866_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>lmic_config_preconditions.h</label>
+        <link refid="lmic__config__preconditions_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="lorabase__in866_8h_1a9a06ab4f27868c100899d0db5104158a" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_dr_in866_t</name>
+        <enumvalue id="lorabase__in866_8h_1a9a06ab4f27868c100899d0db5104158aacae6dfef8874ab40d6bee916da102c3f" prot="public">
+          <name>IN866_DR_SF12</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1a9a06ab4f27868c100899d0db5104158aa7d72c0f396d6133968092c7a0aa16d7a" prot="public">
+          <name>IN866_DR_SF11</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1a9a06ab4f27868c100899d0db5104158aa9b3c2df62700a5904111705d299eb77b" prot="public">
+          <name>IN866_DR_SF10</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1a9a06ab4f27868c100899d0db5104158aa3664c5cc0dac0e99edba2293bfc1eb4b" prot="public">
+          <name>IN866_DR_SF9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1a9a06ab4f27868c100899d0db5104158aaefe81e9d047025615dc88ab45f2e3534" prot="public">
+          <name>IN866_DR_SF8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1a9a06ab4f27868c100899d0db5104158aa7245ba9cf0e4f39cda3802710a918398" prot="public">
+          <name>IN866_DR_SF7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1a9a06ab4f27868c100899d0db5104158aa96fa6d0110910040bba4cc966e658b4c" prot="public">
+          <name>IN866_DR_RFU</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1a9a06ab4f27868c100899d0db5104158aa64ccda3968f753c6ade1c9361b2c40e8" prot="public">
+          <name>IN866_DR_FSK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1a9a06ab4f27868c100899d0db5104158aa73a4b87a9be0b21bc727e612c3edb400" prot="public">
+          <name>IN866_DR_NONE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" line="44" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" bodystart="44" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__in866_8h_1adbaf9202177df73e6880eab6e6aab329" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@91</name>
+        <enumvalue id="lorabase__in866_8h_1adbaf9202177df73e6880eab6e6aab329a16ac44a9725733185622e94025c88bb8" prot="public">
+          <name>IN866_F1</name>
+          <initializer>= 865062500</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1adbaf9202177df73e6880eab6e6aab329a9d667935fc236fd5759f9e8a35f06784" prot="public">
+          <name>IN866_F2</name>
+          <initializer>= 865402500</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1adbaf9202177df73e6880eab6e6aab329af2f27fe7b75a219b4580bf2fd9c3cd3b" prot="public">
+          <name>IN866_F3</name>
+          <initializer>= 865985000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1adbaf9202177df73e6880eab6e6aab329a9ca0a292a25a50c84887c46c696e377e" prot="public">
+          <name>IN866_FB</name>
+          <initializer>= 866550000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" line="61" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__in866_8h_1a7495a48740c9d555f7fbcb48246dbd93" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@92</name>
+        <enumvalue id="lorabase__in866_8h_1a7495a48740c9d555f7fbcb48246dbd93a32ffda7f554d4560864bfa633b62ef43" prot="public">
+          <name>IN866_FREQ_MIN</name>
+          <initializer>= 865000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__in866_8h_1a7495a48740c9d555f7fbcb48246dbd93a98d828e95eaa533e859d26b7cb7d3d56" prot="public">
+          <name>IN866_FREQ_MAX</name>
+          <initializer>= 867000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" line="67" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__in866_8h_1a9a3be2d66956bd67c0b66c32d8b30f17" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@93</name>
+        <enumvalue id="lorabase__in866_8h_1a9a3be2d66956bd67c0b66c32d8b30f17addb4cc1fd2ce6154537c61861fcca7d3" prot="public">
+          <name>IN866_TX_EIRP_MAX_DBM</name>
+          <initializer>= 30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" line="71" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" bodystart="71" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__in866_8h_1a2dbb833ef0dcc466dd02ee76badaf709" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@94</name>
+        <enumvalue id="lorabase__in866_8h_1a2dbb833ef0dcc466dd02ee76badaf709a4e085bc6cf671b4b4544cee59b9ea433" prot="public">
+          <name>DR_PAGE_IN866</name>
+          <initializer>= 0x10 * (LMIC_REGION_in866 - 1)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" line="74" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__in866_8h_1aea33efd5e2c69d615faad5c5965510aa" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@95</name>
+        <enumvalue id="lorabase__in866_8h_1aea33efd5e2c69d615faad5c5965510aaaabd0b33f8f8d1f1d8319c651af7f83fe" prot="public">
+          <name>IN866_LMIC_REGION_EIRP</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" line="76" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_in866.h"/>
+  </compounddef>
+</doxygen>

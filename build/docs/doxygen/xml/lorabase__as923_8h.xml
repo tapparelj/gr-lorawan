@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lorabase__as923_8h" kind="file" language="C++">
+    <compoundname>lorabase_as923.h</compoundname>
+    <includes refid="lmic__config__preconditions_8h" local="yes">lmic_config_preconditions.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>lmic_config_preconditions.h</label>
+        <link refid="lmic__config__preconditions_8h"/>
+      </node>
+      <node id="1">
+        <label>lorabase_as923.h</label>
+        <link refid="lorabase__as923_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="lorabase__as923_8h_1a98577092c86de2eb6421fad86b483f8a" prot="public" static="no">
+        <name>AS923_TX_CAP</name>
+        <initializer><ref refid="lorabase__as923_8h_1a1b70d876770ccff427513794d6b0b2a7a5a603a686986d4db570fea3c9dfb6da3" kindref="member">AS923_V102_TX_CAP</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" line="94" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="lorabase__as923_8h_1a1509993696204c166c123c1615decba2" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_dr_as923_t</name>
+        <enumvalue id="lorabase__as923_8h_1a1509993696204c166c123c1615decba2abff07da8bd95dcab9c178867e02d2719" prot="public">
+          <name>AS923_DR_SF12</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a1509993696204c166c123c1615decba2a5c18e9eeb77c7717978ab775a263480c" prot="public">
+          <name>AS923_DR_SF11</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a1509993696204c166c123c1615decba2aa9669820b8812d1ef12dadb9a44d8e22" prot="public">
+          <name>AS923_DR_SF10</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a1509993696204c166c123c1615decba2a4ae96f86a05b6816a56146d19102197c" prot="public">
+          <name>AS923_DR_SF9</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a1509993696204c166c123c1615decba2a488e73976a99e986e8d518a1c21ae093" prot="public">
+          <name>AS923_DR_SF8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a1509993696204c166c123c1615decba2a52b0f533bd7666904bbdf5799b58161e" prot="public">
+          <name>AS923_DR_SF7</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a1509993696204c166c123c1615decba2a45a3213b24adf796888d15eba9e39030" prot="public">
+          <name>AS923_DR_SF7B</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a1509993696204c166c123c1615decba2afcf0c244d1804e4bc3a4ab3371d564ec" prot="public">
+          <name>AS923_DR_FSK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a1509993696204c166c123c1615decba2a67412fb8ad1164b49de0880b6d2f171b" prot="public">
+          <name>AS923_DR_NONE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" line="44" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" bodystart="44" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__as923_8h_1a83e8bc15645f9d99ab91a152bb3dc8ce" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@71</name>
+        <enumvalue id="lorabase__as923_8h_1a83e8bc15645f9d99ab91a152bb3dc8cea8d72342455d4ce8ec627b23ef46ca10e" prot="public">
+          <name>AS923_F1</name>
+          <initializer>= 923200000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a83e8bc15645f9d99ab91a152bb3dc8ceaf618a8eae0168056e7752e24be24ee01" prot="public">
+          <name>AS923_F2</name>
+          <initializer>= 923400000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a83e8bc15645f9d99ab91a152bb3dc8cea6b03fffb2aae4ce94cff7dcc2c37b0b9" prot="public">
+          <name>AS923_FDOWN</name>
+          <initializer>= 923200000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a83e8bc15645f9d99ab91a152bb3dc8cea229ecaa86c5dfe2c33bdefa56be4f531" prot="public">
+          <name>AS923_FBCN</name>
+          <initializer>= 923400000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a83e8bc15645f9d99ab91a152bb3dc8cea7a3c544b1763ae22d068e69ce7d3fa22" prot="public">
+          <name>AS923_FPING</name>
+          <initializer>= 923400000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" line="59" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__as923_8h_1a68c01102755fc7d1c810bb0b0635fa90" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@72</name>
+        <enumvalue id="lorabase__as923_8h_1a68c01102755fc7d1c810bb0b0635fa90a60ce915c18b0d96628c62f371a38b4a5" prot="public">
+          <name>AS923_FREQ_MIN</name>
+          <initializer>= 915000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a68c01102755fc7d1c810bb0b0635fa90ae3263af7e0f64773f7842f79769fbe87" prot="public">
+          <name>AS923_FREQ_MAX</name>
+          <initializer>= 928000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" line="66" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__as923_8h_1aa618c4d8c29ef4efe6f10c741fb1f47a" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@73</name>
+        <enumvalue id="lorabase__as923_8h_1aa618c4d8c29ef4efe6f10c741fb1f47aa890d1cdbe0efce7ac8b47856873f03b8" prot="public">
+          <name>AS923_JP_TX_EIRP_MAX_DBM</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1aa618c4d8c29ef4efe6f10c741fb1f47aa902c376782612dcd781f586bdda49135" prot="public">
+          <name>AS923_TX_EIRP_MAX_DBM</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" line="70" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__as923_8h_1ad63240694c6dc2a28c24bfc2db90ad7a" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@74</name>
+        <enumvalue id="lorabase__as923_8h_1ad63240694c6dc2a28c24bfc2db90ad7aab859b28286d0c91ee2f1d59541882af9" prot="public">
+          <name>DR_PAGE_AS923</name>
+          <initializer>= 0x10 * (LMIC_REGION_as923 - 1)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" line="74" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__as923_8h_1a7859c0a3efa8b1c360f5c2376baf051e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@75</name>
+        <enumvalue id="lorabase__as923_8h_1a7859c0a3efa8b1c360f5c2376baf051ea32ff939fe63833d8badfed6e32040066" prot="public">
+          <name>AS923_LMIC_REGION_EIRP</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" line="76" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__as923_8h_1a79e9f285d34216706a748fd7ba8941b7" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@76</name>
+        <enumvalue id="lorabase__as923_8h_1a79e9f285d34216706a748fd7ba8941b7afa618eba1d5f2a59b307c31f7248b8d9" prot="public">
+          <name>AS923JP_LBT_US</name>
+          <initializer>= 5000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" line="78" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__as923_8h_1abe974f22edeef8189603ba75fd90ff3c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@77</name>
+        <enumvalue id="lorabase__as923_8h_1abe974f22edeef8189603ba75fd90ff3ca50e34cc6af41b6418e16f5354b56694a" prot="public">
+          <name>AS923JP_LBT_DB_MAX</name>
+          <initializer>= -80</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" line="85" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__as923_8h_1a1b70d876770ccff427513794d6b0b2a7" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@78</name>
+        <enumvalue id="lorabase__as923_8h_1a1b70d876770ccff427513794d6b0b2a7a5a603a686986d4db570fea3c9dfb6da3" prot="public">
+          <name>AS923_V102_TX_CAP</name>
+          <initializer>= 100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" line="91" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="enum" id="lorabase__as923_8h_1a70ad55be767ca0a42c9150d24618e4ca" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@79</name>
+        <enumvalue id="lorabase__as923_8h_1a70ad55be767ca0a42c9150d24618e4caaf5fb1f85526b0d15ce36a929141f9bb3" prot="public">
+          <name>AS923_INITIAL_TxParam_UplinkDwellTime</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a70ad55be767ca0a42c9150d24618e4caa79728f1925b792fe91e483a671a73580" prot="public">
+          <name>AS923_INITIAL_TxParam_DownlinkDwellTime</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="lorabase__as923_8h_1a70ad55be767ca0a42c9150d24618e4caaa56e5b16aa95ab0551e571e9dfca7c99" prot="public">
+          <name>AS923_UPLINK_DWELL_TIME_osticks</name>
+          <initializer>= sec2osticks(20)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" line="98" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h" bodystart="98" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lorabase_as923.h"/>
+  </compounddef>
+</doxygen>

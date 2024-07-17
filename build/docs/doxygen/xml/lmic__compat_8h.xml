@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lmic__compat_8h" kind="file" language="C++">
+    <compoundname>lmic_compat.h</compoundname>
+    <includedby refid="lmic_2lmic_8h" local="yes">lmic.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>lmic.h</label>
+        <link refid="lmic_2lmic_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>lmic_compat.h</label>
+        <link refid="lmic__compat_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>lmic_bandplan.h</label>
+        <link refid="lmic__bandplan_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>lmic_bandplan_kr920.h</label>
+        <link refid="lmic__bandplan__kr920_8h"/>
+      </node>
+      <node id="8">
+        <label>lmic_bandplan_as923.h</label>
+        <link refid="lmic__bandplan__as923_8h"/>
+      </node>
+      <node id="6">
+        <label>lmic_compliance.h</label>
+        <link refid="lmic__compliance_8h"/>
+      </node>
+      <node id="10">
+        <label>lmic_bandplan_in866.h</label>
+        <link refid="lmic__bandplan__in866_8h"/>
+      </node>
+      <node id="4">
+        <label>lmic.h</label>
+        <link refid="lmic_8h"/>
+      </node>
+      <node id="3">
+        <label>arduino_lmic.h</label>
+        <link refid="arduino__lmic_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>lmic_bandplan_eu868.h</label>
+        <link refid="lmic__bandplan__eu868_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>lmic_eu_like.h</label>
+        <link refid="lmic__eu__like_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="lmic__compat_8h_1a4f6fb9550ea61e28354073fa2a07acc9" prot="public" static="no">
+        <name>LMIC_DEPRECATE</name>
+        <param><defname>m</defname></param>
+        <initializer>_Pragma(#m)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compat.h" line="32" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compat.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/lmic_compat.h"/>
+  </compounddef>
+</doxygen>

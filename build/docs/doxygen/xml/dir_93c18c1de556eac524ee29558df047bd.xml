@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_93c18c1de556eac524ee29558df047bd" kind="dir">
+    <compoundname>bindings</compoundname>
+    <innerfile refid="build_2python_2lorawan_2bindings_2pydoc__macros_8h">build/python/lorawan/bindings/pydoc_macros.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/build/python/lorawan/bindings/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="lorawan__source__impl_8h" kind="file" language="C++">
+    <compoundname>lorawan_source_impl.h</compoundname>
+    <includes refid="lorawan__source_8h" local="no">gnuradio/lorawan/lorawan_source.h</includes>
+    <includes local="no">thread</includes>
+    <includes local="no">iomanip</includes>
+    <includes local="no">map</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">sys/socket.h</includes>
+    <includes local="no">netinet/in.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>lorawan_source_impl.h</label>
+        <link refid="lorawan__source__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>netinet/in.h</label>
+      </node>
+      <node id="7">
+        <label>iomanip</label>
+      </node>
+      <node id="2">
+        <label>gnuradio/lorawan/lorawan_source.h</label>
+        <link refid="lorawan__source_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="8">
+        <label>map</label>
+      </node>
+      <node id="4">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="10">
+        <label>unistd.h</label>
+      </node>
+      <node id="9">
+        <label>iostream</label>
+      </node>
+      <node id="11">
+        <label>sys/socket.h</label>
+      </node>
+      <node id="6">
+        <label>thread</label>
+      </node>
+      <node id="3">
+        <label>gnuradio/lorawan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1lorawan_1_1lorawan__source__impl" prot="public">gr::lorawan::lorawan_source_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lorawan">gr::lorawan</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="lorawan__source__impl_8h_1a00c4dbf6d0164fe001698c7f6ca8a52a" prot="public" static="no">
+        <name>BYTE_PAYLOAD</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" line="23" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lib/lorawan_source_impl.h"/>
+  </compounddef>
+</doxygen>

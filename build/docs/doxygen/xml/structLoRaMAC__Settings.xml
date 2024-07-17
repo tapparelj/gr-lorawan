@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structLoRaMAC__Settings" kind="struct" language="C++" prot="public">
+    <compoundname>LoRaMAC_Settings</compoundname>
+    <includes refid="loramac__tcp_8h" local="no">loramac_tcp.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structLoRaMAC__Settings_1a56c0492ccf676d77bc094aeed84753a0" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t LoRaMAC_Settings::variable</definition>
+        <argsstring></argsstring>
+        <name>variable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/loramac_tcp/loramac_tcp.h" line="13" column="13" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/loramac_tcp/loramac_tcp.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLoRaMAC__Settings_1a03ae3ae154e5f6f0a11e64a102c5d7ea" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t LoRaMAC_Settings::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/loramac_tcp/loramac_tcp.h" line="14" column="13" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/loramac_tcp/loramac_tcp.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/loramac_tcp/loramac_tcp.h" line="12" column="1" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/loramac_tcp/loramac_tcp.h" bodystart="12" bodyend="15"/>
+    <listofallmembers>
+      <member refid="structLoRaMAC__Settings_1a03ae3ae154e5f6f0a11e64a102c5d7ea" prot="public" virt="non-virtual"><scope>LoRaMAC_Settings</scope><name>value</name></member>
+      <member refid="structLoRaMAC__Settings_1a56c0492ccf676d77bc094aeed84753a0" prot="public" virt="non-virtual"><scope>LoRaMAC_Settings</scope><name>variable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

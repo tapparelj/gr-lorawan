@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="config_8h" kind="file" language="C++">
+    <compoundname>config.h</compoundname>
+    <includes refid="lmic__config__preconditions_8h" local="yes">lmic_config_preconditions.h</includes>
+    <includedby refid="oslmic_8h" local="yes">oslmic.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>lmic_config_preconditions.h</label>
+        <link refid="lmic__config__preconditions_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>lmic.h</label>
+        <link refid="lmic_2lmic_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>lmic_bandplan.h</label>
+        <link refid="lmic__bandplan_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>lmic_bandplan_kr920.h</label>
+        <link refid="lmic__bandplan__kr920_8h"/>
+      </node>
+      <node id="9">
+        <label>lmic_bandplan_as923.h</label>
+        <link refid="lmic__bandplan__as923_8h"/>
+      </node>
+      <node id="7">
+        <label>lmic_compliance.h</label>
+        <link refid="lmic__compliance_8h"/>
+      </node>
+      <node id="11">
+        <label>lmic_bandplan_in866.h</label>
+        <link refid="lmic__bandplan__in866_8h"/>
+      </node>
+      <node id="5">
+        <label>lmic.h</label>
+        <link refid="lmic_8h"/>
+      </node>
+      <node id="4">
+        <label>arduino_lmic.h</label>
+        <link refid="arduino__lmic_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>lmic_bandplan_eu868.h</label>
+        <link refid="lmic__bandplan__eu868_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>oslmic.h</label>
+        <link refid="oslmic_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>lmic_eu_like.h</label>
+        <link refid="lmic__eu__like_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="config_8h_1aec52f05a6e7e09b8fd00ba1ef80d9141" prot="public" static="no">
+        <name>CFG_eu868</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="23" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a0641e228427b218225c8fe1044cf4f73" prot="public" static="no">
+        <name>LMIC_COUNTRY_CODE</name>
+        <initializer><ref refid="lmic__config__preconditions_8h_1a0a0e2144691e28d0c06cc5d2bd36a966" kindref="member">LMIC_COUNTRY_CODE_NONE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="32" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a23b2dad82b3aecfe28cb6d90dd58499d" prot="public" static="no">
+        <name>CFG_sx1276_radio</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="55" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a339d2b78ac295f52c0d9ebf947c278f5" prot="public" static="no">
+        <name>US_PER_OSTICK_EXPONENT</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="64" column="12" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1af2cbf3a8df987d7e72251b2ed6789922" prot="public" static="no">
+        <name>US_PER_OSTICK</name>
+        <initializer>(1 &lt;&lt; <ref refid="config_8h_1a339d2b78ac295f52c0d9ebf947c278f5" kindref="member">US_PER_OSTICK_EXPONENT</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="66" column="12" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a31efdb1616cbd99358c27ce7f929b622" prot="public" static="no">
+        <name>OSTICKS_PER_SEC</name>
+        <initializer>(1000000 / <ref refid="config_8h_1af2cbf3a8df987d7e72251b2ed6789922" kindref="member">US_PER_OSTICK</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="67" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a2ccbc2e04b83290b8df14f5d4b7c753f" prot="public" static="no">
+        <name>LMIC_SPI_FREQ</name>
+        <initializer>1E6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="78" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1af0d75bd3b08d4115a8dd60a1cf090c48" prot="public" static="no">
+        <name>LMIC_DEBUG_LEVEL</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="87" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a9a2f4f524caf79ceef403c41c7e98708" prot="public" static="no">
+        <name>LMIC_FAILURE_TO</name>
+        <initializer>Serial</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="106" column="9" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a7176713566ee28f61f9fb1b9c5ae9518" prot="public" static="no">
+        <name>USE_IDEETRON_AES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="147" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1ae283b2206a8fdbe75d309ea217426437" prot="public" static="no">
+        <name>LMIC_DR_LEGACY</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="162" column="11" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a1a6d83da646d314269d93c1e90f91a5c" prot="public" static="no">
+        <name>LMIC_ENABLE_DeviceTimeReq</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="172" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1af1d60fb0c15dd7ef8ccff5b4eb43cb22" prot="public" static="no">
+        <name>LMIC_ENABLE_user_events</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="179" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a7f53bb4a48cf083edbffa7cb0f674833" prot="public" static="no">
+        <name>LMIC_ENABLE_onEvent</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="186" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a4a9bf5681b26f5250be0b71eccd3e3de" prot="public" static="no">
+        <name>LMIC_MAX_FRAME_LENGTH</name>
+        <initializer>255</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="198" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a6cc3908a4912f8e48102de4f56473199" prot="public" static="no">
+        <name>LMIC_ENABLE_event_logging</name>
+        <initializer>0        /* PARAM */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="207" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a1b46d1dba6726bc1088a183e885976fc" prot="public" static="no">
+        <name>LMIC_LORAWAN_SPEC_VERSION</name>
+        <initializer><ref refid="lmic__config__preconditions_8h_1a3fcbf5292854a8d6b93ae2a1607635c5" kindref="member">LMIC_LORAWAN_SPEC_VERSION_1_0_3</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="212" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1ab146e5a98e980dc4cace924a9daba892" prot="public" static="no">
+        <name>LMIC_ENABLE_arbitrary_clock_error</name>
+        <initializer>0	/* PARAM */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" line="220" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/lmic/config.h"/>
+  </compounddef>
+</doxygen>

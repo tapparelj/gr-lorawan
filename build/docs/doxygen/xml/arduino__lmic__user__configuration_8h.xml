@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="arduino__lmic__user__configuration_8h" kind="file" language="C++">
+    <compoundname>arduino_lmic_user_configuration.h</compoundname>
+    <includes refid="lmic__config__preconditions_8h" local="yes">lmic/lmic_config_preconditions.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>arduino_lmic_user_configuration.h</label>
+        <link refid="arduino__lmic__user__configuration_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>lmic/lmic_config_preconditions.h</label>
+        <link refid="lmic__config__preconditions_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="arduino__lmic__user__configuration_8h_1a156f6c2eaf093cfad9899d50a7110509" prot="public" static="no">
+        <name>_arduino_lmic_user_configuration_h_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_user_configuration.h" line="18" column="10" bodyfile="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_user_configuration.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/joachim/Documents/gr-lorawan/lmic_sdr/src/arduino_lmic_user_configuration.h"/>
+  </compounddef>
+</doxygen>
