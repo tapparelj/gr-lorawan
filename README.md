@@ -31,18 +31,15 @@ To install `gr-lorawan`, follow these steps:
     1. In the new application, select register end device
     1. Choose Enter end device specifics manually
     1. Select the following options (! It is important to choose ABP as there will only be uplink transmissions)
+       ![Screenshot from 2024-07-17 16-10-36](https://github.com/user-attachments/assets/e4e800f5-43d4-4ccf-8b17-7c840d0d0f5f)
     1. You can press _Generate_ for all other fields
-
-    TODO add picture here
 
     1. Register this end device
 
 1. Setting up the MAC layer
     1. Open the file ```gr-lorawan/lmic_sdr/main.cpp``` that contains the main code to control the transmission of messages
     1. Copy both the _network session key_, _application session key_ and _device address_ of the node given in the end-device view. (You can press the button <> to get a suitable format to copy and paste)
-
-    TODO add fig
-
+        ![image](https://github.com/user-attachments/assets/b94ded61-5665-4030-a87e-f1277c552ba4)
     1. In the main() function, you can configure the transit gain, spreading factor and code rate
     1. The message is scheduled by the _do_send()_ function
     1. You can now build the code 
@@ -54,6 +51,7 @@ To install `gr-lorawan`, follow these steps:
     1. Launch the GNU Radio flowgraph
     1. Execute the MAC layer code inside ```gr-lorawan/lmic_sdr/build``` using ```./lorawan```
     1. You should now see your messages in The Things Network console if a gateway is close enough to your transmitter!
+        ![image](https://github.com/user-attachments/assets/a57f5cd6-be38-45b8-a3ad-d1a2d977aa3e)
 
 
 
