@@ -30,23 +30,12 @@ static osjob_t sendjob;
 
 
 void do_send(osjob_t* j){
-    // // Check if there is not a current TX/RX job running
-    // if (LMIC.opmode & OP_TXRXPEND) {
-    //     printf("OP_TXRXPEND, not sending");
-    // } 
-    // else {
-        // Prepare upstream data transmission at the next possible time.
-        LMIC_setTxData2(1, mydata, sizeof(mydata)-1, 0);
-        printf("Packet queued\n");
-    // }
-    // Next TX is scheduled after TX_COMPLETE event.
+    LMIC_setTxData2(1, mydata, sizeof(mydata)-1, 0);
+    printf("Packet queued\n");
 }
 
 void setup(){
     LMIC_reset();
-
-    // LMIC_setSession (0x13, DEVADDR, NWKSKEY, APPSKEY);
-
     LMIC_setSession(0x13, DEVADDR, (xref2u1_t)NWKSKEY, (xref2u1_t)APPSKEY);
 
     #if defined(CFG_eu868)
@@ -107,32 +96,21 @@ void setup(){
     # error Region not supported
     #endif
 
-    //std::cout<<"setLinkCheckMode\n";
     LMIC_setLinkCheckMode(0);
     LMIC.dn2Dr = DR_SF9;
 
-    //std::cout<<"LMIC_setDrTxpow\n";
     // Set data rate and transmit power for uplink
     LMIC_setDrTxpow(DR_SF7,14);
-
-   
 }
-
-// center_freq = 860 000 000 + (0x...)*10e5
 
 int main() {
     setup();
-    for(int i=0; i<2; i++ ){
-
-        sleep(2);
-        set_loramac_variable("sf", 11);
-        set_loramac_variable("cr", 1);
+    set_loramac_variable("sf", 11);
+    set_loramac_variable("tx_power", 20);
+    
+    for(int i=0; i<10; i++ ){
         do_send(&sendjob);
-
-        sleep(1);
-        set_loramac_variable("sf", 7);
-        set_loramac_variable("cr", 0);
-        do_send(&sendjob);
+        sleep(2); 
     }
 
     close_socket();

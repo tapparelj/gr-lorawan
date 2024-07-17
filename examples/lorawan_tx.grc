@@ -28,47 +28,11 @@ options:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [8, 8.0]
+    coordinate: [8, 12.0]
     rotation: 0
     state: enabled
 
 blocks:
-- name: TX_gain
-  id: variable
-  parameters:
-    comment: ''
-    value: '0'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [680, 8.0]
-    rotation: 0
-    state: enabled
-- name: bw
-  id: variable
-  parameters:
-    comment: ''
-    value: '125000'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [264, 8.0]
-    rotation: 0
-    state: enabled
-- name: center_freq
-  id: variable
-  parameters:
-    comment: ''
-    value: 868.1e6
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [184, 72.0]
-    rotation: 0
-    state: enabled
 - name: cr
   id: variable
   parameters:
@@ -78,7 +42,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [520, 8.0]
+    coordinate: [288, 4.0]
     rotation: 0
     state: enabled
 - name: has_crc
@@ -90,7 +54,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [576, 8.0]
+    coordinate: [344, 4.0]
     rotation: 0
     state: enabled
 - name: impl_head
@@ -102,65 +66,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [440, 8.0]
-    rotation: 0
-    state: enabled
-- name: samp_rate
-  id: variable
-  parameters:
-    comment: ''
-    value: '250000'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [184, 8.0]
-    rotation: 0
-    state: enabled
-- name: sf
-  id: variable
-  parameters:
-    comment: ''
-    value: '7'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [352, 8.0]
-    rotation: 0
-    state: enabled
-- name: blocks_message_debug_0
-  id: blocks_message_debug
-  parameters:
-    affinity: ''
-    alias: ''
-    comment: ''
-    en_uvec: 'True'
-    log_level: info
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [584, 528.0]
-    rotation: 0
-    state: enabled
-- name: blocks_tag_debug_0
-  id: blocks_tag_debug
-  parameters:
-    affinity: ''
-    alias: ''
-    comment: ''
-    display: 'True'
-    filter: '""'
-    name: ''
-    num_inputs: '1'
-    type: complex
-    vlen: '1'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [1496, 516.0]
+    coordinate: [208, 4.0]
     rotation: 0
     state: enabled
 - name: lora_sdr_add_crc_0
@@ -187,7 +93,7 @@ blocks:
     comment: ''
     maxoutbuf: '0'
     minoutbuf: '0'
-    sf: sf
+    sf: '7'
   states:
     bus_sink: false
     bus_source: false
@@ -204,7 +110,7 @@ blocks:
     cr: cr
     maxoutbuf: '0'
     minoutbuf: '0'
-    sf: sf
+    sf: '7'
   states:
     bus_sink: false
     bus_source: false
@@ -241,12 +147,12 @@ blocks:
     ldro: '2'
     maxoutbuf: '0'
     minoutbuf: '0'
-    sf: sf
+    sf: '7'
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1048, 340.0]
+    coordinate: [1048, 332.0]
     rotation: 0
     state: enabled
 - name: lora_sdr_modulate_0
@@ -254,14 +160,14 @@ blocks:
   parameters:
     affinity: ''
     alias: ''
-    bw: bw
+    bw: '125000'
     comment: ''
-    frame_zero_padd: int(20*2**sf*samp_rate/bw)
+    frame_zero_padd: int(80*2**7)
     maxoutbuf: '0'
     minoutbuf: '10000000'
     preamb_len: '8'
-    samp_rate: samp_rate
-    sf: sf
+    samp_rate: '250000'
+    sf: '7'
     sync_words: '[0x34]'
   states:
     bus_sink: false
@@ -343,7 +249,7 @@ blocks:
     ant7: ''
     ant8: ''
     ant9: ''
-    bw0: bw
+    bw0: '125000'
     bw1: '0'
     bw10: '0'
     bw11: '0'
@@ -375,7 +281,7 @@ blocks:
     bw7: '0'
     bw8: '0'
     bw9: '0'
-    center_freq0: center_freq
+    center_freq0: 868.1e6
     center_freq1: '0'
     center_freq10: '0'
     center_freq11: '0'
@@ -417,9 +323,9 @@ blocks:
     clock_source6: ''
     clock_source7: ''
     comment: ''
-    dev_addr: '"addr=192.168.10.4"'
+    dev_addr: '"addr=192.168.10.2"'
     dev_args: ''
-    gain0: TX_gain
+    gain0: '0'
     gain1: '0'
     gain10: '0'
     gain11: '0'
@@ -553,7 +459,7 @@ blocks:
     nchan: '1'
     num_mboards: '1'
     otw: ''
-    samp_rate: samp_rate
+    samp_rate: '250000'
     sd_spec0: ''
     sd_spec1: ''
     sd_spec2: ''
@@ -590,13 +496,10 @@ connections:
 - [lora_sdr_hamming_enc_0, '0', lora_sdr_interleaver_0, '0']
 - [lora_sdr_header_0, '0', lora_sdr_add_crc_0, '0']
 - [lora_sdr_interleaver_0, '0', lora_sdr_gray_demap_0, '0']
-- [lora_sdr_modulate_0, '0', blocks_tag_debug_0, '0']
 - [lora_sdr_modulate_0, '0', uhd_usrp_sink_0, '0']
 - [lora_sdr_whitening_0, '0', lora_sdr_header_0, '0']
-- [lorawan_lorawan_source_0, command, blocks_message_debug_0, print]
-- [lorawan_lorawan_source_0, dict, blocks_message_debug_0, print]
+- [lorawan_lorawan_source_0, command, uhd_usrp_sink_0, command]
 - [lorawan_lorawan_source_0, dict, lora_sdr_whitening_0, dict]
-- [lorawan_lorawan_source_0, out0, blocks_message_debug_0, print]
 - [lorawan_lorawan_source_0, out0, lora_sdr_whitening_0, msg]
 
 metadata:
