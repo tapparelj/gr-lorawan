@@ -3,7 +3,7 @@
 This repository contains the source code to transmit LoRaWAN compatible messages using GNU Radio.
 The LoRaWAN MAC layer is based on a modified version of [arduino-lmic](https://github.com/mcci-catena/arduino-lmic) that can be compiled and executed on any computer. A corresponding GNU Radio block create an interface with the Physical layer of LoRa for GNU Radio [gr-lora_sdr](https://github.com/tapparelj/gr-lora_sdr).
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b7ae5c58-0102-4d7b-99b6-375d29ccbc7a" width="400" />
+  <img src="https://github.com/user-attachments/assets/5d9420b4-9446-4396-a6d8-198e09400059" width="500" />
 </p>
 Note that currently, only uplink messages is supported. The transmission have been verified using a Ubuntu workstation connected to a NI-USRP 2920 and LoRa messages where received by [The Things Network](https://www.thethingsnetwork.org/). 
 
