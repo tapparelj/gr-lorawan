@@ -1,7 +1,10 @@
 # LoRaWAN for Software-defined Radios
+
 This repository contains the source code to transmit LoRaWAN compatible messages using GNU Radio.
 The LoRaWAN MAC layer is based on a modified version of [arduino-lmic](https://github.com/mcci-catena/arduino-lmic) that can be compiled and executed on any computer. A corresponding GNU Radio block create an interface with the Physical layer of LoRa for GNU Radio [gr-lora_sdr](https://github.com/tapparelj/gr-lora_sdr).
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b7ae5c58-0102-4d7b-99b6-375d29ccbc7a" width="400" />
+</p>
 Note that currently, only uplink messages is supported. The transmission have been verified using a Ubuntu workstation connected to a NI-USRP 2920 and LoRa messages where received by [The Things Network](https://www.thethingsnetwork.org/). 
 
 This work has be conducted in the Telecommunications Circuits Laboratory, EPFL in the context of a student semester project.
@@ -31,18 +34,19 @@ To install `gr-lorawan`, follow these steps:
     1. In the new application, select register end device
     1. Choose Enter end device specifics manually
     1. Select the following options (! It is important to choose ABP as there will only be uplink transmissions)
+        <p align="center">
+          <img src="https://github.com/user-attachments/assets/e4e800f5-43d4-4ccf-8b17-7c840d0d0f5f">
+        </p>
     1. You can press _Generate_ for all other fields
-
-    TODO add picture here
 
     1. Register this end device
 
 1. Setting up the MAC layer
     1. Open the file ```gr-lorawan/lmic_sdr/main.cpp``` that contains the main code to control the transmission of messages
     1. Copy both the _network session key_, _application session key_ and _device address_ of the node given in the end-device view. (You can press the button <> to get a suitable format to copy and paste)
-
-    TODO add fig
-
+        <p align="center">
+          <img src="https://github.com/user-attachments/assets/b94ded61-5665-4030-a87e-f1277c552ba4" />
+        </p>
     1. In the main() function, you can configure the transit gain, spreading factor and code rate
     1. The message is scheduled by the _do_send()_ function
     1. You can now build the code 
@@ -54,6 +58,10 @@ To install `gr-lorawan`, follow these steps:
     1. Launch the GNU Radio flowgraph
     1. Execute the MAC layer code inside ```gr-lorawan/lmic_sdr/build``` using ```./lorawan```
     1. You should now see your messages in The Things Network console if a gateway is close enough to your transmitter!
+        <p align="center">
+          <img src="https://github.com/user-attachments/assets/a57f5cd6-be38-45b8-a3ad-d1a2d977aa3e" />
+        </p>
+
 
 
 
