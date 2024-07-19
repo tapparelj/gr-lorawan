@@ -58,9 +58,10 @@ To install `gr-lorawan`, follow these steps:
     1. Launch the GNU Radio flowgraph
     1. Execute the MAC layer code inside ```gr-lorawan/lmic_sdr/build``` using ```./lorawan```
     1. You should now see your messages in The Things Network console if a gateway is close enough to your transmitter!
-        <p align="center">
-          <img src="https://github.com/user-attachments/assets/95445776-3ff6-4874-8f86-062fe1fcd3bc" />
-        </p>
+
+    <p align="center">
+      <img src="https://github.com/user-attachments/assets/95445776-3ff6-4874-8f86-062fe1fcd3bc" />
+    </p>
 
 
 
