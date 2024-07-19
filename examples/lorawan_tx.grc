@@ -82,7 +82,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [784, 356.0]
+    coordinate: [600, 204.0]
     rotation: 0
     state: enabled
 - name: lora_sdr_gray_demap_0
@@ -98,7 +98,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1176, 356.0]
+    coordinate: [960, 204.0]
     rotation: 0
     state: enabled
 - name: lora_sdr_hamming_enc_0
@@ -115,7 +115,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [912, 348.0]
+    coordinate: [720, 196.0]
     rotation: 0
     state: enabled
 - name: lora_sdr_header_0
@@ -133,7 +133,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [640, 340.0]
+    coordinate: [464, 188.0]
     rotation: 0
     state: enabled
 - name: lora_sdr_interleaver_0
@@ -152,7 +152,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1048, 332.0]
+    coordinate: [848, 180.0]
     rotation: 0
     state: enabled
 - name: lora_sdr_modulate_0
@@ -166,14 +166,14 @@ blocks:
     maxoutbuf: '0'
     minoutbuf: '10000000'
     preamb_len: '8'
-    samp_rate: '250000'
+    samp_rate: '500000'
     sf: '7'
     sync_words: '[0x34]'
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1328, 340.0]
+    coordinate: [1104, 188.0]
     rotation: 0
     state: enabled
 - name: lora_sdr_whitening_0
@@ -193,7 +193,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [424, 344.0]
+    coordinate: [264, 192.0]
     rotation: 0
     state: enabled
 - name: lorawan_lorawan_source_0
@@ -209,7 +209,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [168, 312.0]
+    coordinate: [104, 160.0]
     rotation: 0
     state: enabled
 - name: uhd_usrp_sink_0
@@ -323,9 +323,9 @@ blocks:
     clock_source6: ''
     clock_source7: ''
     comment: ''
-    dev_addr: '"addr=192.168.10.2"'
+    dev_addr: '""'
     dev_args: ''
-    gain0: '0'
+    gain0: '20'
     gain1: '0'
     gain10: '0'
     gain11: '0'
@@ -459,7 +459,7 @@ blocks:
     nchan: '1'
     num_mboards: '1'
     otw: ''
-    samp_rate: '250000'
+    samp_rate: '500000'
     sd_spec0: ''
     sd_spec1: ''
     sd_spec2: ''
@@ -486,7 +486,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1512, 284.0]
+    coordinate: [1248, 140.0]
     rotation: 0
     state: enabled
 

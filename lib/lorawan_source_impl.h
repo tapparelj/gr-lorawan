@@ -28,6 +28,7 @@ private:
     int m_tcp_port;
     bool m_running;
     std::thread m_thread;
+    int m_server_socket;
 
     int m_cr;
     int m_sf;

@@ -45,7 +45,9 @@ lorawan_source_impl::lorawan_source_impl(int tcp_port)
 /*
  * Our virtual destructor.
  */
-lorawan_source_impl::~lorawan_source_impl() {}
+lorawan_source_impl::~lorawan_source_impl() {
+    close(m_server_socket);
+}
 
 int lorawan_source_impl::work(int noutput_items,
                               gr_vector_const_void_star& input_items,
@@ -57,8 +59,8 @@ int lorawan_source_impl::work(int noutput_items,
 
 void lorawan_source_impl::tcp_server_thread()
 {
-    int server_socket = socket(AF_INET, SOCK_STREAM, 0);
-    if (server_socket == -1) {
+    m_server_socket = socket(AF_INET, SOCK_STREAM, 0);
+    if (m_server_socket == -1) {
         std::cerr << "Error creating socket\n";
         return;
     }
@@ -68,25 +70,28 @@ void lorawan_source_impl::tcp_server_thread()
     server_address.sin_addr.s_addr = INADDR_ANY;
     server_address.sin_port = htons(m_tcp_port);
 
-    if (bind(server_socket, (struct sockaddr *)&server_address, sizeof(server_address)) == -1) {
-        std::cerr << "Socket binding error\n";
-        close(server_socket);
+    int enable = 1;
+    setsockopt(m_server_socket, SOL_SOCKET, SO_REUSEADDR, &enable, sizeof(int));
+
+    if (bind(m_server_socket, (struct sockaddr *)&server_address, sizeof(server_address)) == -1) {
+        std::cerr << "Failed to bind socket: " << strerror(errno) << std::endl;    
+        close(m_server_socket);
         return;
     }
 
-    if (listen(server_socket, 5) == -1) {
+    if (listen(m_server_socket, 5) == -1) {
         std::cerr << "Error listening for incoming connections\n";
-        close(server_socket);
+        close(m_server_socket);
         return;
     }
 
     std::cout << "Waiting for incoming connections on TCP port " << m_tcp_port << " ...\n";
 
     while (m_running) {
-        int client_socket = accept(server_socket, NULL, NULL);
+        int client_socket = accept(m_server_socket, NULL, NULL);
         if (client_socket == -1) {
             std::cerr << "Error accepting connection\n";
-            close(server_socket);
+            close(m_server_socket);
             return;
         }
 
@@ -129,7 +134,7 @@ void lorawan_source_impl::tcp_server_thread()
         close(client_socket);
     }
 
-    close(server_socket);
+    close(m_server_socket);
 }
 void lorawan_source_impl::handle_payload(uint8_t* payload, ssize_t payload_len, pmt::pmt_t dict, pmt::pmt_t command)
 {

@@ -42,7 +42,7 @@ class lorawan_tx(gr.top_block):
         ##################################################
 
         self.uhd_usrp_sink_0 = uhd.usrp_sink(
-            ",".join(("addr=192.168.10.2", '')),
+            ",".join(("", '')),
             uhd.stream_args(
                 cpu_format="fc32",
                 args='',
@@ -50,16 +50,16 @@ class lorawan_tx(gr.top_block):
             ),
             'frame_len',
         )
-        self.uhd_usrp_sink_0.set_samp_rate(250000)
+        self.uhd_usrp_sink_0.set_samp_rate(500000)
         # No synchronization enforced.
 
         self.uhd_usrp_sink_0.set_center_freq(868.1e6, 0)
         self.uhd_usrp_sink_0.set_antenna('TX/RX', 0)
         self.uhd_usrp_sink_0.set_bandwidth(125000, 0)
-        self.uhd_usrp_sink_0.set_gain(0, 0)
+        self.uhd_usrp_sink_0.set_gain(20, 0)
         self.lorawan_lorawan_source_0 = lorawan.lorawan_source(12345)
         self.lora_sdr_whitening_0 = lora_sdr.whitening(True,False,',','packet_len')
-        self.lora_sdr_modulate_0 = lora_sdr.modulate(7, 250000, 125000, [0x34], (int(80*2**7)),8)
+        self.lora_sdr_modulate_0 = lora_sdr.modulate(7, 500000, 125000, [0x34], (int(80*2**7)),8)
         self.lora_sdr_modulate_0.set_min_output_buffer(10000000)
         self.lora_sdr_interleaver_0 = lora_sdr.interleaver(cr, 7, 2, 125000)
         self.lora_sdr_header_0 = lora_sdr.header(impl_head, has_crc, cr)
