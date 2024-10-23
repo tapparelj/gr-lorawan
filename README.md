@@ -2,9 +2,11 @@
 
 This repository contains the source code to transmit LoRaWAN compatible messages using GNU Radio.
 The LoRaWAN MAC layer is based on a modified version of [arduino-lmic](https://github.com/mcci-catena/arduino-lmic) that can be compiled and executed on any computer. A corresponding GNU Radio block create an interface with the Physical layer of LoRa for GNU Radio [gr-lora_sdr](https://github.com/tapparelj/gr-lora_sdr).
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5d9420b4-9446-4396-a6d8-198e09400059" width="500" />
 </p>
+
 Note that currently, only uplink messages is supported. The transmission have been verified using a Ubuntu workstation connected to a NI-USRP 2920 and LoRa messages where received by [The Things Network](https://www.thethingsnetwork.org/). 
 
 This work has be conducted in the Telecommunications Circuits Laboratory, EPFL in the context of a student semester project.
@@ -38,7 +40,6 @@ To install `gr-lorawan`, follow these steps:
           <img src="https://github.com/user-attachments/assets/e4e800f5-43d4-4ccf-8b17-7c840d0d0f5f">
         </p>
     1. You can press _Generate_ for all other fields
-
     1. Register this end device
 
 1. Setting up the MAC layer
@@ -54,6 +55,7 @@ To install `gr-lorawan`, follow these steps:
         1. Create and move into the build folder ```mkdir build; cd build```
         1. ```cmake ..```
         1. ```make```
+
 1. Running the code
     1. Launch the GNU Radio flowgraph
     1. Execute the MAC layer code inside ```gr-lorawan/lmic_sdr/build``` using ```./lorawan```
@@ -62,7 +64,4 @@ To install `gr-lorawan`, follow these steps:
     <p align="center">
       <img src="https://github.com/user-attachments/assets/95445776-3ff6-4874-8f86-062fe1fcd3bc" />
     </p>
-
-
-
 
